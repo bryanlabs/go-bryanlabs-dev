@@ -1,0 +1,151 @@
+baseURL: 'https://bryanlabs.net/'
+languageCode: en-us
+title: Bryanlabs
+theme: bexar-hugo
+summaryLength: '10'
+paginate: 6
+outputs:
+  home:
+    - HTML
+    - AMP
+    - RSS
+    - JSON
+  page:
+    - HTML
+params:
+  quickContact:
+    enable: true
+  plugins:
+    css:
+      - URL: plugins/bootstrap/bootstrap.min.css
+      - URL: plugins/slick/slick.css
+      - URL: plugins/fontawesome/font-awesome.min.css
+      - URL: plugins/animate/animate.css
+      - URL: plugins/venobox/venobox.css
+    js:
+      - URL: plugins/jQuery/jquery.min.js
+      - URL: plugins/bootstrap/bootstrap.min.js
+      - URL: plugins/slick/slick.min.js
+      - URL: plugins/google-map/gmap.js
+      - URL: plugins/venobox/venobox.min.js
+      - URL: plugins/modernizer/modernizr.min.js
+      - URL: plugins/mixitup/mixitup.min.js
+      - URL: plugins/search/fuse.min.js
+      - URL: plugins/search/mark.js
+      - URL: plugins/search/search.js
+  logo: images/logo.png
+  logoAlt: images/logo-alt.png
+  home: Home
+  description: Bexar hugo template meta description.
+  author: Themefisher
+  gmapAPI: >-
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places
+  mapLatitude: '51.5223477'
+  mapLongitude: '-0.1622023'
+  mapMarker: images/marker.png
+  googleAnalitycsID: Your ID
+  mailchimpFormAction: >-
+    https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e
+  mailchimpFormName: b_f95ece2732a6e9925f2e70a61_b1e227529e
+  preloader:
+    enable: true
+  topHeader:
+    enable: true
+    email: info@bryanlabs.net
+    phone: '1234565525'
+    icon:
+      - icon: fa-github
+        URL: 'https://github.com/bryanlabs'
+      - icon: fa-linkedin
+        URL: 'https://www.linkedin.com/company/bryanlabs'
+      # - icon: fa-rss
+      #   URL: '#'
+      # - icon: fa-google
+      #   URL: '#'
+      # - icon: fa-vimeo
+      #   URL: '#'
+  search:
+    enable: true
+  navBtn:
+    enable: true
+    btnText: get started
+    URL: /service
+  cta:
+    enable: true
+    title: AWS Automation Solutions
+    bgImage: images/backgrounds/cta-lg.webp
+    bgImageAlt: images/backgrounds/cta-lg.jpg
+    btnText: get an quote
+    URL: /contact
+  footer:
+    content: >-
+      Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor
+      incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud
+      exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute
+      irure dolor in reprehenderit. <br> Deserunt mollit anim id est laborum.
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+    followUs:
+      title: Follow Us On
+      socialIcon:
+        # - icon: fa-facebook
+        #   URL: '#'
+        - icon: fa-github
+          URL: 'https://github.com/bryanlabs'
+        - icon: fa-linkedin
+          URL: 'https://www.linkedin.com/company/bryanlabs'
+        # - icon: fa-pinterest
+        #   URL: '#'
+    service:
+      title: Services
+      serviceList:
+        - title: Company History
+          URL: /about
+        - title: About Us
+          URL: /about
+        - title: Contact Us
+          URL: /contact
+        - title: Services
+          URL: /service
+        - title: Privacy Policy
+          URL: /privacy
+    contact:
+      title: Contact Info
+      contactList:
+        - listItem: 'Laurel, MD'
+        - listItem: +1 443 569 4343
+        - listItem: info@bryanlabs.net
+  newsletter:
+    enable: true
+    title: Subscribe Newsletter
+  copyright:
+    copyright: A hugo theme by themefisher.com
+menu:
+  main:
+    - name: About
+      URL: /about
+      weight: 2
+    - name: Service
+      URL: /service
+      weight: 3
+    - name: Blog
+      URL: /blog
+      weight: 4
+    - name: Team
+      URL: /team
+      weight: 6
+    - name: Contact
+      URL: /contact
+      weight: 7
+    - weight: 8
+      name: Pages
+      hasChildren: true
+    - parent: Pages
+      name: Project
+      URL: /project
+  footer:
+    - name: Terms of Service
+      URL: /terms
+      weight: 1
+    - name: Privacy Policy
+      URL: /privacy-policy
+      weight: 2

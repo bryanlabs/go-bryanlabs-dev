@@ -54,18 +54,18 @@ feature :
   enable : ture
   # Max use 4 item
   featureItem :
-    - title : "Business Solution"
+    - title : "AMI Factory"
       icon : "fa-diamond"
-      description : "Lorem ipsum dolor sit amet constur adipelit sed."
+      description : "Automate Images used in your company."
       
-    - title : "Market Research"
+    - title : "SSM System Patching"
       icon : "fa-bar-chart"
-      description : "Lorem ipsum dolor sit amet constur adipelit sed."
+      description : "Serverless System Patching using AWS Systems Manager."
       
-    - title : "Business Strategy"
+    - title : "Auto Backups"
       icon : "fa-lightbulb-o"
-      description : "Lorem ipsum dolor sit amet constur adipelit sed."
+      description : "Daily Backups of all EBS volumes."
       
-    - title : "Speed Optimization"
+    - title : "Private VPC"
       icon : "fa-dashboard"
-      description : "Lorem ipsum dolor sit amet constur adipelit sed."
+      description : "Private Network, with Multiple AZ and subnets."

@@ -56,17 +56,17 @@ service:
 team:
   enable : true
   titleSM : "Our Team"
-  title : "We Are Dynamic Team and <br> Business Agency"
+  title : "We Are Team of <br> AWS Automation Experts"
 
 # project
-project:
-  enable : true
-  titleSM : "Case Study"
-  title : "Bexar Case Studies"
-  button:
-    enable : true
-    btnText : "more projects"
-    URL : "/project"
+# project:
+#   enable : true
+#   titleSM : "Case Study"
+#   title : "Bexar Case Studies"
+#   button:
+#     enable : true
+#     btnText : "more projects"
+#     URL : "/project"
 
 # testimonial
 testimonial:
@@ -76,4 +76,4 @@ testimonial:
 blog:
   enable : true
   titleSM : "Latest News"
-  title : "Learn From Bexar"
+  title : "AWS Solutions"
