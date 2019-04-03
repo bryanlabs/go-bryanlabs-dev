@@ -1,0 +1,71 @@
+slider:
+  enable : true
+sliderItem: 
+  - preTitle : "We are here to"
+    title : "Planning Business"
+    shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    bgImage : "images/slider/banner-1.webp"
+    bgImageAlt : "images/slider/banner-1.jpg"
+    animation : "fadeInUp"
+    button:
+      enable : true
+      btnText : "more details"
+      URL : "/about"
+      animation : "zoomIn"
+      
+  - preTitle : "We are here to"
+    title : "Planning Business"
+    shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    bgImage : "images/slider/banner-2.webp"
+    bgImageAlt : "images/slider/banner-2.jpg"
+    animation : "fadeInDown"
+    button:
+      enable : true
+      btnText : "more details"
+      URL : "/about"
+      animation : "zoomIn"
+      
+  - preTitle : "We are here to"
+    title : "Planning Business"
+    shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    bgImage : "images/slider/banner-3.webp"
+    bgImageAlt : "images/slider/banner-3.jpg"
+    animation : "fadeInLeft"
+    button:
+      enable : true
+      btnText : "more details"
+      URL : "/about"
+      animation : "zoomIn"
+      
+  - preTitle : "We are here to"
+    title : "Planning Business"
+    shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    bgImage : "images/slider/banner-4.webp"
+    bgImageAlt : "images/slider/banner-4.jpg"
+    animation : "fadeInRight"
+    button:
+      enable : true
+      btnText : "more details"
+      URL : "/about"
+      animation : "zoomIn"
+
+# banner feature
+feature :
+  enable : ture
+  # Max use 4 item
+  featureItem :
+    - title : "Business Solution"
+      icon : "fa-diamond"
+      description : "Lorem ipsum dolor sit amet constur adipelit sed."
+      
+    - title : "Market Research"
+      icon : "fa-bar-chart"
+      description : "Lorem ipsum dolor sit amet constur adipelit sed."
+      
+    - title : "Business Strategy"
+      icon : "fa-lightbulb-o"
+      description : "Lorem ipsum dolor sit amet constur adipelit sed."
+      
+    - title : "Speed Optimization"
+      icon : "fa-dashboard"
+      description : "Lorem ipsum dolor sit amet constur adipelit sed."

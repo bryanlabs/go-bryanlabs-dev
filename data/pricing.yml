@@ -1,0 +1,56 @@
+enable : true
+titleSM : "Best Price Ever"
+title : "Pricing Table"
+pricingTable:
+  - monthlyPack : "Basic"
+    monthlyValue : "$39.99"
+    monthlyDescription : "Best for small individuals"
+    monthlyButtonURL: "#"
+    monthlyService:
+      - serviceItem : "Express Service"
+      - serviceItem : "Customs Clearance"
+      - serviceItem : "Time-Critical Services"
+    yearlyPack : "Basic"
+    yearlyValue : "$139.99"
+    yearlyDescription : "Best for small individuals"
+    yearlyButtonURL: "#"
+    yearlyService:
+      - serviceItem : "Express Service"
+      - serviceItem : "Customs Clearance"
+      - serviceItem : "Time-Critical Services"
+
+      
+  - monthlyPack : "POPULAR"
+    monthlyValue : "$149.99"
+    monthlyDescription : "Best for small individuals"
+    monthlyButtonURL: "#"
+    monthlyService:
+      - serviceItem : "Express Service"
+      - serviceItem : "Customs Clearance"
+      - serviceItem : "Time-Critical Services"
+    yearlyPack : "POPULAR"
+    yearlyValue : "$39.99"
+    yearlyDescription : "Best for small individuals"
+    yearlyButtonURL: "#"
+    yearlyService:
+      - serviceItem : "Express Service"
+      - serviceItem : "Customs Clearance"
+      - serviceItem : "Time-Critical Services"
+
+      
+  - monthlyPack : "STANDARD"
+    monthlyValue : "$59.99"
+    monthlyDescription : "Best for small individuals"
+    monthlyButtonURL: "#"
+    monthlyService:
+      - serviceItem : "Express Service"
+      - serviceItem : "Customs Clearance"
+      - serviceItem : "Time-Critical Services"
+    yearlyPack : "STANDARD"
+    yearlyValue : "$159.99"
+    yearlyDescription : "Best for small individuals"
+    yearlyButtonURL: "#"
+    yearlyService:
+      - serviceItem : "Express Service"
+      - serviceItem : "Customs Clearance"
+      - serviceItem : "Time-Critical Services"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>element on Bexar Hugo Template</title>
+    <link>http://example.org/tags/element/</link>
+    <description>Recent content in element on Bexar Hugo Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Jan 2019 16:04:01 +0600</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/element/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elements</title>
+      <link>http://example.org/blog/elements/</link>
+      <pubDate>Tue, 22 Jan 2019 16:04:01 +0600</pubDate>
+      
+      <guid>http://example.org/blog/elements/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6  Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+  </channel>
+</rss>
