@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Case Study on Bexar Hugo Template</title>
-    <link>http://example.org/project/</link>
+    <link>https://bryanlabs.net/project/</link>
     <description>Recent content in Case Study on Bexar Hugo Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Feb 2019 10:47:55 +0600</lastBuildDate>
     
-	<atom:link href="http://example.org/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bryanlabs.net/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Art Institute of Chicago</title>
-      <link>http://example.org/project/art-institute.1/</link>
+      <link>https://bryanlabs.net/project/art-institute.1/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/project/art-institute.1/</guid>
+      <guid>https://bryanlabs.net/project/art-institute.1/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Art Institute of Chicago</title>
-      <link>http://example.org/project/art-institute/</link>
+      <link>https://bryanlabs.net/project/art-institute/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/project/art-institute/</guid>
+      <guid>https://bryanlabs.net/project/art-institute/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Carpe Diem Santorini</title>
-      <link>http://example.org/project/carpe-diem/</link>
+      <link>https://bryanlabs.net/project/carpe-diem/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/project/carpe-diem/</guid>
+      <guid>https://bryanlabs.net/project/carpe-diem/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Celebrate with Stoli</title>
-      <link>http://example.org/project/celebrate-with/</link>
+      <link>https://bryanlabs.net/project/celebrate-with/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/project/celebrate-with/</guid>
+      <guid>https://bryanlabs.net/project/celebrate-with/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Essential Looks Trend Report</title>
-      <link>http://example.org/project/essential-looks.1/</link>
+      <link>https://bryanlabs.net/project/essential-looks.1/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/project/essential-looks.1/</guid>
+      <guid>https://bryanlabs.net/project/essential-looks.1/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Essential Looks Trend Report</title>
-      <link>http://example.org/project/essential-looks/</link>
+      <link>https://bryanlabs.net/project/essential-looks/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/project/essential-looks/</guid>
+      <guid>https://bryanlabs.net/project/essential-looks/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     

@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Consultancy on Bexar Hugo Template</title>
-    <link>http://example.org/tags/consultancy/</link>
+    <link>https://bryanlabs.net/tags/consultancy/</link>
     <description>Recent content in Consultancy on Bexar Hugo Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Feb 2019 10:47:55 +0600</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/consultancy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bryanlabs.net/tags/consultancy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ELIT DUIED AIUSMOD DOLORY</title>
-      <link>http://example.org/blog/blog-post.2/</link>
+      <link>https://bryanlabs.net/blog/blog-post.2/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/blog/blog-post.2/</guid>
+      <guid>https://bryanlabs.net/blog/blog-post.2/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
-      <link>http://example.org/blog/blog-post.5/</link>
+      <link>https://bryanlabs.net/blog/blog-post.5/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/blog/blog-post.5/</guid>
+      <guid>https://bryanlabs.net/blog/blog-post.5/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
-      <link>http://example.org/blog/blog-post.6/</link>
+      <link>https://bryanlabs.net/blog/blog-post.6/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/blog/blog-post.6/</guid>
+      <guid>https://bryanlabs.net/blog/blog-post.6/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
-      <link>http://example.org/blog/blog-post.7/</link>
+      <link>https://bryanlabs.net/blog/blog-post.7/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/blog/blog-post.7/</guid>
+      <guid>https://bryanlabs.net/blog/blog-post.7/</guid>
       <description>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
     <item>
       <title>Elements</title>
-      <link>http://example.org/blog/elements/</link>
+      <link>https://bryanlabs.net/blog/elements/</link>
       <pubDate>Tue, 22 Jan 2019 16:04:01 +0600</pubDate>
       
-      <guid>http://example.org/blog/elements/</guid>
+      <guid>https://bryanlabs.net/blog/elements/</guid>
       <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6  Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     

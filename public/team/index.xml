@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Team on Bexar Hugo Template</title>
-    <link>http://example.org/team/</link>
+    <link>https://bryanlabs.net/team/</link>
     <description>Recent content in Team on Bexar Hugo Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Feb 2019 10:47:55 +0600</lastBuildDate>
     
-	<atom:link href="http://example.org/team/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bryanlabs.net/team/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alexa Clit</title>
-      <link>http://example.org/team/alexa-clit/</link>
+      <link>https://bryanlabs.net/team/alexa-clit/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/team/alexa-clit/</guid>
+      <guid>https://bryanlabs.net/team/alexa-clit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Frederick Satterfield</title>
-      <link>http://example.org/team/frederick-satterfield/</link>
+      <link>https://bryanlabs.net/team/frederick-satterfield/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/team/frederick-satterfield/</guid>
+      <guid>https://bryanlabs.net/team/frederick-satterfield/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jaqueline Hamberger</title>
-      <link>http://example.org/team/jaqueline-hamberger/</link>
+      <link>https://bryanlabs.net/team/jaqueline-hamberger/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/team/jaqueline-hamberger/</guid>
+      <guid>https://bryanlabs.net/team/jaqueline-hamberger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>John Doe</title>
-      <link>http://example.org/team/john-doe/</link>
+      <link>https://bryanlabs.net/team/john-doe/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/team/john-doe/</guid>
+      <guid>https://bryanlabs.net/team/john-doe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Michelle Fischer</title>
-      <link>http://example.org/team/michelle-fischer/</link>
+      <link>https://bryanlabs.net/team/michelle-fischer/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/team/michelle-fischer/</guid>
+      <guid>https://bryanlabs.net/team/michelle-fischer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Randy Lui</title>
-      <link>http://example.org/team/randy-lui/</link>
+      <link>https://bryanlabs.net/team/randy-lui/</link>
       <pubDate>Thu, 07 Feb 2019 10:47:55 +0600</pubDate>
       
-      <guid>http://example.org/team/randy-lui/</guid>
+      <guid>https://bryanlabs.net/team/randy-lui/</guid>
       <description></description>
     </item>
     
