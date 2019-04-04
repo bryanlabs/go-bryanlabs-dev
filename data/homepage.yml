@@ -16,7 +16,7 @@ funfacts :
   funfactsItem :
     - title : "Code Contributions"
       count : "126"
-      icon : "fa-bullseye"
+      icon : "fa-code"
       
     - title : "Years Experience"
       count : "21"

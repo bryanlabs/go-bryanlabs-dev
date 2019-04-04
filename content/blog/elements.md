@@ -8,6 +8,7 @@ image: "images/blog/post-6.jpg"
 author: "Themefisher"
 postType: "Article"
 type: "post"
+draft: true
 categories: 
   - "Elements"
 tags:

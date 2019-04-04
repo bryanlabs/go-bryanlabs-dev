@@ -5,5 +5,6 @@ description: "this is meta description for project page."
 bgImage: "images/backgrounds/page-title.webp"
 bgImageAlt: "images/backgrounds/page-title.jpg"
 type : "pageTitle"
+draft: true
 ---
 

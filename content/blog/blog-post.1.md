@@ -8,6 +8,7 @@ image: "images/blog/post-1.jpg"
 author: "Themefisher"
 postType: "Article"
 type: "post"
+draft: true
 categories: 
   - "Investment Planning"
 tags:

@@ -35,11 +35,11 @@ feature :
       description : "Automate Images used in your company."
       
     - title : "SSM System Patching"
-      icon : "fa-user-shield"
+      icon : "fa-shield"
       description : "Serverless System Patching using AWS Systems Manager."
       
     - title : "Auto Backups"
-      icon : "fa-hdd"
+      icon : "fa-archive"
       description : "Daily Backups of all EBS volumes."
       
     - title : "Private VPC"
