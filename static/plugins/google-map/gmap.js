@@ -70,7 +70,7 @@ function initialize() {
     position: nottingham,
     map: map,
     icon: pinIcon,
-    title: 'Bexar'
+    title: 'Bryanlabs'
   });
 }
 var map = document.getElementById('map_canvas');
