@@ -52,7 +52,7 @@ params:
   topHeader:
     enable: true
     email: info@bryanlabs.net
-    phone: '1234565525'
+    phone: '443-569-4343'
     icon:
       - icon: fa-github
         URL: 'https://github.com/bryanlabs'
@@ -79,11 +79,7 @@ params:
     URL: /contact
   footer:
     content: >-
-      Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor
-      incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud
-      exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute
-      irure dolor in reprehenderit. <br> Deserunt mollit anim id est laborum.
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+      Founded in 2019, Bryanlabs focuses on invotion in AWS environments. 
     followUs:
       title: Follow Us On
       socialIcon:

@@ -4,19 +4,17 @@ contactBoxes:
     - title : "Our Address"
       icon : "fa-map-marker"
       addressList:
-        - listItem : "92214-291, Avenida Emília Ferreira, 043 Vila Irene - MA"
+        - listItem : "Laurel, Maryland"
         
     - title : "Phone Number"
       icon : "fa-phone"
       addressList:
-        - listItem : "(003) 104-6706-231"
-        - listItem : "(003) 104-6706-232"
+        - listItem : "+1 (443) 569-4343"
         
     - title : "Message Us"
       icon : "fa-envelope"
       addressList:
-        - listItem : "info@bexar.com"
-        - listItem : "info@example.com"
+        - listItem : "info@bryanlabs.net"
 
 contactForm:
   enable : true

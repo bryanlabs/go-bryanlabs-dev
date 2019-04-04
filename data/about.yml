@@ -1,26 +1,27 @@
 philosophy:
   enable : true
   philosophyItem:
-    - title : "Our Mission"
+
+    - title : "Creative Solutions"
       serialNumber: "01"
-      content : "Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore."
+      content : "Solving complex technical problems in creative ways is an art to us."
       list:
-        - listItem : "Quality Services"
-        - listItem : "Clients Satisfaction"
-        
-    - title : "Our Approach"
+        - listItem : "Creative"
+        - listItem : "Technical"
+
+    - title : "Automate AWS Envrironments"
       serialNumber: "02"
-      content : "Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore."
+      content : "We love automation!"
       list:
-        - listItem : "Quality Services"
-        - listItem : "Clients Satisfaction"
+        - listItem : "Cloudformation"
+        - listItem : "Lambda"
         
-    - title : "Our Philosophy"
+    - title : "Rapid Delivery"
       serialNumber: "03"
-      content : "Lorem ipsum dolor sit amet consectetur adip isicing elit sed do eiusmod tempor incididunt ut labore."
+      content : "We pride ourself on delivering excellent work rapidly."
       list:
-        - listItem : "Quality Services"
-        - listItem : "Clients Satisfaction"
+        - listItem : "Excellence"
+        - listItem : "Rapid"
 
 about:
   enable : true
