@@ -2,7 +2,7 @@ slider:
   enable : true
 sliderItem: 
   - preTitle : "We are here to"
-    title : "Planning Business"
+    title : "Automate AWS Environments"
     shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     bgImage : "images/slider/banner-1.webp"
     bgImageAlt : "images/slider/banner-1.jpg"
@@ -14,35 +14,11 @@ sliderItem:
       animation : "zoomIn"
       
   - preTitle : "We are here to"
-    title : "Planning Business"
+    title : "Engineer Solutions"
     shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     bgImage : "images/slider/banner-2.webp"
     bgImageAlt : "images/slider/banner-2.jpg"
     animation : "fadeInDown"
-    button:
-      enable : true
-      btnText : "more details"
-      URL : "/about"
-      animation : "zoomIn"
-      
-  - preTitle : "We are here to"
-    title : "Planning Business"
-    shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    bgImage : "images/slider/banner-3.webp"
-    bgImageAlt : "images/slider/banner-3.jpg"
-    animation : "fadeInLeft"
-    button:
-      enable : true
-      btnText : "more details"
-      URL : "/about"
-      animation : "zoomIn"
-      
-  - preTitle : "We are here to"
-    title : "Planning Business"
-    shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    bgImage : "images/slider/banner-4.webp"
-    bgImageAlt : "images/slider/banner-4.jpg"
-    animation : "fadeInRight"
     button:
       enable : true
       btnText : "more details"
@@ -59,13 +35,13 @@ feature :
       description : "Automate Images used in your company."
       
     - title : "SSM System Patching"
-      icon : "fa-bar-chart"
+      icon : "fa-user-shield"
       description : "Serverless System Patching using AWS Systems Manager."
       
     - title : "Auto Backups"
-      icon : "fa-lightbulb-o"
+      icon : "fa-hdd"
       description : "Daily Backups of all EBS volumes."
       
     - title : "Private VPC"
-      icon : "fa-dashboard"
+      icon : "fa-cloud"
       description : "Private Network, with Multiple AZ and subnets."
