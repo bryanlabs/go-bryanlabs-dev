@@ -46,7 +46,7 @@ service:
 
 # team
 team:
-  enable : true
+  enable : false
   titleSM : "Our Team"
   title : "We Are Team of <br> AWS Automation Experts"
 

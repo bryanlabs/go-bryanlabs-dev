@@ -36,7 +36,7 @@ params:
   logo: images/logo.png
   logoAlt: images/logo-alt.png
   home: Home
-  description: Bexar hugo template meta description.
+  description: Bryanlabs template meta description.
   author: Themefisher
   gmapAPI: >-
     https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places
@@ -111,7 +111,7 @@ params:
         - listItem: +1 443 569 4343
         - listItem: info@bryanlabs.net
   newsletter:
-    enable: true
+    enable: false
     title: Subscribe Newsletter
   copyright:
     copyright: A hugo theme by themefisher.com
