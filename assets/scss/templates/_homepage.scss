@@ -643,25 +643,25 @@
   }
 }
 
-.newsletter-form {
-  background: rgba($color: $white, $alpha: .1);
-  border-radius: 35px;
+// .newsletter-form {
+//   background: rgba($color: $white, $alpha: .1);
+//   border-radius: 35px;
 
-  &:focus {
-    background: rgba($color: $white, $alpha: .1);
-  }
+//   &:focus {
+//     background: rgba($color: $white, $alpha: .1);
+//   }
 
-  &::placeholder {
-    color: $white;
-  }
-}
+//   &::placeholder {
+//     color: $white;
+//   }
+// }
 
-.btn-subscribe {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
+// .btn-subscribe {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   border-top-left-radius: 0;
+//   border-bottom-left-radius: 0;
+// }
 
 /* /footer */

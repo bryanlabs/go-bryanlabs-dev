@@ -16,7 +16,7 @@ funfacts :
   funfactsItem :
     - title : "Code Contributions"
       count : "126"
-      icon : "fa-bullseye"
+      icon : "fa-code"
       
     - title : "Years Experience"
       count : "21"
@@ -51,21 +51,21 @@ team:
   title : "We Are Team of <br> AWS Automation Experts"
 
 # project
-project:
-  enable : false
-  titleSM : "Case Study"
-  title : "Bexar Case Studies"
-  button:
-    enable : false
-    btnText : "more projects"
-    URL : "/project"
+# project:
+#   enable : false
+#   titleSM : "Case Study"
+#   title : "Bexar Case Studies"
+#   button:
+#     enable : false
+#     btnText : "more projects"
+#     URL : "/project"
 
 # testimonial
 testimonial:
   enable : false
 
 # blog
-blog:
-  enable : false
-  titleSM : "Latest News"
-  title : "AWS Solutions"
+# blog:
+#   enable : false
+#   titleSM : "Latest News"
+#   title : "AWS Solutions"
