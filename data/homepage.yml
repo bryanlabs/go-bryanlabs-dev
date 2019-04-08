@@ -3,7 +3,7 @@ about:
   enable : true
   titleSM : "About Us"
   title : "We Are AWS Automation Engineers"
-  content : "Subjet matter experts in Amazon Web Services, Bryanlabs specialized in Automation of AWS infrastructure."
+  content : "Subjet matter experts in Amazon Web Services, we specializes in Automation of AWS infrastructure."
   bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
   button:
