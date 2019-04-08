@@ -4,8 +4,8 @@ sliderItem:
   - preTitle : "We are here to"
     title : "Automate AWS Environments"
     shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    bgImage : "images/slider/banner-1.webp"
-    bgImageAlt : "images/slider/banner-1.jpg"
+    # bgImage : "images/slider/banner-1.webp"
+    bgImage : "images/slider/banner-1.jpg"
     animation : "fadeInUp"
     button:
       enable : true
@@ -16,8 +16,8 @@ sliderItem:
   - preTitle : "We are here to"
     title : "Engineer Solutions"
     shortDescription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    bgImage : "images/slider/banner-2.webp"
-    bgImageAlt : "images/slider/banner-2.jpg"
+    # bgImage : "images/slider/banner-2.webp"
+    bgImage : "images/slider/banner-2.jpg"
     animation : "fadeInDown"
     button:
       enable : true
