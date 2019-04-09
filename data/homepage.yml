@@ -2,8 +2,8 @@
 about:
   enable : true
   titleSM : "About Us"
-  title : "We Are AWS Automation Engineers"
-  content : "Subjet matter experts in Amazon Web Services, we specializes in Automation of AWS infrastructure."
+  title : "We Are AWS Automation Experts"
+  content : "Subjet matter experts in Amazon Web Services infrastructure automation."
   bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
   button:
@@ -14,25 +14,30 @@ about:
 funfacts :
   enable : ture
   funfactsItem :
-    - title : "Code Contributions"
-      count : "126"
-      icon : "fa-code"
       
-    - title : "Years Experience"
+    - title : "Years of Experience"
       count : "21"
       icon : "fa-calendar"
+
+    - title : "Code contributed"
+      count : "134"
+      icon : "fa-code"
+
+    - title : "Certifications"
+      count : "8"
+      icon : "fa-graduation-cap"
 
 # feature
 feature:
   enable : ture
   titleSM : "Why Choose Us"
   title : "Why Choose Bryanlabs"
-  image : "images/feature/feature.jpg"
-  description : "Bryanlabs AWS Experts have prooven track records of deliverying creative solutions to complex problems quickly."
+  image : "images/feature/banner4.jpg"
+  description : "We are excellent at AWS and delivering Infrastructure as code solutions."
   featureItem:
     - title : "AWS Expertise"
       icon : "fa-cloud"
-      content : "We know AWS at a deep technical level. Our experts literally helped write the Devops Professional Exam."
+      content : "We know AWS at a deep technical level. Our experts literally write questions for the AWS Certification Exams."
       
     - title : "Delivery as Code"
       icon : "fa-code"
@@ -48,7 +53,7 @@ service:
 team:
   enable : false
   titleSM : "Our Team"
-  title : "We Are Team of <br> AWS Automation Experts"
+  title : "Meet our <br> AWS Automation Experts"
 
 # project
 # project:

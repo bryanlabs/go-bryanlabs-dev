@@ -3,34 +3,45 @@ slider:
 sliderItem: 
   - preTitle : "We are here to"
     title : "Automate AWS Environments"
-    shortDescription : "AWS Automation is our expertise."
+    # shortDescription : "AWS Automation is our expertise."
     # bgImage : "images/slider/banner-1.webp"
-    bgImage : "images/slider/banner-1.jpg"
+    bgImage : "images/slider/devops-banner-copy.jpg"
     animation : "fadeInUp"
     button:
       enable : true
       btnText : "more details"
       URL : "/about"
       animation : "zoomIn"
-      
+  
+  - preTitle : "We are here to"
+    title : "Deliver as Code"
+    # shortDescription : "AWS Automation is our expertise."
+    # bgImage : "images/slider/banner-1.webp"
+    bgImage : "images/slider/code2.png"
+    animation : "fadeInUp"
+    button:
+      enable : true
+      btnText : "more details"
+      URL : "/about"
+      animation : "zoomIn"
 
 # banner feature
 feature :
   enable : ture
   # Max use 4 item
   featureItem :
-    - title : "AMI Factory"
+    - title : "Cloudformation"
       icon : "fa-diamond"
-      description : "Automate Images used in your company."
+      description : "AWS Infrastructure Automation."
+
+    - title : "Lambda"
+      icon : "fa-lambda"
+      description : "Serverless Scalable Compute."
       
-    - title : "SSM System Patching"
-      icon : "fa-shield"
-      description : "Serverless System Patching using AWS Systems Manager."
-      
-    - title : "Auto Backups"
-      icon : "fa-archive"
-      description : "Daily Backups of all EBS volumes."
-      
-    - title : "Private VPC"
+    - title : "Cloudwatch"
       icon : "fa-cloud"
-      description : "Private Network, with Multiple AZ and subnets."
+      description : "Event driven security."
+
+    - title : "CI/CD"
+      icon : "fa-draw-circle"
+      description : "Continious Integration and Deployment."
