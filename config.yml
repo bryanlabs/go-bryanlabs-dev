@@ -71,7 +71,7 @@ params:
     btnText: get started
     URL: /service
   cta:
-    enable: true
+    enable: false
     title: AWS Automation Solutions
     bgImage: images/backgrounds/cta-lg.webp
     bgImageAlt: images/backgrounds/cta-lg.jpg
