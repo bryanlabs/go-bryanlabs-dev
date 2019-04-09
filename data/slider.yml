@@ -5,7 +5,7 @@ sliderItem:
     title : "Automate"
     # shortDescription : "AWS Automation is our expertise."
     # bgImage : "images/slider/banner-1.webp"
-    bgImage : "images/slider/awsbanner1.png"
+    bgImage : "images/slider/awsbanner2.png"
     animation : "fadeInUp"
     button:
       enable : true
