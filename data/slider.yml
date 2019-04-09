@@ -16,8 +16,8 @@ sliderItem:
   - preTitle : "We are here to"
     title : "Deliver Code"
     # shortDescription : "AWS Automation is our expertise."
-    # bgImage : "images/slider/banner-1.webp"
-    bgImage : "images/slider/devops-banner-copy.jpg"
+    bgImage : "images/slider/code.webp"
+    # bgImage : "images/slider/devops-banner-copy.jpg"
     animation : "fadeInUp"
     button:
       enable : true
@@ -35,7 +35,7 @@ feature :
       description : "AWS Infrastructure Automation."
 
     - title : "Lambda"
-      icon : "fa-lambda"
+      icon : "fa-microchip"
       description : "Serverless Scalable Compute."
       
     - title : "Cloudwatch"
@@ -43,5 +43,5 @@ feature :
       description : "Event driven security."
 
     - title : "CI/CD"
-      icon : "fa-draw-circle"
+      icon : "fa-spinner"
       description : "Continious Integration and Deployment."
