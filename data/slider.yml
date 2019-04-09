@@ -32,11 +32,11 @@ feature :
   featureItem :
     - title : "Cloudformation"
       icon : "fa-diamond"
-      description : "AWS Infrastructure Automation."
+      description : "Infrastructure Automation."
 
     - title : "Lambda"
       icon : "fa-microchip"
-      description : "Serverless Scalable Compute."
+      description : "Serverless Compute."
       
     - title : "Cloudwatch"
       icon : "fa-cloud"
@@ -44,4 +44,4 @@ feature :
 
     - title : "CI/CD"
       icon : "fa-spinner"
-      description : "Continious Integration and Deployment."
+      description : "Integration and Deployment."

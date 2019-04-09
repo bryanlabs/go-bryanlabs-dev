@@ -2,8 +2,8 @@
 about:
   enable : true
   titleSM : "About Us"
-  title : "Meet our Automation Experts"
-  content : "Subjet matter experts in Amazon Web Services infrastructure automation."
+  title : "Bryanlabs"
+  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB)."
   bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
   button:
@@ -12,7 +12,7 @@ about:
 
 # funfacts
 funfacts :
-  enable : ture
+  enable : true
   funfactsItem :
       
     - title : "Years of Experience"
@@ -27,9 +27,13 @@ funfacts :
       count : "8"
       icon : "fa-graduation-cap"
 
+    - title : "Cups of Coffee"
+      count : "9999"
+      icon : "fa-coffee"
+
 # feature
 feature:
-  enable : ture
+  enable : true
   titleSM : "Why Choose Us"
   title : "Why Choose Bryanlabs"
   image : "images/feature/code3.png"
