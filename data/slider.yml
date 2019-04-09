@@ -5,7 +5,7 @@ sliderItem:
     title : "Automate AWS Environments"
     # shortDescription : "AWS Automation is our expertise."
     # bgImage : "images/slider/banner-1.webp"
-    bgImage : "images/slider/devops-banner-copy.jpg"
+    bgImage : "images/slider/awsbanner2.png"
     animation : "fadeInUp"
     button:
       enable : true
@@ -17,7 +17,7 @@ sliderItem:
     title : "Deliver as Code"
     # shortDescription : "AWS Automation is our expertise."
     # bgImage : "images/slider/banner-1.webp"
-    bgImage : "images/slider/code2.png"
+    bgImage : "images/slider/devops-banner-copy.jpg"
     animation : "fadeInUp"
     button:
       enable : true

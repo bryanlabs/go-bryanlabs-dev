@@ -2,7 +2,7 @@
 about:
   enable : true
   titleSM : "About Us"
-  title : "We Are AWS Automation Experts"
+  title : "Meet our Automation Experts"
   content : "Subjet matter experts in Amazon Web Services infrastructure automation."
   bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
@@ -32,7 +32,7 @@ feature:
   enable : ture
   titleSM : "Why Choose Us"
   title : "Why Choose Bryanlabs"
-  image : "images/feature/banner4.jpg"
+  image : "images/feature/code3.png"
   description : "We are excellent at AWS and delivering Infrastructure as code solutions."
   featureItem:
     - title : "AWS Expertise"
