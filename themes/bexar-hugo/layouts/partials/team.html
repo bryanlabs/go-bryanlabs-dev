@@ -13,7 +13,7 @@
       <div class="row">
         {{ range first 1 ( where .Site.Pages "Type" "team" ) }}
         {{ "<!-- team member -->" | safeHTML }}
-        <div class="team-member-center col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="team-member-center col-lg-4 col-sm-6 mb-5 m-auto">
           <div class="team-member text-center">
             <div class="range first range first range first ">
               <img class="img-fluid w-100" src="{{ .Params.Image | absURL }}" alt="team-member">
