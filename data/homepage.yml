@@ -55,9 +55,9 @@ service:
 
 # team
 team:
-  enable : false
+  enable : true
   titleSM : "Our Team"
-  title : "Meet our <br> AWS Automation Experts"
+  title : "Meet our <br> Automation Experts"
 
 # project
 # project:
