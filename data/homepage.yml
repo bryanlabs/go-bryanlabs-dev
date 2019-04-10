@@ -4,7 +4,7 @@ about:
   titleSM : "About Us"
   title : "Bryanlabs"
   content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB)."
-  bgDots : "images/backgrounds/about-us-bg.png"
+  # bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
   button:
     btnText : "more service"
@@ -34,8 +34,8 @@ funfacts :
 # feature
 feature:
   enable : true
-  titleSM : "Why Choose Us"
-  title : "Why Choose Bryanlabs"
+  titleSM : "Why Choose"
+  title : "Bryanlabs"
   image : "images/feature/code3.png"
   description : "We are excellent at AWS and delivering Infrastructure as code solutions."
   featureItem:
