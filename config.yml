@@ -65,21 +65,21 @@ params:
       # - icon: fa-vimeo
       #   URL: '#'
   search:
-    enable: true
+    enable: false
   navBtn:
-    enable: true
+    enable: false
     btnText: get started
     URL: /service
   cta:
-    enable: false
+    enable: true
     title: AWS Automation Solutions
-    bgImage: images/backgrounds/cta-lg.webp
-    bgImageAlt: images/backgrounds/cta-lg.jpg
+    bgImage: images/slider/code.webp
+    bgImageAlt: images/slider/code.webp
     btnText: get an quote
     URL: /contact
   footer:
     content: >-
-      Founded in 2019, Bryanlabs focuses on invotion in AWS environments. 
+      Founded in 2019, Bryanlabs focuses on Automation of AWS environments. 
     followUs:
       title: Follow Us On
       socialIcon:
@@ -94,16 +94,16 @@ params:
     service:
       title: Services
       serviceList:
-        - title: Company History
-          URL: /about
-        - title: About Us
-          URL: /about
+        # - title: Company History
+        #   URL: /about
+        # - title: About Us
+        #   URL: /about
         - title: Contact Us
           URL: /contact
-        - title: Services
-          URL: /service
-        - title: Privacy Policy
-          URL: /privacy
+        # - title: Services
+        #   URL: /service
+        # - title: Privacy Policy
+        #   URL: /privacy
     contact:
       title: Contact Info
       contactList:
@@ -117,31 +117,31 @@ params:
     copyright: A hugo theme by themefisher.com
 menu:
   main:
-    - name: About
-      URL: /about
-      weight: 2
-    - name: Service
-      URL: /service
-      weight: 3
-    - name: Blog
-      URL: /blog
-      weight: 4
+    # - name: About
+    #   URL: /about
+    #   weight: 2
+    # - name: Service
+    #   URL: /service
+    #   weight: 3
+    # - name: Blog
+    #   URL: /blog
+    #   weight: 4
     - name: Team
       URL: /team
       weight: 6
     - name: Contact
       URL: /contact
       weight: 7
-    - weight: 8
-      name: Pages
-      hasChildren: true
-    - parent: Pages
-      name: Project
-      URL: /project
+    # - weight: 8
+    #   name: Pages
+    #   hasChildren: true
+    # - parent: Pages
+    #   name: Project
+    #   URL: /project
   footer:
-    - name: Terms of Service
-      URL: /terms
-      weight: 1
-    - name: Privacy Policy
-      URL: /privacy-policy
-      weight: 2
+    # - name: Terms of Service
+    #   URL: /terms
+    #   weight: 1
+    # - name: Privacy Policy
+    #   URL: /privacy-policy
+    #   weight: 2

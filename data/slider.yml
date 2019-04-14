@@ -2,7 +2,7 @@ slider:
   enable : true
 sliderItem: 
   - preTitle : "We are here to"
-    title : "Automate"
+    title : "Build Infrastructure"
     # shortDescription : "AWS Automation is our expertise."
     # bgImage : "images/slider/banner-1.webp"
     bgImage : "images/slider/awsbanner2.png"
@@ -14,7 +14,7 @@ sliderItem:
       animation : "zoomIn"
   
   - preTitle : "We are here to"
-    title : "Deliver Code"
+    title : "Deliver Solutions as Code"
     # shortDescription : "AWS Automation is our expertise."
     bgImage : "images/slider/code.webp"
     # bgImage : "images/slider/devops-banner-copy.jpg"
@@ -30,18 +30,18 @@ feature :
   enable : ture
   # Max use 4 item
   featureItem :
-    - title : "Cloudformation"
-      icon : "fa-diamond"
-      description : "Infrastructure Automation."
+    - title : "Infrastructure as code (IaC)"
+      icon : "fa-code"
+      description : "We believe infrastructure should be defined as code. Code should be documented, reusable, tested, and version controlled."
 
-    - title : "Lambda"
-      icon : "fa-microchip"
-      description : "Serverless Compute."
+    - title : "Configuration Management"
+      icon : "fa-wrench"
+      description : "We love automation tools. We use ansiable, and systems manager to deploy apps and manage software."
       
-    - title : "Cloudwatch"
-      icon : "fa-cloud"
-      description : "Event driven security."
+    - title : "Event Driven Security"
+      icon : "fa-shield"
+      description : "We use Cloudwatch, and Config to rapidly detect and respond to issues that affect application performance."
 
-    - title : "CI/CD"
+    - title : "Continious Deployment"
       icon : "fa-spinner"
-      description : "Integration and Deployment."
+      description : "We belive code should be automaticaly deployed. We use AWS CodePipeLine to build, test, and deploy each code change with an automated process."

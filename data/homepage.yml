@@ -37,21 +37,25 @@ feature:
   titleSM : "Why Choose"
   title : "Bryanlabs"
   image : "images/feature/code3.png"
-  description : "We are excellent at AWS and delivering Infrastructure as code solutions."
+  description : "We are excellent at building and managing AWS environments."
   featureItem:
-    - title : "AWS Expertise"
+    - title : "AWS Experience"
       icon : "fa-cloud"
-      content : "We know AWS at a deep technical level. Our experts literally write questions for the AWS Certification Exams."
+      content : "Our experts have engineered and managed hundrends of AWS accounts. We are certified professionals with an expert level understanding of AWS."
       
-    - title : "Delivery as Code"
+    - title : "Automation Everywhere"
       icon : "fa-code"
-      content : "All Solutions will be delivered as Code."
+      content : "We love automation. We are experts with Infrastructure as code (IaC), Configuration Management (CM), and Scripting."
+    
+    - title : "Infrastructure as code (IaC)"
+      icon : "fa-code"
+      content : "We believe infrastructure should be defined as code. Code should be documented, reusable, tested, and version controlled."
 
 # service
-service:
-  enable : false
-  titleSM : "Best Service"
-  title : "Service We Provide"
+# service:
+#   enable : false
+#   titleSM : "Best Service"
+#   title : "Service We Provide"
 
 # team
 team:
@@ -70,8 +74,8 @@ team:
 #     URL : "/project"
 
 # testimonial
-testimonial:
-  enable : false
+# testimonial:
+#   enable : false
 
 # blog
 # blog:
