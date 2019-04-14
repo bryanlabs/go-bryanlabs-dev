@@ -18,4 +18,7 @@ contactBoxes:
 
 contactForm:
   enable : true
-  formAction : "#" # Contact Form works with formspree.io
+  formAction : "https://formspree.io/info@bryanlabs.net" # Contact Form works with formspree.io
+  type : text"
+  name : "Bryanlabs Contact Form"
+  
