@@ -120,28 +120,28 @@ menu:
     - name: About
       URL: /about
       weight: 2
-    # - name: Service
-    #   URL: /service
-    #   weight: 3
-    # - name: Blog
-    #   URL: /blog
-    #   weight: 4
+    - name: Service
+      URL: /service
+      weight: 3
+    - name: Blog
+      URL: /blog
+      weight: 4
     - name: Team
       URL: /team
       weight: 6
     - name: Contact
       URL: /contact
       weight: 7
-    # - weight: 8
-    #   name: Pages
-    #   hasChildren: true
-    # - parent: Pages
-    #   name: Project
-    #   URL: /project
+    - weight: 8
+      name: Pages
+      hasChildren: true
+    - parent: Pages
+      name: Project
+      URL: /project
   footer:
-    # - name: Terms of Service
-    #   URL: /terms
-    #   weight: 1
-    # - name: Privacy Policy
-    #   URL: /privacy-policy
-    #   weight: 2
+    - name: Terms of Service
+      URL: /terms
+      weight: 1
+    - name: Privacy Policy
+      URL: /privacy-policy
+      weight: 2
