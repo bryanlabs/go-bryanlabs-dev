@@ -140,8 +140,8 @@ menu:
     #   URL: /project
   footer:
     - name: Terms of Service
-      URL: terms-and-conditions.html
+      URL: /terms
       weight: 1
     - name: Privacy Policy
-      URL: privacy-policy.html
+      URL: /privacy
       weight: 2
