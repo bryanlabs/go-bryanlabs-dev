@@ -3,7 +3,7 @@ about:
   enable : true
   titleSM : "About Us"
   title : "Bryanlabs"
-  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB)."
+  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB). We specialize in the automation of AWS environments. Our experts will bring devops best practices and ample tips to get your team optimized and ready to build solutions in AWS environments. "
   # bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
   button:
