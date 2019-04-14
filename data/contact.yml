@@ -17,7 +17,7 @@ contactBoxes:
         - listItem : "info@bryanlabs.net"
 
 contactForm:
-  enable : true
+  enable : false
   formAction : "https://formspree.io/info@bryanlabs.net" # Contact Form works with formspree.io
   type : text"
   name : "Bryanlabs Contact Form"
