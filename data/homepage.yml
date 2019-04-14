@@ -27,9 +27,9 @@ funfacts :
       count : "8"
       icon : "fa-graduation-cap"
 
-    - title : "Cups of Coffee"
-      count : "9999"
-      icon : "fa-coffee"
+    - title : "Managed AWS Accounts"
+      count : "150"
+      icon : "fa-user"
 
 # feature
 feature:

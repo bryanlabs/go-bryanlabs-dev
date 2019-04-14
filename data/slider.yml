@@ -36,7 +36,7 @@ feature :
 
     - title : "Configuration Management"
       icon : "fa-wrench"
-      description : "We love automation tools. We use ansiable, and systems manager to deploy apps and manage software."
+      description : "We love automation tools. We use ansible, and systems manager to deploy apps and manage software."
       
     - title : "Event Driven Security"
       icon : "fa-shield"
