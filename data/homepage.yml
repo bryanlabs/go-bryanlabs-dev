@@ -15,21 +15,21 @@ funfacts :
   enable : true
   funfactsItem :
       
+    - title : "Managed AWS Accounts"
+      count : "150"
+      icon : "fa-user"
+
+    - title : "Automations"
+      count : "1000"
+      icon : "fa-code"
+    
     - title : "Years of Experience"
       count : "21"
       icon : "fa-calendar"
 
-    - title : "Code contributed"
-      count : "134"
-      icon : "fa-code"
-
     - title : "Certifications"
       count : "8"
       icon : "fa-graduation-cap"
-
-    - title : "Managed AWS Accounts"
-      count : "150"
-      icon : "fa-user"
 
 # feature
 feature:

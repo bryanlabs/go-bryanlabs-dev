@@ -2,7 +2,7 @@ slider:
   enable : true
 sliderItem: 
   - preTitle : "We are here to"
-    title : "Build Infrastructure"
+    title : "Automate Infrastructure"
     # shortDescription : "AWS Automation is our expertise."
     # bgImage : "images/slider/banner-1.webp"
     bgImage : "images/slider/awsbanner2.png"
