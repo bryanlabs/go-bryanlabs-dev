@@ -3,7 +3,7 @@
   {{ if .Site.Data.slider.slider.enable }}
   {{ "<!-- slider -->" | safeHTML }}
   <section>
-    <div class="hero-slider">
+    <div class="slider-light-theme hero-slider">
       {{ range .Site.Data.slider.sliderItem }}
       {{ "<!-- slider item -->" | safeHTML }}
       <div class="hero-slider-item bg-cover hero-section" style="background-image: url('{{ .bgImage | absURL }}'),url('{{ .bgImageAlt | absURL }}');">
