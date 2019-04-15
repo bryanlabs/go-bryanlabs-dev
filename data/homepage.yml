@@ -80,5 +80,5 @@ testimonial:
 # blog
 blog:
   enable : true
-  titleSM : "Latest News"
-  title : "AWS Solutions"
+  titleSM : "Blog"
+  title : "Bryanlabs Solutions
