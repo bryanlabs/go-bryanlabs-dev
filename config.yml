@@ -123,9 +123,9 @@ menu:
     # - name: Service
     #   URL: /service
     #   weight: 3
-    # - name: Blog
-    #   URL: /blog
-    #   weight: 4
+    - name: Blog
+      URL: /blog
+      weight: 4
     # - name: Team
     #   URL: /team
     #   weight: 6
