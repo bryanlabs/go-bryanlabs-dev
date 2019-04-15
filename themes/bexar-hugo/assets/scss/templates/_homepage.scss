@@ -49,13 +49,12 @@
     background: $secondary-color;
   }
 
-  .container {
-    transform: translateX(-50px);
-    position: relative;
+  // .container {
+  //   transform: translateX(0px);
+  //   position: relative;
 
     &::before {
-      position: absolute;
-      content: "";
+      position: relative;
       right: 100%;
       top: 0;
       height: 100%;
@@ -70,7 +69,7 @@
         display: none;
       }
     }
-  }
+  // }
 
   h3 {
     @include desktop {
