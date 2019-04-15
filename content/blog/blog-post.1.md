@@ -2,8 +2,8 @@
 title: "AMI Factory"
 date: 2019-02-07T10:47:55+06:00
 description: "This AMI Factory solution will build AMIs based off a payload."
-bgImage: "images/slider/code.webp"
-bgImageAlt: "images/slider/code.webp"
+bgImage: "images/backgrounds/blog-banner.jpg"
+bgImageAlt: "images/backgrounds/blog-banner.jpg"
 image: "images/blog/post-1.jpg"
 author: "Dan Bryan"
 postType: "Article"
