@@ -1,49 +1,52 @@
 ---
-title: "Business Consulting"
+title: "AMI Factory"
 date: 2019-02-07T10:47:55+06:00
-description: "this is meta description for blog page."
-bgImage: "images/backgrounds/page-title.webp"
-bgImageAlt: "images/backgrounds/page-title.jpg"
+description: "This AMI Factory solution will build AMIs based off a payload."
+bgImage: "images/slider/code.webp"
+bgImageAlt: "images/slider/code.webp"
 image: "images/blog/post-1.jpg"
-author: "Themefisher"
+author: "Dan Bryan"
 postType: "Article"
 type: "post"
-draft: true
+draft: false
 categories: 
-  - "Investment Planning"
+  - "Cloudformation"
 tags:
-  - "Advice"
-  - "Business"
+  - "AWS"
+  - "Systems Manager"
+  - "AMI"
+  - "EC2"
 ---
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+An AMI Factory is a must have in any environment. It's important to know that all instances are using a known image. AMIs should be shared with all accounts in your environment, and IAM should be use to lock down all images except those created by the AMI factory.
 
 
->Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua. enim minim veniam quis nostrud exercitation ullamco. laboris nisi ut aliquip ex ea commodo. <br><br> by **Michelle Fischer**
+>It's a two-syllable word that is pronounced ä-mē like mommy or salami<br><br> by **Chuck Meyer**
 
 
-Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.
+### Components
 
-### Benifits of service
+The following components are involved.
 
-Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.
+1. JSON payload defining how to build an AMI.
+2. SSM Automation Documents
+3. Lambda Functions
 
-1. Quality Services
-2. Clients Satisfaction
-3. Quality Services
-4. Clients Satisfaction
-5. Quality Services
-6. Clients Satisfaction
+### Payload
 
-### Business Strategy
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum. sed ut perspiciatis unde omnis iste natus error sit voluptatem acusantium.
+The payload defines all the key parts to an AMI .
 
 
-1. Quality Services
-2. Clients Satisfaction
-3. Quality Services
+1. Source Ami - The trusted image to start from.
+2. Bootstrap URL - the URL to a script which will configure your image.
+3. AWS Accounts - A list of accounts to share the AMI with
+4. Automation Document - Orchestrates everything, Creates the image and shares it with customers.
 
-### Analyze your business
+### Automation Documents
 
-Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.
+The automation document is based off Amazons native UpdateAmi document. A few steps were added to handle rotating expired AMIs, and sharing AMIs with accounts.
+
+
+### Lambda Function
+
+After an Image is created, Lambda is invoked to share the new Image with defined accounts, and retire any historic AMIs.

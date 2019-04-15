@@ -77,8 +77,8 @@ team:
 # testimonial:
 #   enable : false
 
-# blog
-# blog:
-#   enable : false
-#   titleSM : "Latest News"
-#   title : "AWS Solutions"
+blog
+blog:
+  enable : true
+  titleSM : "Latest News"
+  title : "AWS Solutions"
