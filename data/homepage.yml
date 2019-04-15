@@ -73,11 +73,11 @@ team:
 #     btnText : "more projects"
 #     URL : "/project"
 
-testimonial
+# testimonial
 testimonial:
   enable : true
 
-blog
+# blog
 blog:
   enable : true
   titleSM : "Latest News"
