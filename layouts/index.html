@@ -61,7 +61,7 @@
   {{ if .Site.Data.homepage.funfacts.enable }}
   {{ "<!-- funfacts -->" | safeHTML }}
   <section class="funfacts">
-    <div class="container">
+    <!-- <div class="container"> -->
       <div class="row bg-secondary p-5">
         {{ range .Site.Data.homepage.funfacts.funfactsItem }}
         {{ "<!-- funfacts item -->" | safeHTML }}
@@ -76,7 +76,7 @@
         </div>
         {{ end }}
       </div>
-    </div>
+    <!-- </div> -->
   </section>
   {{ "<!-- /funfacts -->" | safeHTML }}
   {{ end }}

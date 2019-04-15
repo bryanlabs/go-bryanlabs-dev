@@ -49,9 +49,9 @@
     background: $secondary-color;
   }
 
-  // .container {
-  //   transform: translateX(0px);
-  //   position: relative;
+  .container {
+    transform: translateX(0px);
+    position: relative;
 
     &::before {
       position: relative;
@@ -69,7 +69,7 @@
         display: none;
       }
     }
-  // }
+  }
 
   h3 {
     @include desktop {
