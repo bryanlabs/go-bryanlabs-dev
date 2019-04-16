@@ -18,21 +18,61 @@ tags:
   - "EC2"
 ---
 
-An AMI Factory is a must have in any environment. It's important to know that all instances are using a known image. AMIs should be shared with all accounts in your environment, and IAM should be use to lock down all images except those created by the AMI factory.
+An AMI Factory is a must have in any environment. It's important to know that all instances are using a known image. AMIs can be shared with accounts in your environment or others. One common way to ensure users are only spinning up approved AMIs is to use IAM to Deny access to non approved Images.
+
+````
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "DenyAMIAccess",
+            "Effect": "Deny",
+            "Action": [
+                "ec2:RunScheduledInstances",
+                "ec2:RunInstances"
+            ],
+            "Resource": "arn:aws:ec2:*::image/ami-*",
+            "Condition": {
+                "StringNotEquals": {
+                    "ec2:Owner": [
+                        "AMIFactory_account_id_here"
+                    ]
+                }
+            }
+        }
+    ]
+}
+````
 
 
 >It's a two-syllable word that is pronounced ä-mē like mommy or salami<br><br> by **Chuck Meyer**
 
 
-### Components
+# HOW IT WORKS
+Create JSON payloads to define one or more AMI(s). 
 
-The following components are involved.
 
-1. JSON payload defining how to build an AMI.
-2. SSM Automation Documents
-3. Lambda Functions
+````
+{
+	"json": {
+		"amis": [{
+			"name": "Amazon2",
+			"amiid": "ami-b3bcd4d2",
+			"document": "DefaultLinuxAmiDocument",
+			"bootstrap": "https://raw.githubusercontent.com/bryanlabs/amifactory/master/bootstraps/Amazon2.sh",
+			"accounts": ["123456789012"]
+		}, {
+			"name": "Windows2016",
+			"amiid": "ami-23ff9542",
+			"document": "DefaultWindowsAmiDocument",
+			"bootstrap": "https://raw.githubusercontent.com/bryanlabs/amifactory/master/bootstraps/Windows.ps1",
+			"accounts": ["123456789012"]
+		}]
+	}
+}
+````
 
-### Payload
+## Payload
 
 The payload defines all the key parts to an AMI .
 
@@ -42,11 +82,29 @@ The payload defines all the key parts to an AMI .
 3. AWS Accounts - A list of accounts to share the AMI with
 4. Automation Document - Orchestrates everything, Creates the image and shares it with customers.
 
-### Automation Documents
+## Invocation
+The payload can be invoked multiple ways. In this article we will use Cloudwatch Events to build some AMIs daily, and quarterly.
 
-The automation document is based off Amazons native UpdateAmi document. A few steps were added to handle rotating expired AMIs, and sharing AMIs with accounts.
+Cloudwatch Event Details here.
 
+Once the event is triggered, it will pass the payload to the LambdaFunction.
 
-### Lambda Function
+The Lambda Function start an SSM Automation using values from the Payload. It will do the following steps
 
-After an Image is created, Lambda is invoked to share the new Image with defined accounts, and retire any historic AMIs.
+* Launch the sourceAmiId
+* Install the latest version of SSM
+* Verify SSM installed Ok
+* Install Amazon Cloudwatch
+* Bake in an AuthorizedKey
+* Update the OS Patches
+* Install any code from the bootstrap.
+* Stop the Instance
+* Create an Image
+* Invoke ShareAMI
+
+## Try it out
+
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AmiFactory&templateURL=https://s3.amazonaws.com/bryanlabs/blog/AmiFactory/AmiFactory.template)
+
+Or download the
+[Template Source](https://s3.amazonaws.com/bryanlabs/blog/AmiFactory/AmiFactory.template)  
