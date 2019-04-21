@@ -52,10 +52,10 @@ feature:
       content : "We believe infrastructure should be defined as code. Code should be documented, reusable, tested, and version controlled."
 
 # service
-# service:
-#   enable : false
-#   titleSM : "Best Service"
-#   title : "Service We Provide"
+service:
+  enable : true
+  titleSM : "Services"
+  title : "Service We Provide"
 
 # team
 team:

@@ -121,9 +121,9 @@ menu:
     # - name: About
     #   URL: /about
     #   weight: 2
-    # - name: Service
-    #   URL: /service
-    #   weight: 3
+    - name: Service
+      URL: /service
+      weight: 3
     - name: Blog
       URL: /blog
       weight: 4
