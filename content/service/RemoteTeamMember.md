@@ -1,7 +1,7 @@
 ---
-title: "AWS Consulting"
+title: "Remote Team Member"
 date: 2019-02-07T10:47:55+06:00
-description: "AWS Consulting."
+description: "Remote Team Member."
 bgImage: "images/backgrounds/page-title.webp"
 bgImageAlt: "images/backgrounds/page-title.jpg"
 image: "images/service/service-6.jpg"
@@ -9,9 +9,7 @@ icon: "fa-bar-chart"
 type: "service"
 ---
 
-Consulting sessions with our experts can save you time and money. 
-
-Schedule a free 10 minute phone call to discuss.
+We will join your team and bring our expert ideas. We will participate in daily standups, and contribute to your team.
 
 ### Recent Discussion Topics
 
