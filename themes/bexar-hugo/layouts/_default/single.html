@@ -27,12 +27,12 @@
           </ul>
         </div>
       </div>
-      {{ partial "disqus.html" . }}
       {{ partial "sidebar.html" . }}
     </div>
   </div>
 </section>
 {{ "<!-- /blog details -->" | safeHTML }}
-{% include disqus.html %}
-
+<div class="container">
+  {{ partial "disqus.html" . }}
+</div>
 {{ end }}
