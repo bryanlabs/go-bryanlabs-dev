@@ -17,6 +17,7 @@
         <div class="content">
           {{ .Content }}
         </div>
+        {{ partial "disqus.html" . }}
         {{ "<!-- tags -->" | safeHTML }}
         <div class="mb-3">
           <h5 class="d-inline-block mr-3">Tags:</h5>
@@ -26,13 +27,11 @@
             {{ end }}
           </ul>
         </div>
+        {{ partial "disqus.html" . }}
       </div>
       {{ partial "sidebar.html" . }}
     </div>
   </div>
 </section>
 {{ "<!-- /blog details -->" | safeHTML }}
-<div class="container">
-  {{ partial "disqus.html" . }}
-</div>
 {{ end }}
