@@ -90,22 +90,22 @@ The payload defines all the key parts to an AMI .
 The function can be invoked multiple ways. In this article we will use both Lambda Test events, and Cloudwatch Events to invoke the buildAmi Function.
 
 ### Create a Test Event  
-![Create Test Event](images/blog/amifactory/configure_test_event.PNG)
+![Create Test Event](../../images/blog/amifactory/configure_test_event.PNG)
 
 ### Click Test Event  
-![Click Test Event](images/blog/amifactory/test_event.PNG)
+![Click Test Event](../../images/blog/amifactory/test_event.PNG)
 
 ### Notice Automation Started  
-![Notice Automation Started](images/blog/amifactory/automation_started.PNG)
+![Notice Automation Started](../../images/blog/amifactory/automation_started.PNG)
 
 ### View Automation Steps  
-![View Automation Steps](images/blog/amifactory/automation_steps.PNG)
+![View Automation Steps](../../images/blog/amifactory/automation_steps.PNG)
 
 ### View Execution Details  
-![View Execution Details](images/blog/amifactory/execution_details.PNG)
+![View Execution Details](../../images/blog/amifactory/execution_details.PNG)
 
 ### View Image List  
-![View Image List](images/blog/amifactory/image_list.PNG)
+![View Image List](../../images/blog/amifactory/image_list.PNG)
 
 
 
