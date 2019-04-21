@@ -1,6 +1,7 @@
 baseURL: 'https://bryanlabs.net/'
 languageCode: en-us
 title: Bryanlabs
+disqusShortname: bryanlabs
 theme: bexar-hugo
 summaryLength: '10'
 paginate: 6

@@ -9,6 +9,7 @@ author: "Dan Bryan"
 postType: "Article"
 type: "post"
 draft: false
+comments: true
 categories: 
   - "Cloudformation"
 tags:
@@ -20,13 +21,21 @@ tags:
 
 >It's a two-syllable word that is pronounced ä-mē like mommy or salami<br><br> **Chuck Meyer**
 
-### An AMI Factory is a must have in any environment. It's important to know that all instances are using known images. AMIs can be shared with accounts in your environment or others. 
+#### An AMI Factory is a must have in any environment. It's important to know that all instances are using known images. AMIs can be shared with accounts in your environment or others. 
 
 The following Solution can be used to build shared Images for users in your Organization.
 
 
+## Ready to Try it out?
+
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AmiFactory&templateURL=https://s3.amazonaws.com/bryanlabs-public/bryanlabs.net_files/blog/amifactory/AmiFactory.yml)
+
+Feel free to use bryanlabs defaults for lambda-code bucket/prefix and object versions.  
+Or grab the [build scripts](https://github.com/bryanlabs/aws-amifactory) and [Template Source](https://s3.amazonaws.com/bryanlabs/blog/AmiFactory/AmiFactory.template) to use your own hosted version of the code.  
+
+
 # HOW IT WORKS
-Create JSON payloads to define one or more AMI(s). 
+After you have deployed the stack, you should create JSON payloads to define one or more AMI(s). 
 
 
 ````
@@ -50,14 +59,14 @@ Create JSON payloads to define one or more AMI(s).
 1. imageName - The name of your image.
 2. sourceImage - The trusted image to start from.
 3. bootstrapUrl - the URL to a script which will configure your image.
-4. accounts - A list of AWS accounts to share the AMI with.
+4. accounts - A list of AWS account numbers to share the AMI with.
 5. Automation Document - Creates and configures the new AMI.
 
 # Build AMIs
-This Lambda function can be invoked multiple ways. In this article we will use both a Lambda Test event, and Cloudwatch Events to invoke the buildAmi Function.
+Now that you have a payload defining your AMIs, you can use them to invoke the lambda function. This Lambda function can be triggered multiple ways. In this article we will use both a Lambda Test event and Cloudwatch Schedule Events to invoke the buildAmi Function.
 
-## Create a Test Event  
-From within Lambda, click the buildAmi function click select a test event, then click configure test events. Choose an Event name like webserverTest, paste in the json payload example and click create.  
+## Create a Lambda Test Event  
+From within Lambda, click the buildAmi function click 'select a test event', then click configure test events. Choose an Event name like webserverTest, paste in the json payload example and click create.  
 
 ![Create Test Event](../../images/blog/amifactory/configure_test_event.PNG)
 
@@ -86,7 +95,7 @@ Once the Automation completes, you can verify the Image exists by going to the s
 ![View Image List](../../images/blog/amifactory/image_list.PNG)
 
 
-## Use Cloudwatch to Schedule weekly builds of AMIs.
+## Use Cloudwatch to Schedule builds of AMIs.
 
 We recomend building images on a schedule with Cloudwatch Events. 
 
@@ -128,10 +137,3 @@ The last step is an optional one. One common way to ensure users are only launch
     ]
 }
 ````
-
-## Ready to Try it out?
-
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AmiFactory&templateURL=https://s3.amazonaws.com/bryanlabs-public/bryanlabs.net_files/blog/amifactory/AmiFactory.yml)
-
-Feel free to use bryanlabs defaults for lambda-code bucket/prefix and object versions.  
-Or grab the [build scripts](https://github.com/bryanlabs/aws-amifactory) and [Template Source](https://s3.amazonaws.com/bryanlabs/blog/AmiFactory/AmiFactory.template) to use your own hosted version of the code.  
