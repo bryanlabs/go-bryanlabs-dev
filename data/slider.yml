@@ -5,7 +5,7 @@ sliderItem:
     title : "Experts at"
     # shortDescription : "AWS Automation is our expertise."
     # bgImage : "images/slider/banner-1.webp"
-    bgImage : "images/slider/awsbanner2.png"
+    bgImage : "images/slider/banner1.jpg"
     animation : "fadeInUp"
     button:
       enable : true
@@ -16,7 +16,7 @@ sliderItem:
   - preTitle : "We love"
     title : "to Code"
     # shortDescription : "AWS Automation is our expertise."
-    bgImage : "images/slider/code.jpg"
+    bgImage : "images/slider/banner3.jpg"
     # bgImage : "images/slider/devops-banner-copy.jpg"
     animation : "fadeInUp"
     button:
