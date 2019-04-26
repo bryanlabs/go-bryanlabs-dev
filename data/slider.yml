@@ -1,8 +1,8 @@
 slider:
   enable : true
 sliderItem: 
-  - preTitle : "We are here to"
-    title : "Automate Infrastructure"
+  - preTitle : "We are"
+    title : "Experts at"
     # shortDescription : "AWS Automation is our expertise."
     # bgImage : "images/slider/banner-1.webp"
     bgImage : "images/slider/awsbanner2.png"
@@ -13,10 +13,10 @@ sliderItem:
       URL : "/about"
       animation : "zoomIn"
   
-  - preTitle : "We are here to"
-    title : "Deliver Solutions as Code"
+  - preTitle : "We love"
+    title : "to Code"
     # shortDescription : "AWS Automation is our expertise."
-    bgImage : "images/slider/code.webp"
+    bgImage : "images/slider/code.jpg"
     # bgImage : "images/slider/devops-banner-copy.jpg"
     animation : "fadeInUp"
     button:
