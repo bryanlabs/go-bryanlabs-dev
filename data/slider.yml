@@ -28,7 +28,7 @@ sliderItem:
   - preTitle : "We love"
     title : "to Code"
     # shortDescription : "AWS Automation is our expertise."
-    bgImage : "images/slider/banner2.jpg"
+    bgImage : "images/slider/banner4.jpg"
     # bgImage : "images/slider/devops-banner-copy.jpg"
     animation : "fadeInUp"
     button:
