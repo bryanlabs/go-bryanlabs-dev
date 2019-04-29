@@ -114,8 +114,8 @@ params:
   newsletter:
     enable: false
     title: Subscribe Newsletter
-  copyright:
-    copyright: A hugo theme by themefisher.com
+  # copyright:
+  #   copyright: A hugo theme by themefisher.com
 menu:
   main:
     # - name: About

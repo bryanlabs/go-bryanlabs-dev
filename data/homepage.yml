@@ -45,7 +45,7 @@ feature:
       
     - title : "Automation Everywhere"
       icon : "fa-code"
-      content : "We love automation. We are experts with Infrastructure as code (IaC), Configuration Management (CM), and Scripting."
+      content : "We love automation and believe is the key to successfull scaling. Were experts in finding optimizations and implementing automations to help you scale."
     
     - title : "Infrastructure as code (IaC)"
       icon : "fa-code"
