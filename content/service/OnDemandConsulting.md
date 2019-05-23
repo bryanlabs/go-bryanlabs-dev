@@ -10,11 +10,3 @@ type: "service"
 ---
 
 We offer on Demand consulting with our experts. We keep flexiable schedules and can quickly react to time sensative issues. 
-
-### Recent Discussion Topics
-
-Here are several topics we have discussed recently.
-
-1. Explained AWS products and implementation considerations.
-2. Provided Technical Solutions for Requests for proposals.
-3. Provided subject matter expertise to developers working in AWS.

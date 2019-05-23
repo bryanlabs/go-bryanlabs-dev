@@ -9,12 +9,4 @@ icon: "fa-bar-chart"
 type: "service"
 ---
 
-We will lead your your team. 
-
-### Recent Discussion Topics
-
-Here are several topics we have discussed recently.
-
-1. Translate Business requirments into actionable tasks.
-2. Ensure the team is using devops best practices.
-3. Communication with Technical directors.
+We will lead your team.  

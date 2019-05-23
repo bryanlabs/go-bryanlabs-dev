@@ -10,11 +10,3 @@ type: "service"
 ---
 
 We will join your team and bring our expert ideas. We will participate in daily standups, and contribute to your team.
-
-### Recent Discussion Topics
-
-Here are several topics we have discussed recently.
-
-1. Explained AWS products and implementation considerations.
-2. Provided Technical Solutions for Requests for proposals.
-3. Provided subject matter expertise to developers working in AWS.
