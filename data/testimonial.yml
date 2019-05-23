@@ -1,7 +1,12 @@
 titleSM : "Testimonials"
-title : "What Clients Are Saying?"
+title : "What People Are Saying?"
 testimonialItem:
   - clientImage : "images/testimonial/ross-bowman.png"
     name : "Ross Bowman"
     designation : "Partnerships Manager @ Toptal"
     content : "Dan is a rockstar AWS guru with deep expertise as a DevOps engineer. In fact, he's so good that he helps draft the official AWS DevOps certification exam, for AWS."
+  
+  - clientImage : "images/testimonial/evan-gramens.jpg"
+    name : "Evan Gramens"
+    designation : "Devops Lead @ Stratus Solutions"
+    content : "Dan brings a wealth of AWS knowledge to the table plus very sound automation design principles. He's a creative problem solver with many years of experience and is a hugely valuable asset to any team."
