@@ -10,3 +10,8 @@ testimonialItem:
     name : "Evan Gramens"
     designation : "Devops Lead @ Stratus Solutions"
     content : "Dan brings a wealth of AWS knowledge to the table plus very sound automation design principles. He's a creative problem solver with many years of experience and is a hugely valuable asset to any team."
+
+  - clientImage : "images/testimonial/maddie-collins.png"
+    name : "Maddie Collins"
+    designation : "Talent Specialist @ Toptal"
+    content : "Dan is a pleasure to work with. I am impressed with his performance throughout our vetting process and I am eager to see him excel in DevOps projects throughout his career."
