@@ -5,7 +5,12 @@ testimonialItem:
     name : "Ross Bowman"
     designation : "Partnerships Manager @ Toptal"
     content : "Dan is a rockstar AWS guru with deep expertise as a DevOps engineer. In fact, he's so good that he helps draft the official AWS DevOps certification exam, for AWS."
-  
+
+  - clientImage : "images/testimonial/andy-anderson.png"
+    name : "Andy Anderson"
+    designation : "Client Partner - Enterprise Sales @ Toptal"
+    content : "Dan played a critical role in developing a new business proposal for a key Toptal client. As a Solution Architect, he was professional, fast, and thorough in his analysis. In considering a multitude of cloud tools and technologies, his singular focus was finding the best-fit and best-value solution for the client. And he did."
+
   - clientImage : "images/testimonial/evan-gramens.jpg"
     name : "Evan Gramens"
     designation : "Devops Lead @ Stratus Solutions"
