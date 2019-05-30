@@ -45,7 +45,7 @@ feature:
       
     - title : "Automation Everywhere"
       icon : "fa-code"
-      content : "We love automation and believe is the key to successfull scaling. Were experts in finding optimizations and implementing automations to help you scale."
+      content : "We love automation and believe it is the key to successfull scaling. We are experts in finding optimizations and implementing automations to help you scale."
     
     - title : "Infrastructure as code (IaC)"
       icon : "fa-code"
