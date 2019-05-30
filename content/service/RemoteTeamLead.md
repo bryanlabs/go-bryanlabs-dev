@@ -5,7 +5,7 @@ description: "Remote Team Member."
 bgImage: "images/service/handshake.png"
 bgImageAlt: "images/backgrounds/page-title.jpg"
 image: "images/service/teamlead.jpeg"
-icon: ""
+icon: "fa-amazon"
 type: "service"
 ---
 
