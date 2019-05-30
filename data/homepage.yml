@@ -27,7 +27,7 @@ funfacts :
       count : "21"
       icon : "fa-calendar"
 
-    - title : "Certifications"
+    - title : "Proficiencies"
       count : "8"
       icon : "fa-graduation-cap"
 
@@ -61,7 +61,7 @@ service:
 team:
   enable : true
   titleSM : "Our Team"
-  title : "Meet our <br> Automation Experts"
+  title : "Meet our <br> Experts"
 
 # project
 # project:
