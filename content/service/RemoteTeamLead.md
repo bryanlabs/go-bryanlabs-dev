@@ -1,11 +1,11 @@
 ---
-title: "Remote Team Lead"
+title: "Team Lead"
 date: 2019-02-07T10:47:55+06:00
 description: "Remote Team Member."
 bgImage: "images/service/handshake.png"
 bgImageAlt: "images/backgrounds/page-title.jpg"
 image: "images/service/teamlead.jpeg"
-icon: "fa-bar-chart"
+icon: ""
 type: "service"
 ---
 
