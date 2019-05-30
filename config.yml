@@ -73,14 +73,14 @@ params:
     URL: /service
   cta:
     enable: true
-    title: AWS Automation Solutions
-    bgImage: images/slider/code.webp
-    bgImageAlt: images/slider/code.webp
-    btnText: get an quote
+    title: DevOps Solutions
+    bgImage: images/slider/aws.jpg
+    bgImageAlt: images/slider/aws.jpg
+    btnText: Contact Us
     URL: /contact
   footer:
     content: >-
-      Founded in 2019, Bryanlabs focuses on Automation of AWS environments. 
+      Founded in 2019, Bryanlabs focuses on Development and Operations in AWS environments. 
     followUs:
       title: Follow Us On
       socialIcon:
@@ -93,7 +93,7 @@ params:
         # - icon: fa-pinterest
         #   URL: '#'
     service:
-      title: Services
+      title: About
       serviceList:
         # - title: Company History
         #   URL: /about
@@ -101,12 +101,12 @@ params:
         #   URL: /about
         - title: Contact Us
           URL: /contact
-        # - title: Services
-        #   URL: /service
-        # - title: Privacy Policy
-        #   URL: /privacy
+        - title: Services
+          URL: /service
+        - title: Privacy Policy
+          URL: /privacy
     contact:
-      title: Contact Info
+      title: Location
       contactList:
         - listItem: 'Laurel, MD'
         - listItem: +1 443 569 4343
