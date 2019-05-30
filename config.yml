@@ -93,7 +93,7 @@ params:
         # - icon: fa-pinterest
         #   URL: '#'
     service:
-      title: About
+      title: ""
       serviceList:
         # - title: Company History
         #   URL: /about
@@ -105,8 +105,9 @@ params:
           URL: /service
         - title: Privacy Policy
           URL: /privacy
+    
     contact:
-      title: Location
+      title: Contact
       contactList:
         - listItem: 'Laurel, MD'
         - listItem: +1 443 569 4343
