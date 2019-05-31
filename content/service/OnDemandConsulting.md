@@ -9,4 +9,4 @@ icon: "fa-amazon"
 type: "service"
 ---
 
-We offer on demand hourly consulting with our experts. We keep flexiable schedules and can quickly respond to time sensative issues or provide insight when you need it.
+We offer on demand hourly consulting with our experts. We keep flexible schedules and can quickly respond to time sensitive issues or provide insight when you need it.
