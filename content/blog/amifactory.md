@@ -100,7 +100,7 @@ Once the Automation completes, you can verify the Image exists by going to the s
 We recommend building images on a schedule with CloudWatch Events. 
 
 ### Create Rule  
-From the services page, click CloudWatch, Rules, then Create Rule.  Choose Schedule for the Event source, Fixed rate of 7 days, or whatever your preference is. Add a Target to the build AMI Lambda function. Configure input of constant JSON text, and paste in the example payload. Next Configure details.
+From the services page, click CloudWatch, Rules, then Create Rule.  Choose Schedule for the Event source, Fixed rate of 7 days, or whatever your preference is. Add a Target to the build AMI Lambda function. Configure input of constant JSON text and paste in the example payload. Next Configure details.
 
 ![Create Rule](../../images/blog/amifactory/create_rule.PNG)
 
