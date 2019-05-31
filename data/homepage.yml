@@ -3,7 +3,7 @@ about:
   enable : true
   titleSM : "About Us"
   title : "Bryanlabs"
-  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB). We specialize in the automation of AWS environments. Our experts will bring devops best practices and ample tips to get your team optimized and ready to build solutions in AWS environments. "
+  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB). We specialize in the automation of AWS environments. Our experts will bring DevOps best practices and ample tips to get your team optimized and ready to build solutions in AWS environments. "
   # bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
   button:
@@ -41,11 +41,11 @@ feature:
   featureItem:
     - title : "AWS Experience"
       icon : "fa-cloud"
-      content : "Our experts have engineered and managed hundrends of AWS accounts. We are certified professionals with an expert level understanding of AWS."
+      content : "Our experts have engineered and managed hundreds of AWS accounts. We are certified professionals with an expert level understanding of AWS."
       
     - title : "Automation Everywhere"
       icon : "fa-code"
-      content : "We love automation and believe it is the key to successfull scaling. We are experts in finding optimizations and implementing automations to help you scale."
+      content : "We love automation and believe it is the key to successful scaling. We are experts in finding optimizations and implementing automations to help you scale."
     
     - title : "Infrastructure as code (IaC)"
       icon : "fa-code"
@@ -55,7 +55,7 @@ feature:
 service:
   enable : true
   titleSM : "Services"
-  title : "Service We Provide"
+  title : "Services We Provide"
 
 # team
 team:

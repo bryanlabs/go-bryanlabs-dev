@@ -9,7 +9,7 @@ philosophy:
         - listItem : "Creative"
         - listItem : "Technical"
 
-    - title : "Automate AWS Envrironments"
+    - title : "Automate AWS Environments"
       serialNumber: "02"
       content : "We love automation!"
       list:
@@ -18,7 +18,7 @@ philosophy:
         
     - title : "Rapid Delivery"
       serialNumber: "03"
-      content : "We pride ourself on delivering excellent work rapidly."
+      content : "We pride ourselves on delivering excellent work rapidly."
       list:
         - listItem : "Excellence"
         - listItem : "Rapid"

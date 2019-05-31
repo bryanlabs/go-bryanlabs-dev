@@ -27,7 +27,7 @@ sliderItem:
 
 # banner feature
 feature :
-  enable : ture
+  enable : true
   # Max use 4 item
   featureItem :
     - title : "Infrastructure as code (IaC)"
@@ -36,12 +36,12 @@ feature :
 
     - title : "Configuration Management"
       icon : "fa-wrench"
-      description : "We love automation tools. We use ansible, and systems manager to deploy apps and manage software."
+      description : "We love automation tools. We use Ansible, and AWS Systems Manager to deploy apps and manage software."
       
     - title : "Event Driven Security"
       icon : "fa-shield"
-      description : "We use Cloudwatch, and Config to rapidly detect and respond to issues that affect application performance."
+      description : "We use AWS CloudWatch and Config to rapidly detect and respond to issues that affect application performance."
 
-    - title : "Continious Deployment"
+    - title : "Continuous Deployment"
       icon : "fa-spinner"
-      description : "We belive code should be automaticaly deployed. We use AWS CodePipeLine to build, test, and deploy each code change with an automated process."
+      description : "We believe code should be automatically deployed. We use AWS CodePipeLine to build, test, and deploy each code change via an automated process."
