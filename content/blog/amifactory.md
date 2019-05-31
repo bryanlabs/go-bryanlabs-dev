@@ -30,7 +30,7 @@ The following Solution can be used to build shared Images for users in your Orga
 
 [![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AmiFactory&templateURL=https://s3.amazonaws.com/bryanlabs-public/bryanlabs.net_files/blog/amifactory/AmiFactory.yml)
 
-Feel free to use bryanlabs defaults for lambda-code bucket/prefix and object versions.  
+Feel free to use bryanlabs defaults for -code bucket/prefix and object versions.  
 Or grab the [build scripts](https://github.com/bryanlabs/aws-amifactory) and [Template Source](https://s3.amazonaws.com/bryanlabs/blog/AmiFactory/AmiFactory.template) to use your own hosted version of the code.  
 
 
@@ -71,7 +71,7 @@ From within Lambda, click the buildAmi function click 'select a test event', the
 ![Create Test Event](../../images/blog/amifactory/configure_test_event.PNG)
 
 ### Click Test Event  
-Now that the test event is created, we can invoke it from the lambda console. Make sure to select the WebserverTest event, and click Test.  
+Now that the test event is created, we can invoke it from the Lambda console. Make sure to select the WebserverTest event, and click Test.  
 
 ![Click Test Event](../../images/blog/amifactory/test_event.PNG)  
 
@@ -100,7 +100,7 @@ Once the Automation completes, you can verify the Image exists by going to the s
 We recommend building images on a schedule with CloudWatch Events. 
 
 ### Create Rule  
-From the services page, click CloudWatch, Rules, then Create Rule.  Choose Schedule for the Event source, Fixed rate of 7 days, or whatever your preference is. Add a Target to the build AMI lambda function. Configure input of constant JSON text, and paste in the example payload. Next Configure details.
+From the services page, click CloudWatch, Rules, then Create Rule.  Choose Schedule for the Event source, Fixed rate of 7 days, or whatever your preference is. Add a Target to the build AMI Lambda function. Configure input of constant JSON text, and paste in the example payload. Next Configure details.
 
 ![Create Rule](../../images/blog/amifactory/create_rule.PNG)
 

@@ -63,7 +63,7 @@ After you have deployed the stack, you should create JSON payloads to define one
 5. Automation Document - Creates and configures the new AMI.
 
 # Build AMIs
-Now that you have a payload defining your AMIs, you can use them to invoke the lambda function. This Lambda function can be triggered multiple ways. In this article we will use both a Lambda Test event and Cloudwatch Schedule Events to invoke the buildAmi Function.
+Now that you have a payload defining your AMIs, you can use them to invoke the Lambda function. This Lambda function can be triggered multiple ways. In this article we will use both a Lambda Test event and CloudWatch Schedule Events to invoke the buildAmi Function.
 
 ## Create a Lambda Test Event  
 From within Lambda, click the buildAmi function click 'select a test event', then click configure test events. Choose an Event name like webserverTest, paste in the json payload example and click create.  
@@ -71,7 +71,7 @@ From within Lambda, click the buildAmi function click 'select a test event', the
 ![Create Test Event](../../images/blog/amifactory/configure_test_event.PNG)
 
 ### Click Test Event  
-Now that the test event is created, we can invoke it from the lambda console. Make sure to select the WebserverTest event, and click Test.  
+Now that the test event is created, we can invoke it from the Lambda console. Make sure to select the WebserverTest event, and click Test.  
 
 ![Click Test Event](../../images/blog/amifactory/test_event.PNG)  
 
@@ -95,12 +95,12 @@ Once the Automation completes, you can verify the Image exists by going to the s
 ![View Image List](../../images/blog/amifactory/image_list.PNG)
 
 
-## Use Cloudwatch to Schedule builds of AMIs.
+## Use CloudWatch to Schedule builds of AMIs.
 
-We recomend building images on a schedule with Cloudwatch Events. 
+We recomend building images on a schedule with CloudWatch Events. 
 
 ### Create Rule  
-From the services page, click Cloudwatch, Rules, then Create Rule.  Choose Schedule for the Event source, Fixed rate of 7 days, or whatever your preference is. Add a Target to the build ami lambda function. Configrue input of constant JSON text, and paste in the example payload. Next Configure details.
+From the services page, click CloudWatch, Rules, then Create Rule.  Choose Schedule for the Event source, Fixed rate of 7 days, or whatever your preference is. Add a Target to the build ami lambda function. Configrue input of constant JSON text, and paste in the example payload. Next Configure details.
 
 ![Create Rule](../../images/blog/amifactory/create_rule.PNG)
 

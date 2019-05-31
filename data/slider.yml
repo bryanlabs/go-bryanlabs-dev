@@ -40,7 +40,7 @@ feature :
       
     - title : "Event Driven Security"
       icon : "fa-shield"
-      description : "We use AWS Cloudwatch and Config to rapidly detect and respond to issues that affect application performance."
+      description : "We use AWS CloudWatch and Config to rapidly detect and respond to issues that affect application performance."
 
     - title : "Continuous Deployment"
       icon : "fa-spinner"
