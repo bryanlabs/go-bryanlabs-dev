@@ -30,7 +30,7 @@ The following Solution can be used to build shared Images for users in your Orga
 
 [![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AmiFactory&templateURL=https://s3.amazonaws.com/bryanlabs-public/bryanlabs.net_files/blog/amifactory/AmiFactory.yml)
 
-Feel free to use bryanlabs defaults for -code bucket/prefix and object versions.  
+Feel free to use bryanlabs defaults for lambda-code bucket/prefix and object versions.  
 Or grab the [build scripts](https://github.com/bryanlabs/aws-amifactory) and [Template Source](https://s3.amazonaws.com/bryanlabs/blog/AmiFactory/AmiFactory.template) to use your own hosted version of the code.  
 
 
