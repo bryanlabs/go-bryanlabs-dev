@@ -5,7 +5,7 @@ description: "this is meta description for team page."
 bgImage: "images/backgrounds/page-title.webp"
 bgImageAlt: "images/backgrounds/page-title.jpg"
 image: "images/team/dan.png"
-designation: "Devops Engineer"
+designation: "DevOps Engineer"
 type: "team"
 socialIcon:
   - icon : "fa-github"
