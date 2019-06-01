@@ -13,7 +13,7 @@ testimonialItem:
 
   - clientImage : "images/testimonial/evan-gramens.jpg"
     name : "Evan Gramens"
-    designation : "Devops Lead @ Stratus Solutions"
+    designation : "DevOps Lead @ Stratus Solutions"
     content : "Dan brings a wealth of AWS knowledge to the table plus very sound automation design principles. He's a creative problem solver with many years of experience and is a hugely valuable asset to any team."
 
   - clientImage : "images/testimonial/maddie-collins.png"

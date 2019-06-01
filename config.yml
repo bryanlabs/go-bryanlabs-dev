@@ -122,7 +122,7 @@ menu:
     # - name: About
     #   URL: /about
     #   weight: 2
-    - name: Service
+    - name: Services
       URL: /service
       weight: 3
     - name: Blog
