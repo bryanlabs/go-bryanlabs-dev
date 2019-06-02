@@ -32,11 +32,11 @@ feature :
   featureItem :
     - title : "Infrastructure as code (IaC)"
       icon : "fa-code"
-      description : "We believe infrastructure should be defined as code. Code should be documented, reusable, tested, and version controlled."
+      description : "We use Cloudformation and Terraform. Code should be documented, reusable, tested, and version controlled."
 
-    - title : "Configuration Management"
+    - title : "Automation tools"
       icon : "fa-wrench"
-      description : "We love automation tools. We use Ansible, and AWS Systems Manager to deploy apps and manage software."
+      description : "We love automation tools. We use Python and Go to automate AWS infrastructure."
       
     - title : "Event Driven Security"
       icon : "fa-shield"
