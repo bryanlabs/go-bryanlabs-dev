@@ -1,7 +1,7 @@
 ---
-title: "AMI Factory"
+title: "Cloudformation Custom Resources"
 date: 2019-02-07T10:47:55+06:00
-description: "This AMI Factory solution will build AMIs based off a payload."
+description: "Cloudformation Custom Resources."
 bgImage: "images/backgrounds/blog-banner.jpg"
 bgImageAlt: "images/backgrounds/blog-banner.jpg"
 image: "images/blog/amifactory/ami_factory.PNG"
@@ -14,16 +14,14 @@ categories:
   - "Cloudformation"
 tags:
   - "AWS"
-  - "Systems Manager"
-  - "AMI"
-  - "EC2"
+  - "Lambda"
+  - "Custom Resources"
 ---
 
->It's a two-syllable word that is pronounced ä-mē like mommy or salami<br><br> **Chuck Meyer**
 
-#### An AMI Factory is a must have in any environment. It's important to know that all instances are using known images. AMIs can be shared with accounts in your environment or others. 
+#### Cloudformation Custom Resource Repo. 
 
-The following Solution can be used to build shared Images for users in your Organization.
+I'v been writting a lot of custom resources lately.
 
 
 ## Ready to Try it out?
