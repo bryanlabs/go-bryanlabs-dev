@@ -24,7 +24,7 @@ tags:
 
 ### Understanding AWS Availability Zones Ids and Zone Names. 
 
-I ran into an interestering problem while creating some code to deploy an AWS Environment for hosting workspaces. I kept getting errors saying that workspaces was not available for the AZ my subnet was using. At first it was saying that workspaces was only available in us-east-1a, us-east-1c, and us-east-1d. Then when i tested on another account it was saying that it's only available in 'us-east-1c, us-east-1d, and us-east-1f'. Each account was different. After chatting with AWS Support, I learned that each AWS account independently maps Zones to names. Meaning us-east-1a in 1 account is not the same physical location as us-east-1a in another account. This becomes problematic when a service isn't supported in all zones. So the first step i needed to do, was to find out which zone ids workspaces will work in.  The following list was provided by AWS support.
+I ran into an interesting problem while creating some code to deploy an AWS Environment for hosting WorkSpaces. I kept getting errors saying that WorkSpaces was not available for the AZ my subnet was using. At first it was saying that WorkSpaces was only available in us-east-1a, us-east-1c, and us-east-1d. Then when I tested on another account it was saying that it's only available in 'us-east-1c, us-east-1d, and us-east-1f'. Each account was different. After chatting with AWS Support, I learned that each AWS account independently maps Zones to names. Meaning us-east-1a in 1 account is not the same physical location as us-east-1a in another account. This becomes problematic when a service isn't supported in all zones. So the first step I needed to do, was to find out which zone ids WorkSpaces will work in.  The following list was provided by AWS support.
 
 #### Workspaces Zone Mappings
 
@@ -42,9 +42,9 @@ us-east-1: use1-az6, use1-az2, use1-az4
 us-west-2: usw2-az1, usw2-az2, usw2-az3
 ````
 
-### Creating Subnets with Cloudformation.  
+### Creating Subnets with CloudFormation.  
 
-The next step was to create the subnets in Cloudformation.  
+The next step was to create the subnets in CloudFormation.  
 ````
 Type: AWS::EC2::Subnet
 Properties: 
@@ -57,7 +57,7 @@ Properties:
     - Tag
   VpcId: String
   ````
-The AvailabilityZone property must be a Zone Name, not a Zone Id. In order to know which zone names to use I had to first describe the availability zones in the cli. Comparing this output to the workspaces zone mappings, I learned that i had to build my subnets in us-east-1b, us-east-1c, us-east-1d.
+The AvailabilityZone property must be a Zone Name, not a Zone Id. In order to know which zone names to use I had to first describe the Availability Zones in the cli. Comparing this output to the WorkSpaces zone mappings, I learned that I had to build my subnets in us-east-1b, us-east-1c, us-east-1d.
 
 ````
 aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
@@ -75,7 +75,7 @@ aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
     "ZoneId": "use1-az5"
 ````
 
-Being that I have to deploy this on many accounts, i do not want to have to describe availability zones in each one, and pass the param to the correct zone name. So the next step was to create a Custom Resource that puts the Zone ID to Zone Name mappings in the SSM parameter Store, allowing me to use code like this in Cloudformation.
+Being that I have to deploy this on many accounts, I do not want to have to describe Availability Zones in each one, and pass the param to the correct zone name. So the next step was to create a Custom Resource that puts the Zone ID to Zone Name mappings in the SSM parameter Store, allowing me to use code like this in CloudFormation.
 
 
 ````

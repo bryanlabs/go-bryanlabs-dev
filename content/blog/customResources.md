@@ -1,7 +1,7 @@
 ---
-title: "Cloudformation Custom Resources"
+title: "CloudFormation Custom Resources"
 date: 2019-02-07T10:47:55+06:00
-description: "Cloudformation Custom Resources."
+description: "CloudFormation Custom Resources."
 bgImage: "images/backgrounds/blog-banner.jpg"
 bgImageAlt: "images/backgrounds/blog-banner.jpg"
 image: "images/blog/amifactory/ami_factory.PNG"
@@ -21,7 +21,7 @@ tags:
 
 #### Cloudformation Custom Resource Repo. 
 
-I'v been writting a lot of custom resources lately.
+I've been writing a lot of custom resources lately.
 
 
 ## Ready to Try it out?
