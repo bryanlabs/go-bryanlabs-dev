@@ -111,10 +111,10 @@ Resources:
 
 ## Ready to Try it out?  
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ec2zoneids&templateURL=https://bryanlabs-public.s3.amazonaws.com/bryanlabs.net_files/blog/ec2zoneids/ec2ZoneIds.yml){:target="_blank"}
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ec2zoneids&templateURL=https://bryanlabs-public.s3.amazonaws.com/bryanlabs.net_files/blog/ec2zoneids/ec2ZoneIds.yml)
 
 Feel free to use bryanlabs defaults for CodeBucket Key and object versions.  
-Or grab the [Source](https://github.com/bryanlabs/cloudformation-custom-resources/tree/master/python/ec2ZoneIds){:target="_blank"} to use your own hosted version of the code.  
+Or grab the [Source](https://github.com/bryanlabs/cloudformation-custom-resources/tree/master/python/ec2ZoneIds) to use your own hosted version of the code.  
 
 
 # HOW IT WORKS  
