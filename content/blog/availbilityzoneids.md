@@ -24,7 +24,7 @@ tags:
 
 ### Understanding AWS Availability Zones Ids and Zone Names. 
 
-I ran into an interestering problem while creating some code to deploy an AWS Environment for hosting workspaces. I kept getting errors saying that workspaces was not available for the AZ my subnet was using. At first it was saying that workspaces was only available in us-east-1a, us-east-1c, and us-east-1d. Then when i tested on another account it was saying that it's only available in 'us-east-1c, us-east-1d, and us-east-1f'. Each account was different. After chatting with AWS Support, I learned that each AWS account independently maps Zones to names. Meaning us-east-1a in 1 account is not the same physical location as us-east-1a in another account. This becomes problematic when a service isn't supported in all zones. So the first step i needed to do, was to find out which zone ids workspaces will work in.  The following list was provided by AWS support.
+I ran into an interesting problem while creating some code to deploy an AWS Environment for hosting workspaces. I kept getting errors saying that workspaces was not available for the AZ my subnet was using. At first it was saying that workspaces was only available in us-east-1a, us-east-1c, and us-east-1d. Then when i tested on another account it was saying that it's only available in 'us-east-1c, us-east-1d, and us-east-1f'. Each account was different. After chatting with AWS Support, I learned that each AWS account independently maps Zones to names. Meaning us-east-1a in 1 account is not the same physical location as us-east-1a in another account. This becomes problematic when a service isn't supported in all zones. So the first step i needed to do, was to find out which zone ids workspaces will work in.  The following list was provided by AWS support.
 
 #### Workspaces Zone Mappings
 
@@ -44,7 +44,7 @@ us-west-2: usw2-az1, usw2-az2, usw2-az3
 
 ### Creating Subnets with Cloudformation.  
 
-The next step was to create the subnets in Cloudformation.  
+When creating subnets in Cloudformation, the AvailabilityZone Name must be passed as a String.  For example us-east-1a. However, you can not use the Zone Id like use1-az2.
 ````
 Type: AWS::EC2::Subnet
 Properties: 
@@ -57,7 +57,7 @@ Properties:
     - Tag
   VpcId: String
   ````
-The AvailabilityZone property must be a Zone Name, not a Zone Id. In order to know which zone names to use I had to first describe the availability zones in the cli. Comparing this output to the workspaces zone mappings, I learned that i had to build my subnets in us-east-1b, us-east-1c, us-east-1d.
+In order to know which zone name to use I had to first describe the accounts availability zones using the cli. Comparing this output to the workspaces zone mappings, I learned that i had to build my subnets in Zone Names us-east-1b, us-east-1c, us-east-1d.
 
 ````
 aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
@@ -75,7 +75,7 @@ aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
     "ZoneId": "use1-az5"
 ````
 
-Being that I have to deploy this on many accounts, i do not want to have to describe availability zones in each one, and pass the param to the correct zone name. So the next step was to create a Custom Resource that puts the Zone ID to Zone Name mappings in the SSM parameter Store, allowing me to use code like this in Cloudformation.
+However this mapping is random for each AWS Account. us-east-1a mapped to use1-az1 in this account, but might be zone Id use1-az6 in another account. Describing the availability zones in each account before deploying the template just to pass the correct zone name parameter is not seem feasible. So, I decided to create a Custom Resource that puts the Zone ID to Zone Name mappings in the SSM parameter Store, allowing one to take advantage of Cloudformations SSM Parameter types to resolve to the proper Zone Name.
 
 
 ````
@@ -119,11 +119,10 @@ Or grab the [Source](https://github.com/bryanlabs/cloudformation-custom-resource
 
 # HOW IT WORKS  
 
-![Reference Zone Ids](../../images/blog/ec2zoneids/Reference-Zone-Ids.PNG)
 
 ### Reference Zone Ids  
 
-After the custom resource has been deployed, zone Ids can be referenced in templates like this.  
+After the custom resource has been deployed, zone Ids can be referenced in templates as seen below.  
 
 
 ````
@@ -135,15 +134,18 @@ Parameters:
         Type : 'AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>'
         Default: /azinfo/use1-az2
 ````
+![Reference Zone Ids](../../images/blog/ec2zoneids/Reference-Zone-Ids.PNG)
 
-![Zone Name to Zone Id Mappings](../../images/blog/ec2zoneids/Zone-Name-to-Zone-Id-Mappings.PNG)
 
 ### Zone Name to Zone Id Mappings  
 
-Each Zone Id as a direct mapping to Zone Names. These mappings can be seen in the SSM Parameter Store.  
+Each Zone Id has a direct mapping to the indeendently mapped Zone Name. These mappings can be seen in the SSM Parameter Store.  
 
-![Resolved Values](../../images/blog/ec2zoneids/Resolved-Values.PNG)
+![Zone Name to Zone Id Mappings](../../images/blog/ec2zoneids/Zone-Name-to-Zone-Id-Mappings.PNG)
+
 
 ### Resolved Values  
 
-The Zone Id resolves to the independently map Availability Zone Name for each AWS Account the stack is deployed to. This allows you to truely ensure all your resources across accounts are in the same physical locations.  
+During deployment, the Zone Id resolves to the independently map Availability Zone Name for each AWS Account the stack is deployed to. This allows you to truely ensure all your resources across accounts are in the same physical locations.  
+
+![Resolved Values](../../images/blog/ec2zoneids/Resolved-Values.PNG)
