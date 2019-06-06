@@ -75,7 +75,7 @@ aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
     "ZoneId": "use1-az5"
 ````
 
-However this mapping is random for each AWS Account. us-east-1a mapped to use1-az1 in this account, but might be zone Id use1-az6 in another account. Describing the availability zones in each account before deploying the template just to pass the correct zone name parameter is not seem feasible. So, I decided to create a Custom Resource that puts the Zone ID to Zone Name mappings in the SSM parameter Store, allowing one to take advantage of Cloudformations SSM Parameter types to resolve to the proper Zone Name.
+However this mapping is random for each AWS Account. us-east-1a mapped to use1-az1 in this account, but might be zone Id use1-az6 in another account. Describing the availability zones in each account before deploying the template just to pass the correct zone name parameter is not feasible. So, I decided to create a Custom Resource that puts the Zone ID to Zone Name mappings in the SSM parameter Store, allowing one to take advantage of Cloudformations SSM Parameter types to resolve to the proper Zone Name.
 
 
 ````
