@@ -24,9 +24,9 @@ tags:
 
 ### Understanding AWS Availability Zones Ids and Zone Names. 
 
-I recently learned that each AWS account independently maps Zone IDs to Zone names. Meaning us-east-1a in 1 account is not necessarly in the same physical zone Id as us-east-1a in another account. This becomes troublesome when a service, like AWS Workspaces is only supported in specific physical zone Ids. 
+I recently learned that each AWS account independently maps Physical Zone IDs to Zone names. Meaning us-east-1a in 1 account is not necessarly in the same physical zone Id as us-east-1a in another account. This can become challenging when a service like AWS Workspaces is only supported in specific physical zone Ids. 
 
-For example, in us-east-1, workspaces is only supported in.  
+For example, in the us-east-1 region, workspaces is only supported in.  
 
 ````
 use1-az2, use1-az4, use1-az6
@@ -86,7 +86,9 @@ aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
 
 This mapping shows that 
 
-````us-east-1b, us-east-1c, us-east-1d````  
+````
+us-east-1b, us-east-1c, us-east-1d
+````  
 
 are the valid Zone Names when creating subnets for the workspaces service. However this mapping is random for each AWS Account. To make this more automation friendly, I created a Cloudformation Custom Resource that puts the AWS account specific Zone Id to Zone Name mappings in the SSM parameter Store. This allows one to take advantage of Cloudformations [SSM Parameter Types](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html#aws-ssm-parameter-types) to resolve to the proper Zone Name. This custom resource places all Zone mappings in the /azinfo path.
 
