@@ -9,13 +9,13 @@ designation: "DevOps Engineer"
 type: "team"
 socialIcon:
   - icon : "fa-github"
-    link : "https://github.com/danbryan"
+    URL : "https://github.com/danbryan"
     
   - icon : "fa-linkedin"
-    link : "https://www.linkedin.com/in/danbryan80/"
+    URL : "https://www.linkedin.com/in/danbryan80/"
 
   - icon : "fa-file-pdf"
-    link : "https://s3.amazonaws.com/bryanlabs-public/assets/files/Dan_Bryan_-_Remote_DevOps_Engineer.pdf"
+    URL : "https://s3.amazonaws.com/bryanlabs-public/assets/files/Dan_Bryan_-_Remote_DevOps_Engineer.pdf"
     
 ---
 
