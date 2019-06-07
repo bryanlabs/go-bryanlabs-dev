@@ -24,13 +24,19 @@ tags:
 
 ### Understanding AWS Availability Zones Ids and Zone Names. 
 
-I recently learned that each AWS account independently maps Zone IDs to Zone names. Meaning us-east-1a in 1 account is not necessarly in the same physical zone Id as us-east-1a in another account. This becomes troublesome when a service, like AWS Workspaces is only supported in specific physical zone Ids. For example, in us-east-1, workspaces is only supported in.
+I recently learned that each AWS account independently maps Zone IDs to Zone names. Meaning us-east-1a in 1 account is not necessarly in the same physical zone Id as us-east-1a in another account. This becomes troublesome when a service, like AWS Workspaces is only supported in specific physical zone Ids. 
 
-````use1-az2, use1-az4, use1-az6````
+For example, in us-east-1, workspaces is only supported in.  
 
-but not:
+````
+use1-az2, use1-az4, use1-az6
+````    
 
-````use1-az1, use1-az3, use1-az5````
+but not:  
+
+````
+use1-az1, use1-az3, use1-az5
+````    
 
 Here is a list of all supported Physical Zone Ids for the Workspaces service in each region.  
 
