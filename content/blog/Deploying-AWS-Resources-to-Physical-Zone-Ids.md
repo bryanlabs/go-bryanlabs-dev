@@ -17,7 +17,6 @@ tags:
   - "Availability Zones"
   - "cloudformation"
   - "custom resources"
-  - "EC2"
 ---
 
 >we independently map Availability Zones to names for each AWS account. For example, the Availability Zone us-east-1a for your AWS account might not be the same location as us-east-1a for another AWS account<br><br> **[AWS Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)**
