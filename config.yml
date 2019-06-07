@@ -73,10 +73,10 @@ params:
     URL: /service
   cta:
     enable: true
-    title: DevOps Solutions
+    title: Contact Us
     bgImage: images/slider/aws.jpg
     bgImageAlt: images/slider/aws.jpg
-    btnText: Contact Us
+    btnText: Now
     URL: /contact
   footer:
     content: >-

@@ -58,7 +58,7 @@ us-west-2: usw2-az1, usw2-az2, usw2-az3
 
 ### Creating Subnets with Cloudformation.  
 
-When creating subnets in Cloudformation, the AvailabilityZone Name must be used.  For example us-east-1a. However, you can not use the Zone Id like use1-az2.
+When creating subnets in Cloudformation, the AvailabilityZone Name must be used.  For example us-east-1a is ok, but you can not use the Zone Id use1-az2.
 ````
 Type: AWS::EC2::Subnet
 Properties: 
@@ -70,6 +70,9 @@ The following command can be used to determine which zone names map to the works
 
 ````
 aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
+````    
+
+````
     "ZoneName": "us-east-1a",
     "ZoneId": "use1-az1"
     "ZoneName": "us-east-1b",
@@ -84,13 +87,7 @@ aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
     "ZoneId": "use1-az5"
 ````
 
-This mapping shows that 
-
-````
-us-east-1b, us-east-1c, us-east-1d
-````  
-
-are the valid Zone Names when creating subnets for the workspaces service. However this mapping is random for each AWS Account. To make this more automation friendly, I created a Cloudformation Custom Resource that puts the AWS account specific Zone Id to Zone Name mappings in the SSM parameter Store. This allows one to take advantage of Cloudformations [SSM Parameter Types](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html#aws-ssm-parameter-types) to resolve to the proper Zone Name. This custom resource places all Zone mappings in the /azinfo path.
+This mapping shows that us-east-1b, us-east-1c, us-east-1d are the valid Zone Names when creating subnets for the workspaces service in this account. However this mapping is random for each AWS Account. To make this more automation friendly, I created a Cloudformation Custom Resource that puts the AWS account specific Zone Id to Zone Name mappings in the SSM parameter Store. This allows one to take advantage of Cloudformations [SSM Parameter Types](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html#aws-ssm-parameter-types) to resolve to the proper Zone Name. This custom resource places all Zone mappings in the /azinfo path.
 
 
 ````

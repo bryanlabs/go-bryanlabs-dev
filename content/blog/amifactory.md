@@ -8,7 +8,7 @@ image: "images/blog/amifactory/ami_factory.PNG"
 author: "Dan Bryan"
 postType: "Article"
 type: "post"
-draft: false
+draft: true
 comments: true
 categories: 
   - "Cloudformation"
