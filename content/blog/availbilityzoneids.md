@@ -4,7 +4,7 @@ date: 2019-06-05T10:30:55-05:00
 description: "Using Availability Zones Ids instead of Zone Names."
 bgImage: "images/backgrounds/blog-banner.jpg"
 bgImageAlt: "images/backgrounds/blog-banner.jpg"
-image: "images/blog/ec2zoneids/ec2zoneids.png"
+image: "images/blog/ec2zoneids/Availability-Zone-Names-and-Ids.PNG"
 author: "Dan Bryan"
 postType: "Article"
 type: "post"
