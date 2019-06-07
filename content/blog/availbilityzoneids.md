@@ -1,10 +1,10 @@
 ---
-title: "Availability Zone Names and Ids"
+title: "Deploying AWS Resources to Physical Zone Ids"
 date: 2019-06-05T10:30:55-05:00
-description: "Using Availability Zones Ids instead of Zone Names."
+description: "Deploying AWS Resources to Physical Zone Ids."
 bgImage: "images/backgrounds/blog-banner.jpg"
 bgImageAlt: "images/backgrounds/blog-banner.jpg"
-image: "images/blog/ec2zoneids/Availability-Zone-Names-and-Ids.PNG"
+image: "images/blog/ec2zoneids/Deploying-AWS-Resources-to-Physical-Zone-Ids.PNG"
 author: "Dan Bryan"
 postType: "Article"
 type: "post"
