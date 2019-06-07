@@ -1,10 +1,10 @@
 ---
-title: "Deploy AWS Resources to ZoneIds"
+title: "Deploy AWS Resources to Zone Ids"
 date: 2019-06-05T10:30:55-05:00
-description: "Deploy AWS Resources to ZoneIds."
+description: "Deploy AWS Resources to Zone Ids."
 bgImage: "images/backgrounds/blog-banner.jpg"
 bgImageAlt: "images/backgrounds/blog-banner.jpg"
-image: "images/blog/Deploy-AWS-Resources-to-ZoneIds/Deploy-AWS-Resources-to-ZoneIds.PNG"
+image: "images/blog/Deploy-AWS-Resources-to-Zone-Ids/Deploy-AWS-Resources-to-Zone-Ids.PNG"
 author: "Dan Bryan"
 postType: "Article"
 type: "post"
@@ -124,7 +124,7 @@ Resources:
 
 ### Deploy the Custom Resource  
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ec2zoneids&templateURL=https://bryanlabs-public.s3.amazonaws.com/bryanlabs.net_files/blog/Deploy-AWS-Resources-to-ZoneIds/ec2ZoneIds.yml)
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ec2zoneids&templateURL=https://bryanlabs-public.s3.amazonaws.com/bryanlabs.net_files/blog/Deploy-AWS-Resources-to-Zone-Ids/ec2ZoneIds.yml)
 
 Feel free to use bryanlabs defaults for CodeBucket Key and object versions.  
 Or grab the [Source](https://github.com/bryanlabs/cloudformation-custom-resources/tree/master/python/ec2ZoneIds) to use your own hosted version of the code.  
@@ -144,21 +144,21 @@ Parameters:
         Type : 'AWS::SSM::Parameter::Value<AWS::EC2::AvailabilityZone::Name>'
         Default: /azinfo/use1-az2
 ````
-![Reference Zone Ids](../../images/blog/Deploy-AWS-Resources-to-ZoneIds/Reference-Zone-Ids.PNG)
+![Reference Zone Ids](../../images/blog/Deploy-AWS-Resources-to-Zone-Ids/Reference-Zone-Ids.PNG)
 
 
 ### Zone Name to Zone Id Mappings  
 
 Each Zone Id has a direct mapping to the indeendently mapped Zone Name. These mappings can be seen in the SSM Parameter Store.  
 
-![Zone Name to Zone Id Mappings](../../images/blog/Deploy-AWS-Resources-to-ZoneIds/Zone-Name-to-Zone-Id-Mappings.PNG)
+![Zone Name to Zone Id Mappings](../../images/blog/Deploy-AWS-Resources-to-Zone-Ids/Zone-Name-to-Zone-Id-Mappings.PNG)
 
 
 ### Resolved Values  
 
 During deployment, the Zone Id resolves to the independently map Availability Zone Name for each AWS Account the stack is deployed to. This allows you to truely ensure all your resources across accounts are in the same physical locations.  
 
-![Resolved Values](../../images/blog/Deploy-AWS-Resources-to-ZoneIds/Resolved-Values.PNG)
+![Resolved Values](../../images/blog/Deploy-AWS-Resources-to-Zone-Ids/Resolved-Values.PNG)
 
 ### Summary  
 
