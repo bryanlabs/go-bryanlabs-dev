@@ -10,7 +10,7 @@ sliderItem:
     button:
       enable : true
       btnText : "more details"
-      URL : "/about"
+      URL : "/contact"
       animation : "zoomIn"
 
   - preTitle : "We love"
@@ -22,7 +22,7 @@ sliderItem:
     button:
       enable : true
       btnText : "more details"
-      URL : "/about"
+      URL : "/contact"
       animation : "zoomIn"  
 
 # banner feature
