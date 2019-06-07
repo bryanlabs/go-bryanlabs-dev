@@ -1,7 +1,7 @@
 ---
 title: "Deploying AWS Resources to Physical Zone Ids"
 date: 2019-06-05T10:30:55-05:00
-description: "Deploying AWS Resources to Physical Zone Ids."
+description: "Deploy AWS Resources to Zone Ids."
 bgImage: "images/backgrounds/blog-banner.jpg"
 bgImageAlt: "images/backgrounds/blog-banner.jpg"
 image: "images/blog/ec2zoneids/Deploying-AWS-Resources-to-Physical-Zone-Ids.PNG"
