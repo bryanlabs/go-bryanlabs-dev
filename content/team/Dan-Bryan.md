@@ -15,7 +15,7 @@ socialIcon:
     URL : "https://www.linkedin.com/in/danbryan80/"
 
   - icon : "fa-file"
-    URL : "https://s3.amazonaws.com/bryanlabs-public/assets/files/Dan_Bryan_-_Remote_DevOps_Engineer.pdf"
+    URL : "https://bryanlabs-public.s3.amazonaws.com/resume/resume.pdf"
     
 ---
 
