@@ -23,7 +23,7 @@ tags:
 
 ### Understanding AWS Availability Zones Ids and Zone Names. 
 
-I recently learned that each AWS account independently maps Physical Zone IDs to Zone names. Meaning us-east-1a in 1 account is not necessarly in the same physical zone Id as us-east-1a in another account. This can become challenging when a service like AWS Workspaces is only supported in specific physical zone Ids. 
+I recently learned that each AWS account independently maps Physical Zone IDs to Zone names. Meaning us-east-1a in 1 account is not necessarily in the same physical zone Id as us-east-1a in another account. This can become challenging when a service like AWS Workspaces is only supported in specific physical zone Ids. 
 
 For example, in the us-east-1 region, workspaces is only supported in.  
 
@@ -55,9 +55,9 @@ us-east-1: use1-az6, use1-az2, use1-az4
 us-west-2: usw2-az1, usw2-az2, usw2-az3
 ````
 
-### Creating Subnets with Cloudformation.  
+### Creating Subnets with CloudFormation.  
 
-When creating subnets in Cloudformation, the AvailabilityZone Name must be used.  For example us-east-1a is ok, but you can not use the Zone Id use1-az2.
+When creating subnets in CloudFormation, the AvailabilityZone Name must be used.  For example us-east-1a is ok, but you cannot use the Zone Id use1-az2.
 ````
 Type: AWS::EC2::Subnet
 Properties: 
@@ -86,7 +86,7 @@ aws ec2 describe-availability-zones --region us-east-1 | jq .[] |grep Zone
     "ZoneId": "use1-az5"
 ````
 
-This mapping shows that us-east-1b, us-east-1c, us-east-1d are the valid Zone Names when creating subnets for the workspaces service in this account. However this mapping is random for each AWS Account. To make this more automation friendly, I created a Cloudformation Custom Resource that puts the AWS account specific Zone Id to Zone Name mappings in the SSM parameter Store. This allows one to take advantage of Cloudformations [SSM Parameter Types](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html#aws-ssm-parameter-types) to resolve to the proper Zone Name. This custom resource places all Zone mappings in the /azinfo path.
+This mapping shows that us-east-1b, us-east-1c, us-east-1d are the valid Zone Names when creating subnets for the workspaces service in this account. However, this mapping is random for each AWS Account. To make this more automation friendly, I created a CloudFormation Custom Resource that puts the AWS account specific Zone Id to Zone Name mappings in the SSM parameter Store. This allows one to take advantage of CloudFormations [SSM Parameter Types](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html#aws-ssm-parameter-types) to resolve to the proper Zone Name. This custom resource places all Zone mappings in the /azinfo path.
 
 
 ````
@@ -149,17 +149,17 @@ Parameters:
 
 ### Zone Name to Zone Id Mappings  
 
-Each Zone Id has a direct mapping to the indeendently mapped Zone Name. These mappings can be seen in the SSM Parameter Store.  
+Each Zone Id has a direct mapping to the independently mapped Zone Name. These mappings can be seen in the SSM Parameter Store.  
 
 ![Zone Name to Zone Id Mappings](../../images/blog/Deploy-AWS-Resources-to-Zone-Ids/Zone-Name-to-Zone-Id-Mappings.PNG)
 
 
 ### Resolved Values  
 
-During deployment, the Zone Id resolves to the independently map Availability Zone Name for each AWS Account the stack is deployed to. This allows you to truely ensure all your resources across accounts are in the same physical locations.  
+During deployment, the Zone Id resolves to the independently map Availability Zone Name for each AWS Account the stack is deployed to. This allows you to truly ensure all your resources across accounts are in the same physical locations.  
 
 ![Resolved Values](../../images/blog/Deploy-AWS-Resources-to-Zone-Ids/Resolved-Values.PNG)
 
 ### Summary  
 
-Now you can ensure resources are deployed to specific physical Zone Ids. If you know of any other service specific zone restrictions please comment below and i'll keep a list going. Thanks for reading! 
+Now you can ensure resources are deployed to specific physical Zone Ids. If you know of any other service specific zone restrictions, please comment below and I'll keep a list going. Thanks for reading! 
