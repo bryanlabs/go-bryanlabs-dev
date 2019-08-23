@@ -20,3 +20,8 @@ testimonialItem:
     name : "Maddie Collins"
     designation : "Talent Specialist @ Toptal"
     content : "Dan is a pleasure to work with. I am impressed with his performance throughout our vetting process and I am eager to see him excel in DevOps projects throughout his career."
+
+  - clientImage : "images/testimonial/jasen-fici.jpeg"
+    name : "Jasen Fici"
+    designation : "Principal @ StatusCast"
+    content : "We found Dan through a long time business partner.  He came highly recommended and lived up to the expectation.  Dan was incredibly knowledgeable and did a great job implementing an AWS solution for us.  I would recommed Dan for any AWS project you have."
