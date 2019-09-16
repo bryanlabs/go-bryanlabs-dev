@@ -53,7 +53,7 @@ params:
   topHeader:
     enable: true
     email: info@bryanlabs.net
-    phone: '443-569-4343'
+    phone: '443-333-1147'
     icon:
       - icon: fa-github
         URL: 'https://github.com/bryanlabs'
