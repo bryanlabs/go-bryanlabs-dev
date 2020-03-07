@@ -20,10 +20,12 @@
       </aside>
       <div class="col-lg-8">
         <h2>{{ .Title }}</h2>
-        <img src="{{ .Params.Image | absURL }}" alt="service thumb" class="img-fluid w-100 mb-5">
+        <!-- <img src="{{ .Params.Image | absURL }}" alt="service thumb" class="img-fluid w-100 mb-5"> -->
         <div class="content">
           {{ .Content }}
         </div>
+        <div class="calendly-inline-widget" data-url="https://calendly.com/bryanlabs/bl-on-demand" style="min-width:320px;height:630px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
       </div>
     </div>
   </div>
