@@ -14,7 +14,7 @@ Dan Bryan
 
 Top Technical Skills
 ---------
-Amazon Web Services, Linux, Security, Python, Go, Kubernetes
+Amazon Web Services, Automation, Python, Go, Linux, Kubernetes
 
 Education
 ---------
@@ -40,14 +40,28 @@ Certifications
 * CompTIA Network+ - COMP001008999716 (legacy)
 * CompTIA A+ - COMP0010621927 (legacy)
 
+Awards and Recognitions
+----------------------------------------
+
+* AWS Devops Pro Subject Matter Expert
+
+
 Experience
 ----------
 
 **Owner @ Bryanlabs:** October 2018 - Present
 
-Founded in 2018, Bryanlabs focuses on Development and Operations in AWS environments.:
+Founded in 2018, Bryanlabs focuses on automation and development in AWS environments.:
 
-* Blogger on AWS Automations.
+* Blogger on AWS automation and development.
+* Question writer/external SME for AWS DevOps Professional Certification Exam.
+* Created complex IAM policies to align with NIST 800-53 standards like HIPAA, PCI, ISO...
+* Created CFT remediation to ensure all non whitelisted s3 buckets and objects remain private.
+* Created CFT remediation to ensure all non whitelisted RDS / Redshift clusters remain private.
+* Created CFT remediation to ensure EBS and RDS snapshots remain private.
+* Created CFT remediation to ensure users could only use the AWS API during office hours and from trusted locations.
+* Assisted client with moving a public RDS instance to a private instance and reconfiguring the network, so lambda could communicate with the private DB.
+* Created custom AWS health API tool, to publish all health events to a clients rest API.
 
 
 **Freelance DevOps Engineer @ Toptal** October 2018 - Present
@@ -55,13 +69,12 @@ Founded in 2018, Bryanlabs focuses on Development and Operations in AWS environm
 Toptal is an exclusive network of the top freelance software developers, designers, finance experts, and project managers in the world. Top companies rely on Toptal freelancers for their most important projects.:
 
 * Provided AWS Consulting to Toptal Developers.
-* Technical consultent for developing a new business proposal for a key Toptal client.
+* Technical consultant for developing a new business proposal for a key Toptal client.
 
 **DevOps Engineer @ Stratus Solutions** October 2016 - Present
 
 Engineered AWS environments, created automation solutions, and prototyped new services:
 
-* Question writer/external SME for AWS DevOps Professional Certification Exam.
 * Automated AWS infrastructure using CloudFormation and terraform.
 * Developed various GoLang micro-services focused on integration with AWS, Microsoft, and SafeNet APIs.
 * Deployed Serverless website using CodeStar, CodeCommit, CodeBuild, CodePipeline, S3, Lambda (GoLang), API Gateway, CloudFront.

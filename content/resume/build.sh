@@ -4,4 +4,4 @@ if ! command -v /usr/local/go/bin/go ; then
     sudo dpkg -i pandoc-2.7.2-1-amd64.deb 
 fi
 make
-AWS_PROFILE=BRYANLABS aws s3 sync output/ s3://bryanlabs-public/resume/ --exclude "*.log" --acl public-read
+AWS_PROFILE=bryanlabs aws s3 sync output/ s3://bryanlabs-public/resume/ --exclude "*.log" --acl public-read
