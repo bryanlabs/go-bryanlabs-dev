@@ -40,11 +40,6 @@ Certifications
 * CompTIA Network+ - COMP001008999716 (legacy)
 * CompTIA A+ - COMP0010621927 (legacy)
 
-Awards and Recognitions
-----------------------------------------
-
-* AWS Devops Pro Subject Matter Expert
-
 
 Experience
 ----------

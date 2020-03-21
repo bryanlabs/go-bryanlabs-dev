@@ -4,8 +4,8 @@ utilitydata.comment={
  ["escape"]="[===[ ... ]===]",
  ["file"]="resume",
  ["format"]="cont-en",
- ["stamp"]="2017.05.15 21:48",
- ["version"]=1.3,
+ ["stamp"]="2019.03.21 21:39",
+ ["version"]=1.31,
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -19,7 +19,7 @@ if not utilitydata.job.variables then utilitydata.job.variables = { } end
 
 utilitydata.job.variables.collected={
  ["macros"]={},
- ["randomseed"]=0.37636516027915,
+ ["randomseed"]=0.29694424616173,
  ["sectionblockorder"]={},
 }
 
@@ -28,7 +28,7 @@ if not utilitydata.job.structure then utilitydata.job.structure = { } end
 
 utilitydata.job.structure.collected={
  ["branches"]={},
- ["name"]="resume",
+ ["name"]="",
  ["type"]="text",
 }
 
@@ -55,13 +55,13 @@ utilitydata.job.passes.collected={
   { 6, 0 },
  },
  ["itemgroup:itemize:2"]={
-  { 1, 0 },
+  { 9, 0 },
  },
  ["itemgroup:itemize:3"]={
   { 2, 0 },
  },
  ["itemgroup:itemize:4"]={
-  { 17, 0 },
+  { 16, 0 },
  },
  ["itemgroup:itemize:5"]={
   { 13, 0 },
@@ -99,6 +99,57 @@ utilitydata.structures.specials.collected={
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.sections then utilitydata.structures.sections = { } end
+
+utilitydata.structures.sections.collected={
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=1,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=2,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=3,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=4,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+ {
+  ["block"]="bodypart",
+  ["conversionset"]="default",
+  ["hidenumber"]=true,
+  ["language"]="en",
+  ["numbers"]=5,
+  ["separatorset"]="default",
+  ["set"]="all",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
 if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
 
 utilitydata.structures.counters.collected={
@@ -127,7 +178,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 6, 1, 2, 17, 13, 11, 8, 4, 6, 3, 3, 6 },
+  { 0, 6, 9, 2, 16, 13, 11, 8, 4, 6, 3, 3, 6 },
  },
  ["linenote"]={
   { 0 },
@@ -139,7 +190,7 @@ utilitydata.structures.counters.collected={
   { 4 },
  },
  ["subpage"]={
-  { 1 },
+  { 4 },
  },
  ["table"]={
   { 0 },
@@ -154,8 +205,8 @@ if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
 
 utilitydata.structures.lists.collected={
  {
-  ["metadata"]=1,
-  ["numberdata"]=3,
+  ["metadata"]=6,
+  ["numberdata"]=7,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=1,
@@ -169,8 +220,8 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=4,
-  ["numberdata"]=6,
+  ["metadata"]=8,
+  ["numberdata"]=9,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=2,
@@ -184,8 +235,8 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=4,
-  ["numberdata"]=8,
+  ["metadata"]=8,
+  ["numberdata"]=10,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=3,
@@ -199,7 +250,7 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=9,
+  ["metadata"]=11,
   ["references"]={
    ["internal"]=4,
    ["order"]=1,
@@ -211,7 +262,7 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=9,
+  ["metadata"]=11,
   ["references"]={
    ["internal"]=5,
    ["order"]=2,
@@ -223,8 +274,8 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=4,
-  ["numberdata"]=11,
+  ["metadata"]=8,
+  ["numberdata"]=12,
   ["references"]={
    ["block"]="bodypart",
    ["internal"]=6,
@@ -238,7 +289,7 @@ utilitydata.structures.lists.collected={
   },
  },
  {
-  ["metadata"]=4,
+  ["metadata"]=8,
   ["numberdata"]=13,
   ["references"]={
    ["block"]="bodypart",
@@ -342,8 +393,19 @@ if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences 
 utilitydata.job.fileobjreferences.collected={
 }
 
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.embedded then utilitydata.job.embedded = { } end
+
+utilitydata.job.embedded.collected={
+}
+
 utilitydata.job.packed={
  ["index"]={
+  { 0, 0, 1 },
+  { 0, 0, 1, 1 },
+  { 0, 0, 1, 2 },
+  { 0, 0, 1, 3 },
+  { 0, 0, 1, 4 },
   {
    ["catcodes"]=8,
    ["coding"]="tex",
@@ -352,13 +414,12 @@ utilitydata.job.packed={
    ["level"]=3,
    ["name"]="section",
   },
-  { 0, 0, 1 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=2,
+   ["numbers"]=1,
    ["separatorset"]="default",
    ["set"]="all",
   },
@@ -370,23 +431,21 @@ utilitydata.job.packed={
    ["level"]=4,
    ["name"]="subsection",
   },
-  { 0, 0, 1, 1 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=5,
+   ["numbers"]=2,
    ["separatorset"]="default",
    ["set"]="all",
   },
-  { 0, 0, 1, 2 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=7,
+   ["numbers"]=3,
    ["separatorset"]="default",
    ["set"]="all",
   },
@@ -396,23 +455,21 @@ utilitydata.job.packed={
    ["level"]=4,
    ["name"]="description",
   },
-  { 0, 0, 1, 3 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=10,
+   ["numbers"]=4,
    ["separatorset"]="default",
    ["set"]="all",
   },
-  { 0, 0, 1, 4 },
   {
    ["block"]="bodypart",
    ["conversionset"]="default",
    ["hidenumber"]=true,
    ["language"]="en",
-   ["numbers"]=12,
+   ["numbers"]=5,
    ["separatorset"]="default",
    ["set"]="all",
   },
@@ -430,6 +487,7 @@ utilitydata.job.packed={
   ["metadata"]=true,
   ["numberdata"]=true,
   ["numbers"]=true,
+  ["ownnumbers"]=true,
   ["pagedata"]=true,
   ["prefixdata"]=true,
   ["processors"]=true,
@@ -438,6 +496,7 @@ utilitydata.job.packed={
  },
  ["skip"]={
   ["datasets"]=true,
+  ["positions"]=true,
   ["userdata"]=true,
  },
  ["version"]=1.02,
