@@ -14,7 +14,7 @@ Dan Bryan
 
 Top Technical Skills
 ---------
-Amazon Web Services, Automation, Python, Go, Linux, Kubernetes
+Amazon Web Services, Automation, Terraform, Cloudformation.
 
 Education
 ---------
