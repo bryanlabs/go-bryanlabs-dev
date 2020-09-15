@@ -34,7 +34,7 @@ Certifications
 ----------------------------------------
 
 * AWS DevOps Professional - V64WBJVKCBR4QGCE
-* AWS Certified Developer - AWS-ADEV-7883
+* AWS Certified Developer Associate  - GB47ENDCKMBE1RCT
 * (ISC)² CISSP - 410338
 * CCNA Security - CSCO11709829 (previously held)
 * CompTIA Network+ - COMP001008999716 (legacy)
@@ -48,6 +48,12 @@ Experience
 
 Founded in 2018, Bryanlabs focuses on automation and development in AWS environments.:
 
+* Lead the development of a terraform project to quickly provision a managed development environments in AWS.
+* Created Terraform modules for deploying an AWS networking solution across multiple AWS accounts.
+* Created Terraform module for deploying Microsoft Active Directory on EC2 in AWS.
+* Oversaw the development of many other terraform modules to include, AWS DNS, Governance Software, Tenable Security Center, AMI Factory, and Certificate management.
+* Created CI/CD pipeline in gitlab to validate terraform code, deploy new features to a staging environment, and run unit tests before accepting.
+* Integrated Terragrunt into terraform deployment strategy to keep modules dry, and facilitate orchestration of module deployment.
 * Blogger on AWS automation and development.
 * Question writer/external SME for AWS DevOps Professional Certification Exam.
 * Created complex IAM policies to align with NIST 800-53 standards like HIPAA, PCI, ISO...
@@ -63,10 +69,11 @@ Founded in 2018, Bryanlabs focuses on automation and development in AWS environm
 
 Toptal is an exclusive network of the top freelance software developers, designers, finance experts, and project managers in the world. Top companies rely on Toptal freelancers for their most important projects.:
 
+* Provided AWS Well Architected Reviews for Key Toptal clients.
 * Provided AWS Consulting to Toptal Developers.
 * Technical consultant for developing a new business proposal for a key Toptal client.
 
-**DevOps Engineer @ Stratus Solutions** October 2016 - Present
+**DevOps Engineer @ Applied Insight** October 2016 - July 2020
 
 Engineered AWS environments, created automation solutions, and prototyped new services:
 
