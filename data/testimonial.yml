@@ -1,6 +1,7 @@
 titleSM : "Testimonials"
 title : "What People Are Saying?"
 testimonialItem:
+
   - clientImage : "images/testimonial/ross-bowman.png"
     name : "Ross Bowman"
     designation : "Partnerships Manager @ Toptal"
@@ -25,3 +26,23 @@ testimonialItem:
     name : "Jasen Fici"
     designation : "Principal @ StatusCast"
     content : "We found Dan through a long time business partner.  He came highly recommended and lived up to the expectation.  Dan was incredibly knowledgeable and did a great job implementing an AWS solution for us.  I would recommed Dan for any AWS project you have."
+
+  - clientImage : "images/testimonial/michael-wilkins.png"
+    name : "Michael Wilkins"
+    designation : "Cloud Engineer @ Applied Insight"
+    content : "Working with Dan for the past year has significantly reduced my learning curve for AWS. I'm always impressed with his ability to automate and future-proof just about anything. Dan always delivers great work and solutions at a fast pace. 100% recommend."
+
+  - clientImage : "images/testimonial/melvin-skolnick.png"
+    name : "Melvin Skolnick"
+    designation : "Cloud Engineer @ Applied Insight"
+    content : "Dan's technical prowess is second only to his ability to dissect problems and find their root causes. Dan is great at weighing pros and cons of solutions, designing with efficiency and improving code. His skills not only apply to the areas he excels at like Cloud Computing and Devops but also emerging technologies he picks up very quickly. If you need someone who can dive in quickly and comprehend at a glance, Dan is your man."
+
+  - clientImage : "images/testimonial/jasmine-olson.png"
+    name : "Jasmine Olson"
+    designation : "Partnerships Analyst @ Toptal"
+    content : "Dan's technical knowledge of AWS DevOps has been instrumental for my team. He is a gifted architect and a highly effective consultant, so naturally we turn to Dan when we need AWS workloads reviewed. His ability to remediate issues and design solutions for continuous improvement is invaluable."
+
+  - clientImage : "images/testimonial/brandon-muller.png"
+    name : "Brandon Muller"
+    designation : "Systems Administrator @ Applied Insight"
+    content : "I very much enjoy working with Dan and highly recommend his services to any organization. Dan is an absolute wealth of AWS knowledge and is always happy to share it. I can't thank him enough for all that he has taught me."
