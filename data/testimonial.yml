@@ -46,3 +46,8 @@ testimonialItem:
     name : "Brandon Muller"
     designation : "Systems Administrator @ Applied Insight"
     content : "I very much enjoy working with Dan and highly recommend his services to any organization. Dan is an absolute wealth of AWS knowledge and is always happy to share it. I can't thank him enough for all that he has taught me."
+
+  - clientImage : "images/testimonial/chris-smith.png"
+    name : "Chris Smith"
+    designation : "Director of Engineering @ Applied Insight"
+    content : "Working with Dan has been fantastic experience. He brings a wealth of knowledge and experience to bear when solving the most complex DevOps and Cloud Engineering challenges. Dan’s unbiased analysis and straight-forward recommendations have helped us avoid unnecessary technical debt and implement more efficient cloud operations."
