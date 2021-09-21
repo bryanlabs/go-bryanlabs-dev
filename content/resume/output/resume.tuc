@@ -46,46 +46,43 @@ utilitydata.job.passes.collected={
   { 6, 0 },
  },
  ["itemgroup:itemize:10"]={
-  { 8, 0 },
- },
- ["itemgroup:itemize:11"]={
   { 4, 0 },
  },
- ["itemgroup:itemize:12"]={
+ ["itemgroup:itemize:11"]={
   { 6, 0 },
+ },
+ ["itemgroup:itemize:12"]={
+  { 3, 0 },
  },
  ["itemgroup:itemize:13"]={
   { 3, 0 },
  },
  ["itemgroup:itemize:14"]={
-  { 3, 0 },
- },
- ["itemgroup:itemize:15"]={
   { 6, 0 },
  },
  ["itemgroup:itemize:2"]={
-  { 4, 0 },
+  { 6, 0 },
  },
  ["itemgroup:itemize:3"]={
-  { 9, 0 },
+  { 3, 0 },
  },
  ["itemgroup:itemize:4"]={
-  { 3, 0 },
- },
- ["itemgroup:itemize:5"]={
   { 15, 0 },
  },
- ["itemgroup:itemize:6"]={
+ ["itemgroup:itemize:5"]={
   { 3, 0 },
  },
- ["itemgroup:itemize:7"]={
+ ["itemgroup:itemize:6"]={
   { 16, 0 },
  },
- ["itemgroup:itemize:8"]={
+ ["itemgroup:itemize:7"]={
   { 13, 0 },
  },
- ["itemgroup:itemize:9"]={
+ ["itemgroup:itemize:8"]={
   { 11, 0 },
+ },
+ ["itemgroup:itemize:9"]={
+  { 8, 0 },
  },
 }
 
@@ -187,7 +184,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 6, 4, 9, 3, 15, 3, 16, 13, 11, 8, 4, 6, 3, 3, 6 },
+  { 0, 6, 6, 3, 15, 3, 16, 13, 11, 8, 4, 6, 3, 3, 6 },
  },
  ["itemgroup:itemize:note"]={
   { 0 },
@@ -199,10 +196,10 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["realpage"]={
-  { 6 },
+  { 5 },
  },
  ["subpage"]={
-  { 6 },
+  { 5 },
  },
  ["table"]={
   { 0 },
@@ -211,7 +208,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["userpage"]={
-  { 6 },
+  { 5 },
  },
 }
 
@@ -359,13 +356,6 @@ utilitydata.structures.pages.collected={
   ["prefixdata"]=15,
   ["state"]="start",
  },
- {
-  ["block"]="bodypart",
-  ["number"]=6,
-  ["numberdata"]=14,
-  ["prefixdata"]=15,
-  ["state"]="start",
- },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -378,7 +368,6 @@ if not utilitydata.structures then utilitydata.structures = { } end
 if not utilitydata.structures.references then utilitydata.structures.references = { } end
 
 utilitydata.structures.references.referred={
- { 6, 1 },
 }
 
 if not utilitydata.job then utilitydata.job = { } end

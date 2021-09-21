@@ -14,7 +14,7 @@ Dan Bryan
 
 Top Technical Skills
 ---------
-Amazon Web Services, Automation, Terraform, Cloudformation.
+Amazon Web Services, Automation, Terraform, Defi, Business
 
 Education
 ---------
@@ -44,28 +44,17 @@ Certifications
 Experience
 ----------
 
-**Owner @ Bryanlabs:** October 2018 - Present
-
-As a small business owner, I learned that I also love business.  Here are some of those experiences:
-
-* Understanding US tax code has become a passion of mine. Simple things like, using form 2553 to elect scorp status to split income into a W2 and K1 to save on FICA.  These IRS forms are very similar to the Technical RFC's I read and contributed to back when I was a PKI engineer in love with RFC 2560. I enjoy this legalistic aspect of both protocols, and the legal system.
-* I learned alot about investments too.  The fact that one could use their scorp to adopt a solo 401K plan, then have that plan purchase an LLC, and then do self directed investing.  Back in 2020 I created Self Directed 401K, IRA, HSA LLCs, and made crypto investments.
-* Being the manager of these 4 companies required that I learn how to do the book keeping too.  I learned all about how use systems that manage payroll and books.  I use Quick Books Online to manage 6 different sets of books.  I put a lot of effort into creating clean simple to understand P&Ls, balance sheets, cash flows.  
-* I have experience writing proposals, my company even won a grant this year from the ethereum foundation based on a proposal i submitted. 
-
 **Defi Engineer @ Bryanlabs:** October 2020 - Present
 
 During my time at Bryanlabs, I also had a focus on using Defi:
 
-* I started off by learning about ethereum and it's need to migrate to proof of stake.  Being technical I decided to become an ethereum2 validator.  I participated in Medalla, Spadina, Zinken, and Pyrmont testnets. I also was part of the Serenity Launch and still am an active validaor. https://app.poap.xyz/scan/danb.eth
-* A college and me submitted and won a grant to the ethereum foundation for the eth-docker project. http://eth-docker.net/  https://github.com/eth2-educators/eth2-docker and we still actively develop it.
-* On Ethereum I read white papers, and used many Dapps to include.  AAVE, Uniswap,1inch catnip, synthetix, dYdX, opensea
-* On Binance Smart Chain I used Pancake Swap, Venus, autofarm, pancakebunny, jetfuel finance, yeild watch, linear finance
-* I have run a Theta guardian node, and edge node
-* I have provided liquidity on several decentralized Exchanges, and participated in various farms.
-* I'v spent  a lot of time keeping up with the hype and trends too.  Daily consumer of crypto banter, elliotrades, dan teaches crypto, altcoin daily, bankless.
-* Lately I have been very interested in Cardano and am excited for their alonzo launch introducing smart contracts.
-* I have done some work on chainlink as well.  Mostly from an Architecture standpoint. A college of mine won 2nd place in the chainlink olympics, and consulted me to help design the AWS Architecture.
+* I started off by learning about ethereum and it's need to migrate to proof of stake.  Being technical I decided to become an ethereum2 validator.  I participated in Medalla, Spadina, Zinken, and Pyrmont testnets. I also was part of the Serenity Launch and still am an active validator. https://app.poap.xyz/scan/danb.eth
+* A college and I submitted and won a grant to the ethereum foundation for the eth-docker project. http://eth-docker.net/  https://github.com/eth2-educators/eth2-docker and we still actively develop it.
+* I helped design a chainlink Architecture for a college of mine who won 2nd place in the chainlink olympics.
+* I frequently read white papers, research Dapps,and engage with developer communities on Discord. 
+* I am experienced in Defi, Dexes, AMMs, Lending, Savings, and synthetics.
+* Lately I have been very interested in terra and other blockchains with plans to integrate into IBC.
+
 
 **AWS Subject Matter Expert @ Bryanlabs:** October 2018 - Present
 During my time at Bryanlabs I also have been recognized by AWS as a subject matter expert in Devops.:
@@ -221,6 +210,3 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 * Attended '2600 Hacker Quarterly' Meetings in Baltimore.
 
 ----
-
-> <dan@bryanlabs.net> • +01 (443) 569 4343\
-> Laurel, MD, USA
