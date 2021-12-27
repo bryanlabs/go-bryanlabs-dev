@@ -53,7 +53,7 @@ params:
   topHeader:
     enable: true
     email: info@bryanlabs.net
-    phone: '443-333-1147'
+    phone: '667-271-0105'
     icon:
       - icon: fa-github
         URL: 'https://github.com/bryanlabs'
@@ -110,7 +110,7 @@ params:
       title: Contact
       contactList:
         - listItem: 'Laurel, MD'
-        - listItem: +1 443 569 4343
+        - listItem: +1 334 271 0105
         - listItem: info@bryanlabs.net
   newsletter:
     enable: false
