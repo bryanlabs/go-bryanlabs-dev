@@ -21,7 +21,7 @@ structure       > sectioning > subsection @ level 4 : 0.0.1.4 -> Experience
 backend         > xmp > using file '/usr/share/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
 
-Overfull \hbox (7.51535pt too wide) in paragraph at lines 248--251
+Overfull \hbox (7.51535pt too wide) in paragraph at lines 249--252
  [][][] <1: texgyreheros-regular @ 11.0pt> De-vel-oped var-i-ous GoLang micro-services fo-cused on in-te-gra-tion with AWS, Mi-crosoft, and SafeNet
 
 \hbox(11.62192+4.51962)x483.69687, glue set - 1.0, direction TLT
@@ -39,9 +39,8 @@ Overfull \hbox (7.51535pt too wide) in paragraph at lines 248--251
 .\boundary=1
 .etc.
 
-pages           > flushing realpage 2, userpage 2, subpage 2
 
-Overfull \hbox (8.0376pt too wide) in paragraph at lines 251--254
+Overfull \hbox (8.0376pt too wide) in paragraph at lines 252--255
  [][][] <1: texgyreheros-regular @ 11.0pt> De-ployed Server-less web-site us-ing CodeStar, Code-Com-mit, Code-Build, Code-Pipeline, S3, Lambda
 
 \hbox(11.62192+4.51962)x483.69687, glue set - 1.0, direction TLT
@@ -59,6 +58,7 @@ Overfull \hbox (8.0376pt too wide) in paragraph at lines 251--254
 .\boundary=1
 .etc.
 
+pages           > flushing realpage 2, userpage 2, subpage 2
 pages           > flushing realpage 3, userpage 3, subpage 3
 pages           > flushing realpage 4, userpage 4, subpage 4
 pages           > flushing realpage 5, userpage 5, subpage 5
@@ -76,10 +76,10 @@ system          > start used files
 
 system          >    1: filename=char-prv.lua filetype=tex format=tex foundname=/usr/share/texmf-dist/tex/context/base/mkiv/char-prv.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/char-prv.lua usedmethod=database
 system          >    2: filename=cont-yes.mkiv filetype=tex foundname=/usr/share/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv fullname=/usr/share/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-system          >    3: filename=publ-imp-default.lua filetype=lua foundname=/usr/share/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    3: filename=publ-imp-default.lua filetype=scripts foundname=/usr/share/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 system          >    4: filename=cont-new.mkiv filetype=tex foundname=/usr/share/texmf-dist/tex/context/base/mkiv/cont-new.mkiv fullname=/usr/share/texmf-dist/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-system          >    5: filename=lang-exc.lua filetype=lua foundname=/usr/share/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
-system          >    6: filename=lang-us.lua filetype=lua foundname=/usr/share/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    5: filename=lang-exc.lua filetype=scripts foundname=/usr/share/texmf-dist/tex/context/base/mkiv/lang-exc.lua fullname=/usr/share/texmf-dist/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    6: filename=lang-us.lua filetype=scripts foundname=/usr/share/texmf-dist/tex/context/patterns/mkiv/lang-us.lua fullname=/usr/share/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
 system          >    7: filename=/home/dan/code/github.com/bryanlabs/go-bryanlabs-dev/content/resume/output/resume.tex foundname=/home/dan/code/github.com/bryanlabs/go-bryanlabs-dev/content/resume/output/resume.tex fullname=/home/dan/code/github.com/bryanlabs/go-bryanlabs-dev/content/resume/output/resume.tex usedmethod=direct
 system          >    8: filename=type-imp-texgyre.mkiv filetype=tex foundname=/usr/share/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=/usr/share/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
 system          >    9: filename=lm.lfg filetype=tex foundname=/usr/share/texmf-dist/tex/context/fonts/mkiv/lm.lfg fullname=/usr/share/texmf-dist/tex/context/fonts/mkiv/lm.lfg usedmethod=database
@@ -95,10 +95,10 @@ system          > stop used files
 
 system          > start commandline options
 
-system          > currentrun="2"
+system          > currentrun="1"
 system          > fulljobname="./resume.tex"
 system          > input="./resume.tex"
-system          > kindofrun="2"
+system          > kindofrun="1"
 system          > maxnofruns="9"
 system          > texmfbinpath="/usr/bin"
 
@@ -120,26 +120,26 @@ modules         > stop used modules
 
 mkiv lua stats  > used config file: selfautodir:/share/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: '/home/dan/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d'
-mkiv lua stats  > resource resolver: loadtime 0.015 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 454 modules (0.205 sec), 96 tables (0.012 sec), 550 chunks (0.216 sec)
+mkiv lua stats  > resource resolver: loadtime 0.011 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 454 modules (0.146 sec), 96 tables (0.008 sec), 550 chunks (0.154 sec)
 mkiv lua stats  > traced context: maxstack: 1420, freed: 0, unreachable: 1420
 mkiv lua stats  > cleaned up reserved nodes: 66 nodes, 9 lists of 442
 mkiv lua stats  > node memory usage: 14 attribute, 4 attribute_list, 1 glue, 51 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 1219 calls
-mkiv lua stats  > h-node processing time: 0.024 seconds including kernel
-mkiv lua stats  > driver time: 0.017 seconds 
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 1224 calls
+mkiv lua stats  > h-node processing time: 0.015 seconds including kernel
+mkiv lua stats  > driver time: 0.012 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.002 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 2427, file: 893, direct: 2, late: 12, function 1221, total: 4555 (911 per page)
+mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.000 seconds loading
+mkiv lua stats  > callbacks: internal: 2437, file: 894, direct: 2, late: 12, function 1223, total: 4568 (914 per page)
 mkiv lua stats  > randomizer: resumed with value 0.89404493430629
 mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: en::1, load time: 0.000
 mkiv lua stats  > interactive elements: 0 references, 7 destinations
 mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.179 seconds 
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.128 seconds 
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > used engine: luatex version: 1.13, functionality level: 7418, banner: this is luatex, version 1.13.0 (tex live 2021/arch linux)
-mkiv lua stats  > used hash slots: 46822 of 65536 + 200000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 118 MB, ctx: 118 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.636 seconds, 5 processed pages, 5 shipped pages, 7.862 pages/second
+mkiv lua stats  > used hash slots: 46823 of 65536 + 200000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 93 MB, ctx: 93 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.445 seconds, 5 processed pages, 5 shipped pages, 11.236 pages/second
 

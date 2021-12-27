@@ -61,7 +61,7 @@ utilitydata.job.passes.collected={
   { 6, 0 },
  },
  ["itemgroup:itemize:2"]={
-  { 6, 0 },
+  { 7, 0 },
  },
  ["itemgroup:itemize:3"]={
   { 3, 0 },
@@ -184,7 +184,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["itemgroup:itemize"]={
-  { 0, 6, 6, 3, 15, 3, 16, 13, 11, 8, 4, 6, 3, 3, 6 },
+  { 0, 6, 7, 3, 15, 3, 16, 13, 11, 8, 4, 6, 3, 3, 6 },
  },
  ["itemgroup:itemize:note"]={
   { 0 },
