@@ -27,9 +27,9 @@ funfacts :
       count : "21"
       icon : "fa-calendar"
 
-    - title : "Validation Nodes"
-      count : "1"
-      icon : "fa-server"
+    - title : "Proficiencies"
+      count : "8"
+      icon : "fa-graduation-cap"
 
 # feature
 feature:

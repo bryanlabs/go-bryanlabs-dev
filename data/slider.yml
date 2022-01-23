@@ -23,19 +23,7 @@ sliderItem:
       enable : true
       btnText : "more details"
       URL : "/contact"
-      animation : "zoomIn"
-  
-  - preTitle : "We have"
-    title : "Blockchain Experience"
-    # shortDescription : "We love to ."
-    bgImage : "images/slider/blockchain.png"
-    # bgImage : "images/slider/devops-banner-copy.jpg"
-    animation : "fadeInUp"
-    button:
-      enable : true
-      btnText : "more details"
-      URL : "/contact"
-      animation : "zoomIn"
+      animation : "zoomIn"  
 
 # banner feature
 feature :
