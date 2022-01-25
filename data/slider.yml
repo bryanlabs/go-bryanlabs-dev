@@ -44,16 +44,17 @@ feature :
   featureItem :
     - title : "Infrastructure as code (IaC)"
       icon : "fa-code"
-      description : "We use Cloudformation and Terraform. Code should be documented, reusable, tested, and version controlled."
+      description : "We use tools Cloudformation and Terraform. Code should be documented, reusable, tested, and version controlled."
 
     - title : "Automation tools"
       icon : "fa-wrench"
-      description : "We love automation tools. We use Python and Go to automate AWS infrastructure."
+      description : "We love automation tools. We use Python and Go to automate Cloud infrastructure."
       
-    - title : "Event Driven Security"
-      icon : "fa-shield"
-      description : "We use AWS CloudWatch and Config to rapidly detect and respond to issues that affect application performance."
+    - title : "Blockchain"
+      #icon : "fa-chain"
+      icon : "fa-cubes"
+      description : "We maintain validator nodes to verify and maintain a record of transactions. We develop blockchain tools for the community to help make crypto adoption easier."
 
-    - title : "Continuous Deployment"
-      icon : "fa-spinner"
-      description : "We believe code should be automatically deployed. We use AWS CodePipeLine to build, test, and deploy each code change via an automated process."
+    - title : "Support"
+      icon : "fa-phone"
+      description : "We offer our expertise in Cloud and Blockchain environments to help you achieve your goals. We provide a quick turnaround for time sensitive issues."

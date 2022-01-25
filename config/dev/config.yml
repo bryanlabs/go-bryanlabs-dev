@@ -80,7 +80,7 @@ params:
     URL: /contact
   footer:
     content: >-
-      Founded in 2018, Bryanlabs focuses on Development and Operations in AWS environments. 
+      Founded in 2018, Bryanlabs focuses on Development and Operations in Cloud and Blockchain environments. 
     followUs:
       title: Follow Us On
       socialIcon:
@@ -110,7 +110,7 @@ params:
       title: Contact
       contactList:
         - listItem: 'Laurel, MD'
-        - listItem: +1 334 271 0105
+        - listItem: +1 667 271 0105
         - listItem: info@bryanlabs.net
   newsletter:
     enable: false

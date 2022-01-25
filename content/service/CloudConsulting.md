@@ -1,11 +1,11 @@
 ---
-title: "On Demand Consulting"
+title: "Cloud Consulting"
 date: 2019-02-07T10:47:55+06:00
-description: "AWS Consulting."
+description: "Cloud Consulting."
 bgImage: "images/service/handshake.png"
 bgImageAlt: "images/backgrounds/page-title.jpg"
 image: "images/service/ondemandconsulting.jpeg"
-icon: "fa-amazon"
+icon: "fa-cloud"
 type: "service"
 ---
 
