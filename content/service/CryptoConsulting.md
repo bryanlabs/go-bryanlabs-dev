@@ -3,8 +3,10 @@ title: "Crypto Consulting"
 date: 2019-02-07T10:47:55+06:00
 description: "Crypto Consulting."
 bgImage: "images/service/handshake.png"
+#bgImage: "images/service/anc.jpeg"
 bgImageAlt: "images/backgrounds/page-title.jpg"
-image: "images/service/ondemandconsulting.jpeg"
+image: "images/service/anchor-protocol.jpeg"
+#image: "images/service/anc.jpeg"
 icon: "fa-btc"
 type: "service"
 ---
