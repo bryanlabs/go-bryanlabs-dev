@@ -42,16 +42,16 @@ feature :
   enable : true
   # Max use 4 item
   featureItem :
-    - title : "Cloud Expertise"
-      #icon : "fa-code"
-      icon : "fa-cloud"
-      description : "We provide our expertise in AWS, Azure, GCP. We assess your organization’s technology infrastructure and explore options to solve problems and come up with the best solution"
+    - title : "Infrastructure as code (IaC)"
+      icon : "fa-code"
+      description : "We use tools Cloudformation and Terraform. Code should be documented, reusable, tested, and version controlled."
 
-    - title : "Automation"
+    - title : "Automation tools"
       icon : "fa-wrench"
-      description : "We love automation tools. We use Python, Go, terraform amongst other tools to automate Cloud infrastructure. Code should be documented, reusable, provide the ability the provision cloud resources without manual intervention."
+      description : "We love automation tools. We use Python and Go to automate Cloud infrastructure."
       
     - title : "Blockchain"
+      #icon : "fa-chain"
       icon : "fa-cubes"
       description : "We maintain validator nodes to verify and maintain a record of transactions. We develop blockchain tools for the community to help make crypto adoption easier."
 
