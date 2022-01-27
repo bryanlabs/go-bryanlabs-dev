@@ -4,7 +4,7 @@ date: 2019-02-07T10:47:55+06:00
 description: "Cloud Consulting."
 bgImage: "images/service/handshake.png"
 bgImageAlt: "images/backgrounds/page-title.jpg"
-image: "images/service/ondemandconsulting.jpeg"
+image: "images/service/cloudtech.jpeg"
 icon: "fa-cloud"
 type: "service"
 ---
