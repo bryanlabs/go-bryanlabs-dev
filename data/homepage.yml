@@ -3,7 +3,7 @@ about:
   enable : true
   titleSM : "About Us"
   title : "Bryanlabs"
-  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB). We specialize in the automation of AWS environments. Our experts will bring DevOps best practices and ample tips to get your team optimized and ready to build solutions in AWS environments. "
+  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB). We specialize in the automation of Cloud & DeFi environments. Our experts will bring DevOps best practices and ample tips to get your team optimized and ready to build solutions in Cloud & DeFi environments. "
   # bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
   button:
@@ -37,19 +37,19 @@ feature:
   titleSM : "Why Choose"
   title : "Bryanlabs"
   image : "images/feature/code3.png"
-  description : "We are excellent at building and managing AWS environments."
+  description : "We are excellent at building and managing Cloud environments."
   featureItem:
-    - title : "AWS Experience"
+    - title : "Cloud Experience"
       icon : "fa-cloud"
-      content : "Our experts have engineered and managed hundreds of AWS accounts. We are certified professionals with an expert level understanding of AWS."
+      content : "Our experts have engineered and managed hundreds of accounts deployed in cloud environments. We are certified professionals with an expert level understanding of various Cloud infrastructures."
       
-    - title : "Automation Everywhere"
-      icon : "fa-code"
-      content : "We love automation and believe it is the key to successful scaling. We are experts in finding optimizations and implementing automations to help you scale."
+    - title : "Crypto Experience"
+      icon : "fa-cubes"
+      content : "We believe our experience in the Decentralized Finance (DeFi) can bring you closer to achieveing finanical freedom. We offer DeFi strategies and opportunities that will help you make informed investing decisions."
     
-    - title : "Infrastructure as code (IaC)"
-      icon : "fa-code"
-      content : "We believe infrastructure should be defined as code. Code should be documented, reusable, tested, and version controlled."
+    - title : "Support"
+      icon : "fa-phone"
+      content : "Our team is very flexible and provide quick turnaround without compromising the quality of the solution."
 
 # service
 service:

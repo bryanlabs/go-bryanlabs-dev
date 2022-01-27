@@ -26,7 +26,7 @@ sliderItem:
       animation : "zoomIn"  
 
   - preTitle : "We have"
-    title : "Blockchain Experience"
+    title : "DeFi Experience"
     # shortDescription : "We love to ."
     bgImage : "images/slider/blockchain.png"
     # bgImage : "images/slider/devops-banner-copy.jpg"
@@ -45,16 +45,16 @@ feature :
     - title : "Cloud Expertise"
       #icon : "fa-code"
       icon : "fa-cloud"
-      description : "We provide our expertise in AWS, Azure, GCP. We assess your organization’s technology infrastructure and explore options to solve problems and come up with the best solution"
+      description : "We provide our expertise in AWS, Azure, GCP. We assess your organization’s technology infrastructure and explore options to solve problems and come up with the best solution."
 
     - title : "Automation"
       icon : "fa-wrench"
       description : "We love automation tools. We use Python, Go, terraform amongst other tools to automate Cloud infrastructure. Code should be documented, reusable, provide the ability the provision cloud resources without manual intervention."
       
-    - title : "Blockchain"
+    - title : "Decentralized Finance (DeFi)"
       icon : "fa-cubes"
-      description : "We maintain validator nodes to verify and maintain a record of transactions. We develop blockchain tools for the community to help make crypto adoption easier."
+      description : "We maintain validator nodes to verify and maintain a record of transactions. We develop DeFi tools for the community to help make crypto adoption easier."
 
     - title : "Support"
       icon : "fa-phone"
-      description : "We offer our expertise in Cloud and Blockchain environments to help you achieve your goals. We provide a quick turnaround for time sensitive issues."
+      description : "We offer our expertise in Cloud & DeFi environments to help you achieve your goals. We provide a quick turnaround for time sensitive issues."
