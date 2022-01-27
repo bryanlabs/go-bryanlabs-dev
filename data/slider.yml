@@ -51,9 +51,9 @@ feature :
       icon : "fa-wrench"
       description : "We love automation tools. We use Python, Go, terraform amongst other tools to automate Cloud infrastructure. Code should be documented, reusable, provide the ability the provision cloud resources without manual intervention."
       
-    - title : "Decentralized Finance (DeFi)"
+    - title : "Crypto & DeFi"
       icon : "fa-cubes"
-      description : "We maintain validator nodes to verify and maintain a record of transactions. We develop DeFi tools for the community to help make crypto adoption easier."
+      description : "We maintain validator nodes to verify and maintain a record of transactions. We develop tools for the Decntralized Finance (DeFi) community to help make crypto adoption easier."
 
     - title : "Support"
       icon : "fa-phone"

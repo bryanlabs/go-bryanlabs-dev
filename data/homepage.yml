@@ -36,7 +36,7 @@ feature:
   enable : true
   titleSM : "Why Choose"
   title : "Bryanlabs"
-  image : "images/feature/code3.png"
+  image : "images/feature/juno-code.png"
   description : "We are excellent at building and managing Cloud environments."
   featureItem:
     - title : "Cloud Experience"
