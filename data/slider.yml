@@ -53,7 +53,7 @@ feature :
       
     - title : "Crypto & DeFi"
       icon : "fa-cubes"
-      description : "We maintain validator nodes to verify and maintain a record of transactions. We develop tools for the Decntralized Finance (DeFi) community to help make crypto adoption easier."
+      description : "We maintain validator nodes to verify and maintain a record of transactions. We develop tools for the Decentralized Finance (DeFi) community to help make crypto adoption easier."
 
     - title : "Support"
       icon : "fa-phone"

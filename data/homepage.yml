@@ -15,7 +15,7 @@ funfacts :
   enable : true
   funfactsItem :
       
-    - title : "Managed AWS Accounts"
+    - title : "Managed Cloud Environments"
       count : "150"
       icon : "fa-user"
 
@@ -45,7 +45,7 @@ feature:
       
     - title : "Crypto Experience"
       icon : "fa-cubes"
-      content : "We believe our experience in the Decentralized Finance (DeFi) can bring you closer to achieveing finanical freedom. We offer DeFi strategies and opportunities that will help you make informed investing decisions."
+      content : "We believe our experience in Decentralized Finance (DeFi) can help simplify the complex concepts of cryptocurriences for you. We offer DeFi strategies and opportunities that will help you make informed investing decisions."
     
     - title : "Support"
       icon : "fa-phone"
@@ -82,3 +82,9 @@ blog:
   enable : true
   titleSM : "Blog"
   title : "Bryanlabs Solutions"
+
+# disclaimer
+disclaimer:
+  enable : true
+  title : "Disclaimer"
+  content : "The material on this website has no regard to the specific investment objectives, financial situation, or particular needs of any user. This website is presented solely for informational and entertainment purposes and is not to be construed as a recommendation, solicitation, or an offer to buy or sell / long or short any securities, commodities, cryptocurrencies, or any related financial instruments. Nor should any of its content be taken as investment advice. "

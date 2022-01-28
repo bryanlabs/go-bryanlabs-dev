@@ -226,4 +226,12 @@
   </section>
   {{ "<!-- /blog -->" | safeHTML }}
 
+  {{ if .Site.Data.homepage.about.enable }}
+  {{ "<!-- disclaimer -->" | safeHTML }}
+  <section class="section pt-0">
+    {{ partial "disclaimer.html" . }}
+  </section>
+  {{ "<!-- /disclaimer -->" | safeHTML }}
+  {{ end }}
+
 {{ end }}
