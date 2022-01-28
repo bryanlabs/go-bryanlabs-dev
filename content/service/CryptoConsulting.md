@@ -11,4 +11,4 @@ icon: "fa-cubes"
 type: "service"
 ---
 
-Interested in earning up to 20% APY on your stablecoins. Learn how to maximize your returns and minimize your risk. We offer DeFi strategies and opportunities that will help you make informed investing decisions.
+Are you interested in learning how to earn up to ~20% yield on stablecoins? Or, How to collect staking rewards or Airdrops? Maybe you want to use your crypto as collateral to borrow real money to buy a house?  We can show you how to do all these things.  We are experts at using decentralized applications on ethereum, terra, fantom, bsc, avalanche, solana.  We will do a 1 on 1 zoom session where we demo how to use these protocols, or help you use them.

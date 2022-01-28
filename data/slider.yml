@@ -1,6 +1,18 @@
 slider:
   enable : true
 sliderItem: 
+  - preTitle : "Obsessed with"
+    title : "Crypto & DeFi"
+    # shortDescription : "We love to ."
+    bgImage : "images/slider/blockchain.png"
+    # bgImage : "images/slider/devops-banner-copy.jpg"
+    animation : "fadeInUp"
+    button:
+      enable : true
+      btnText : "more details"
+      URL : "/contact"
+      animation : "zoomIn"
+  
   - preTitle : "We are"
     title : "Experts at"
     # shortDescription : "AWS Automation is our expertise."
@@ -24,18 +36,6 @@ sliderItem:
       btnText : "more details"
       URL : "/contact"
       animation : "zoomIn"  
-
-  - preTitle : "We have"
-    title : "DeFi Experience"
-    # shortDescription : "We love to ."
-    bgImage : "images/slider/blockchain.png"
-    # bgImage : "images/slider/devops-banner-copy.jpg"
-    animation : "fadeInUp"
-    button:
-      enable : true
-      btnText : "more details"
-      URL : "/contact"
-      animation : "zoomIn"
 
 # banner feature
 feature :

@@ -37,15 +37,15 @@ feature:
   titleSM : "Why Choose"
   title : "Bryanlabs"
   image : "images/feature/juno-code.png"
-  description : "We are excellent at building and managing Cloud environments."
+  description : "We are devops experts that are obsessed with crypto and cloud computing."
   featureItem:
-    - title : "Cloud Experience"
+    - title : "Cloud Computing"
       icon : "fa-cloud"
-      content : "Our experts have engineered and managed hundreds of accounts deployed in cloud environments. We are certified professionals with an expert level understanding of various Cloud infrastructures."
+      content : "We have devops experts in AWS, Azure, and GCP who provide on demand individual contributions to your team."
       
-    - title : "Crypto Experience"
+    - title : "Crypto & DeFi"
       icon : "fa-cubes"
-      content : "We believe our experience in Decentralized Finance (DeFi) can help simplify the complex concepts of cryptocurriences for you. We offer DeFi strategies and opportunities that will help you make informed investing decisions."
+      content : "We are experts at Decentralized Finance (DeFi) and can educate and guide you though these protocols"
     
     - title : "Support"
       icon : "fa-phone"
