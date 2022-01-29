@@ -3,7 +3,7 @@ about:
   enable : true
   titleSM : "About Us"
   title : "Bryanlabs"
-  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB). We specialize in the automation of AWS environments. Our experts will bring DevOps best practices and ample tips to get your team optimized and ready to build solutions in AWS environments. "
+  content : "is a Service-Disabled Veteran-Owned Small Business (SDVOSB). We specialize in the automation of Cloud & DeFi environments. Our experts will bring DevOps best practices and ample tips to get your team optimized and ready to build solutions in Cloud & DeFi environments. "
   # bgDots : "images/backgrounds/about-us-bg.png"
   image : "images/about/about-us.png"
   button:
@@ -15,7 +15,7 @@ funfacts :
   enable : true
   funfactsItem :
       
-    - title : "Managed AWS Accounts"
+    - title : "Managed Cloud Environments"
       count : "150"
       icon : "fa-user"
 
@@ -27,29 +27,29 @@ funfacts :
       count : "21"
       icon : "fa-calendar"
 
-    - title : "Proficiencies"
-      count : "8"
-      icon : "fa-graduation-cap"
+    - title : "Validation Nodes"
+      count : "1"
+      icon : "fa-server"
 
 # feature
 feature:
   enable : true
   titleSM : "Why Choose"
   title : "Bryanlabs"
-  image : "images/feature/code3.png"
-  description : "We are excellent at building and managing AWS environments."
+  image : "images/feature/juno-code.png"
+  description : "We are devops experts that are obsessed with crypto and cloud computing."
   featureItem:
-    - title : "AWS Experience"
+    - title : "Cloud Computing"
       icon : "fa-cloud"
-      content : "Our experts have engineered and managed hundreds of AWS accounts. We are certified professionals with an expert level understanding of AWS."
+      content : "We have devops experts in AWS, Azure, and GCP who provide on demand individual contributions to your team."
       
-    - title : "Automation Everywhere"
-      icon : "fa-code"
-      content : "We love automation and believe it is the key to successful scaling. We are experts in finding optimizations and implementing automations to help you scale."
+    - title : "Crypto & DeFi"
+      icon : "fa-cubes"
+      content : "We are experts at Decentralized Finance (DeFi) and can educate and guide you though these protocols"
     
-    - title : "Infrastructure as code (IaC)"
-      icon : "fa-code"
-      content : "We believe infrastructure should be defined as code. Code should be documented, reusable, tested, and version controlled."
+    - title : "Support"
+      icon : "fa-phone"
+      content : "Our team is very flexible and provide quick turnaround without compromising the quality of the solution."
 
 # service
 service:
@@ -82,3 +82,9 @@ blog:
   enable : true
   titleSM : "Blog"
   title : "Bryanlabs Solutions"
+
+# disclaimer
+disclaimer:
+  enable : true
+  title : "Disclaimer"
+  content : "The material on this website has no regard to the specific investment objectives, financial situation, or particular needs of any user. This website is presented solely for informational purposes and is not to be construed as a recommendation, solicitation, or an offer to buy or sell / long or short any cryptocurrencies or any related financial instruments. Nor should any of its content be taken as financial advice. "

@@ -1,6 +1,18 @@
 slider:
   enable : true
 sliderItem: 
+  - preTitle : "Obsessed with"
+    title : "Crypto & DeFi"
+    # shortDescription : "We love to ."
+    bgImage : "images/slider/blockchain.png"
+    # bgImage : "images/slider/devops-banner-copy.jpg"
+    animation : "fadeInUp"
+    button:
+      enable : true
+      btnText : "more details"
+      URL : "/contact"
+      animation : "zoomIn"
+  
   - preTitle : "We are"
     title : "Experts at"
     # shortDescription : "AWS Automation is our expertise."
@@ -30,18 +42,19 @@ feature :
   enable : true
   # Max use 4 item
   featureItem :
-    - title : "Infrastructure as code (IaC)"
-      icon : "fa-code"
-      description : "We use Cloudformation and Terraform. Code should be documented, reusable, tested, and version controlled."
+    - title : "Cloud Expertise"
+      #icon : "fa-code"
+      icon : "fa-cloud"
+      description : "We provide our expertise in AWS, Azure, GCP. We assess your organization’s technology infrastructure and explore options to solve problems and come up with the best solution."
 
-    - title : "Automation tools"
+    - title : "Automation"
       icon : "fa-wrench"
-      description : "We love automation tools. We use Python and Go to automate AWS infrastructure."
+      description : "We love automation tools. We use Python, Go, terraform amongst other tools to automate Cloud infrastructure. Code should be documented, reusable, provide the ability the provision cloud resources without manual intervention."
       
-    - title : "Event Driven Security"
-      icon : "fa-shield"
-      description : "We use AWS CloudWatch and Config to rapidly detect and respond to issues that affect application performance."
+    - title : "Crypto & DeFi"
+      icon : "fa-cubes"
+      description : "We maintain validator nodes to verify and maintain a record of transactions. We develop tools for the Decentralized Finance (DeFi) community to help make crypto adoption easier."
 
-    - title : "Continuous Deployment"
-      icon : "fa-spinner"
-      description : "We believe code should be automatically deployed. We use AWS CodePipeLine to build, test, and deploy each code change via an automated process."
+    - title : "Support"
+      icon : "fa-phone"
+      description : "We offer our expertise in Cloud & DeFi environments to help you achieve your goals. We provide a quick turnaround for time sensitive issues."

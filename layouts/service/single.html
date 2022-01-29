@@ -28,8 +28,11 @@
     </div>
   </div>
 </section>
-<div class="calendly-inline-widget" data-url="https://calendly.com/bryanlabs/bl-on-demand" style="min-width:320px;height:700px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<div class="calendly-inline-widget" data-url="{{ .Params.Calendarfree }}" style="min-width:320px;height:630px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+<div class="calendly-inline-widget" data-url="{{ .Params.Calendarconsult }}" style="min-width:320px;height:630px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 {{ "<!-- /service details -->" | safeHTML }}
 
 {{ end }}
