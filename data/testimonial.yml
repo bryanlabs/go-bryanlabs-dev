@@ -51,3 +51,8 @@ testimonialItem:
     name : "Chris Smith"
     designation : "Director of Engineering @ Applied Insight"
     content : "Working with Dan has been fantastic experience. He brings a wealth of knowledge and experience to bear when solving the most complex DevOps and Cloud Engineering challenges. Dan’s unbiased analysis and straight-forward recommendations have helped us avoid unnecessary technical debt and implement more efficient cloud operations."
+
+  - clientImage : "images/testimonial/daniel-l.png"
+    name : "Daniel L."
+    designation : "Investor and part-time trader"
+    content : "Dan has a very insightful look into the world of defi crypto currencies. His understanding of the staking opportunities that lie with the LUNA and ATOM networks is next to none when compared to others within the space. When it comes to alternative investing and how one goes about tax preparation he knows all the in’s and outs. I would fully recommend his services to anyone I know investing in the crypto space."
