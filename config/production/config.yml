@@ -37,7 +37,7 @@ params:
   logo: images/logo.png
   logoAlt: images/logo-alt.png
   home: Home
-  description: Bryanlabs template meta description.
+  description: Bryanlabs. Building solutions for Cloud & DeFi Environments.
   author: Themefisher
   gmapAPI: >-
     https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places

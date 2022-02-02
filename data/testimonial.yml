@@ -56,3 +56,8 @@ testimonialItem:
     name : "Daniel L."
     designation : "Investor and part-time trader"
     content : "Dan has a very insightful look into the world of defi crypto currencies. His understanding of the staking opportunities that lie with the LUNA and ATOM networks is next to none when compared to others within the space. When it comes to alternative investing and how one goes about tax preparation he knows all the in’s and outs. I would fully recommend his services to anyone I know investing in the crypto space."
+
+  - clientImage : "images/testimonial/alan.png"
+    name : "Alan Zavala"
+    designation : "IT Specialist"
+    content : "The most impressive skill Dan has is his ability to break down complex concepts so anyone can understand them. Dan’s presentations have helped me understand the utility and power of Crypto & DeFi. I no longer feel intimidated by by these concepts and neither will you!"
