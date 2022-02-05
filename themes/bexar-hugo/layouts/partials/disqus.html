@@ -1,5 +1,24 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
+  /* * * Disqus Reset Function * * */
+  var resetDisqusPlugin = function () {
+    if (typeof DISQUS === 'undefined') {
+        setTimeout(function(){
+            resetDisqusPlugin();
+        },3000);
+    } else {
+        try{
+            DISQUS.reset({
+                reload: true,
+                config: function () {
+                    this.page.identifier = newIdentifier;
+                    this.page.url = newUrl;
+                    this.page.title = newTitle;
+                }
+            });
+        } catch(e){}
+    }
+};
 
 (function() {
       // Don't ever inject Disqus on localhost--it creates unwanted
