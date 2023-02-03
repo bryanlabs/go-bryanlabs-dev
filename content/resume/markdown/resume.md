@@ -3,9 +3,9 @@ Dan Bryan
 
 ----
 
->  I am a creative minded individual with 20 years of experience in information technology.
+>  I am a creative minded individual with 20+ years of experience in information technology.
 >  I'm accomplished in infrastructure, research, and security. I am passionate about cloud
->  technologies and automation. I'm extremely experienced in solutions engineering and
+>  technologies automation, and decentralized applications. I'm extremely experienced in solutions engineering and
 >  troubleshooting. I'm confident in my ability to lead and communicate with others. I have an
 >  exceptional understanding how technologies relate to one another and enjoy solving
 >  complex technical problems.
@@ -14,12 +14,12 @@ Dan Bryan
 
 Top Technical Skills
 ---------
-Amazon Web Services, Automation, Terraform, Defi, Business
+AWS, GCP, Terraform, Kubernetes, Docker, Linux, Defi.
 
 Education
 ---------
 
-1998-Present (expected)
+1998-2000
 :   **Community College**; Various courses of interest, no degree.
 
     *Microsoft, Networking, Cyber Security*
@@ -28,6 +28,11 @@ Education
 :   **USAF Technical School and Training**; Keesler AFB, Eglin AFB
 
     *Communications: Networking, Voice, Systems, Transmissions*
+
+2010-present
+:   **Self Taught**; Various Mediums
+
+    Linux, Cyber security, Cloud, Devops, IaC, Devops, Dev, Business...
 
 
 Certifications
@@ -44,9 +49,26 @@ Certifications
 Experience
 ----------
 
-**Defi Engineer @ Bryanlabs:** October 2020 - Present
+**Owner @ Bryanlabs:** October 2018 - Present
 
-During my time at Bryanlabs, I also had a focus on using Defi:
+*Founded in 2018, Bryanlabs focuses on automation and development in Cloud environments.*
+
+**Co Managing Partner @Defiant Labs:** March 2022 - Present
+
+* Business Development, created contracts, recieved multiple grants for various cosmos projects from ICF/Strangelove and Osmosis Grants Company. Built relationship with many key cosmos teams.
+* Responsible for the [cosmos-tax-cli](https://github.com/DefiantLabs/cosmos-tax-cli). I did mostly testing and devrel activities with independent contractors to make my vision a reality.
+* Devops, SRE, deployments, project management, and pretty much everything but developing the tools has been my role.  I primary used Google Cloud, AWS, docker, terraform, and kubernetes.
+* Active proof of stake validator on multiple cosmos chains, performed chain upgrades, monitoring, governance voting.
+
+**Contractor @strangeloveventures:** June 2022 - Present
+
+* Created docker images, terraform modules and kubernetes manifests for Cosmos Validator and Relayer infrastructure.
+* Typical SRE duties to include monitoring resources, performing upgrades, responding to outages.
+* Participated in incentivized competitions to test out cosmos Technology.  Won 6th place out of 95 for testing Intererchain Security.
+
+**Devops Engineer @ Bryanlabs:** October 2020 - June 2022
+
+During this time at Bryanlabs my focus was on getting familiar with Decentralized Finance Tech:
 
 * Participated eth2 validation on Medalla, Spadina, Zinken, and Pyrmont testnets. I also was part of the Serenity Launch and still am an active mainnet validator. https://app.poap.xyz/scan/danb.eth
 * A college and I submitted and won a grant to the ethereum foundation for the eth-docker project. http://eth-docker.net/  https://github.com/eth2-educators/eth-docker
@@ -54,7 +76,6 @@ During my time at Bryanlabs, I also had a focus on using Defi:
 * I helped design a chainlink Architecture for a college of mine who won 2nd place in the chainlink olympics.
 * I frequently read white papers, research Dapps,and engage with developer communities on Discord and telegram.
 * I am experienced in Defi, Dexes, AMMs, Lending, Savings, and synthetics, and NFTs.
-* Lately I have been very interested in terra and other blockchains with plans to integrate into IBC.
 
 
 **AWS Subject Matter Expert @ Bryanlabs:** October 2018 - Present
@@ -64,13 +85,11 @@ During my time at Bryanlabs I also have been recognized by AWS as a subject matt
 * Attended various Remote DOP workshops.
 * https://www.credly.com/users/dan-bryan/badges
 
-
-
-**Devops Engineer @ Bryanlabs:** October 2018 - Present
-
-Founded in 2018, Bryanlabs focuses on automation and development in AWS environments.:
+**Contractor @applied-insight:** August 2020 - December 2021
 
 * Lead the development of a terraform project to quickly provision a managed development environments in AWS.
+* Assisted client with moving a public RDS instance to a private instance and reconfiguring the network, so lambda could communicate with the private DB.
+* Created custom AWS health API tool, to publish all health events to a clients rest API.
 * Created Terraform modules for deploying an AWS networking solution across multiple AWS accounts.
 * Created Terraform module for deploying Microsoft Active Directory on EC2 in AWS.
 * Oversaw the development of many other terraform modules to include, AWS DNS, Governance Software, Tenable Security Center, AMI Factory, and Certificate management.
@@ -78,13 +97,14 @@ Founded in 2018, Bryanlabs focuses on automation and development in AWS environm
 * Integrated Terragrunt into terraform deployment strategy to keep modules dry, and facilitate orchestration of module deployment.
 * Blogger on AWS automation and development.
 * Question writer/external SME for AWS DevOps Professional Certification Exam.
-* Created complex IAM policies to align with NIST 800-53 standards like HIPAA, PCI, ISO...
+
+**Contractor @Kion (formely cloudtamer):* October 2019 - March 2020
+
+* Created IAM policies to align with NIST 800-53 standards like HIPAA, PCI, ISO…
 * Created CFT remediation to ensure all non whitelisted s3 buckets and objects remain private.
 * Created CFT remediation to ensure all non whitelisted RDS / Redshift clusters remain private.
 * Created CFT remediation to ensure EBS and RDS snapshots remain private.
 * Created CFT remediation to ensure users could only use the AWS API during office hours and from trusted locations.
-* Assisted client with moving a public RDS instance to a private instance and reconfiguring the network, so lambda could communicate with the private DB.
-* Created custom AWS health API tool, to publish all health events to a clients rest API.
 
 
 **Freelance DevOps Engineer @ Toptal** October 2018 - Present
@@ -94,6 +114,7 @@ Toptal is an exclusive network of the top freelance software developers, designe
 * Provided AWS Well Architected Reviews for Key Toptal clients.
 * Provided AWS Consulting to Toptal Developers.
 * Technical consultant for developing a new business proposal for a key Toptal client.
+* Tech Lead for Toptals AWS MSP and Devops Partnerships.
 
 **DevOps Engineer @ Applied Insight** October 2016 - July 2020
 
@@ -118,7 +139,7 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 
 **Security Engineer @ Engineering Solutions, Inc** October 2011 - September 2016
 
-Engineered AWS environments, created automation solutions, and prototyped new services:
+SRE/Devops Engineer:
 
 * Provided leadership, training and project management for 3 PKI Engineers.
 * Provided subject matter expert guidance for customers interfacing with PKI Technologies.
@@ -136,7 +157,7 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 
 **Technical Consultant @ Self Employed** June 2010 - September 2011
 
-Engineered AWS environments, created automation solutions, and prototyped new services:
+Building relationship and knowledge gathering:
 
 * Participated in SAIC's MD Cyber challenge incorporating computer defense and offense strategies. Implementing STIGs, and performing vulnerability assessments with Nessus / Metasploit / Armitage.
 * Participated in Deloitte's National Collegiate Cyber Defense Competition with Howard Community College.
@@ -152,7 +173,7 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 
 **Network Integration Specialist @ United States Air Force** June 2004 - June 2010
 
-Engineered AWS environments, created automation solutions, and prototyped new services:
+SRE/System Administration:
 
 * Determined equipment, and configuration requirements as well as provided guidance for installation of Communications technology components. (multiplexors, PBX, Voice, VoIP, Network).
 * Assisted with a Squadron site relocation communications design; coordinated relocation with service providers to ensure availability of critical systems during transition.
@@ -165,7 +186,7 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 
 **Pharmacy Technician @ Safeway** October 2002 - May 2004
 
-Engineered AWS environments, created automation solutions, and prototyped new services:
+Technical Assistance:
 
 * Provided technical assistance with medical devices.
 * Acted as technical support liaison with Safeway Help desk.
@@ -174,7 +195,7 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 
 **System Administrator @ LibertyStone Inc** September 2001 - September 2002
 
-Engineered AWS environments, created automation solutions, and prototyped new services:
+SRE/System Administration:
 
 * Managed Windows domain services including active directory, DHCP, DNS, IIS.
 * Built and configured Windows 98/XP/2000 desktop/servers.
@@ -185,7 +206,7 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 
 **System Administrator @  James German and Associates** March 2001 - September 2001
 
-Engineered AWS environments, created automation solutions, and prototyped new services:
+SRE/System Administration:
 
 * Performed OS and Software deployments. 
 * Engineered Local Area Network and Internet connectivity.
@@ -193,7 +214,7 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 
 **System Administrator @  AM/PM Computer Services, Inc.** September 2000 - March 2001
 
-Engineered AWS environments, created automation solutions, and prototyped new services:
+SRE/System Administration:
 
 * Built and configured Windows 98 desktops.
 * Resolved hardware issues with computers, printers, telephones and fax machines.
@@ -201,7 +222,7 @@ Engineered AWS environments, created automation solutions, and prototyped new se
 
 **Technical Consultant @  Self Employed.** June 1998 - September 2000
 
-Engineered AWS environments, created automation solutions, and prototyped new services:
+SRE/System Administration:
 
 * Managed RedHat 5 (Hurricane) Linux server running apache.
 * Developed and managed website for independent pharmacy in Cloverly MD.
