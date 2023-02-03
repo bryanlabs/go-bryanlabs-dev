@@ -1,10 +1,10 @@
 
-resolvers       | formats | executing runner 'run luatex format': /usr/bin/luatex --jobname="resume" --fmt=/home/dan/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d/formats/luatex/cont-en.fmt --lua=/home/dan/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d/formats/luatex/cont-en.lui cont-yes.mkiv --c:currentrun=1 --c:fulljobname="./resume.tex" --c:input="./resume.tex" --c:kindofrun=1 --c:maxnofruns=9 --c:texmfbinpath="/usr/bin"
-This is LuaTeX, Version 1.13.0 (TeX Live 2021/Arch Linux) 
+resolvers       | formats | executing runner 'run luatex format': /usr/bin/luatex --jobname="resume" --fmt=/home/socket/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d/formats/luatex/cont-en.fmt --lua=/home/socket/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d/formats/luatex/cont-en.lui cont-yes.mkiv --c:currentrun=1 --c:fulljobname="./resume.tex" --c:input="./resume.tex" --c:kindofrun=1 --c:maxnofruns=9 --c:texmfbinpath="/usr/bin"
+This is LuaTeX, Version 1.15.0 (TeX Live 2022/Arch Linux) 
  system commands enabled.
 open source     > level 1, order 1, name '/usr/share/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
 system          > 
-system          > ConTeXt  ver: 2021.03.05 19:11 MKIV  fmt: 2021.6.8  int: english/english
+system          > ConTeXt  ver: 2021.03.05 19:11 MKIV  fmt: 2023.2.3  int: english/english
 system          > 
 system          > 'cont-new.mkiv' loaded
 open source     > level 2, order 2, name '/usr/share/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
@@ -13,53 +13,55 @@ close source    > level 2, order 2, name '/usr/share/texmf-dist/tex/context/base
 system          > files > jobname 'resume', input './resume', result 'resume'
 fonts           > latin modern fonts are not preloaded
 languages       > language 'en' is active
-open source     > level 2, order 3, name '/home/dan/code/github.com/bryanlabs/go-bryanlabs-dev/content/resume/output/resume.tex'
+open source     > level 2, order 3, name '/home/socket/code/github/bryanlabs/go-bryanlabs-dev/content/resume/output/resume.tex'
 colors          > defining > unknown library 'hex'
 open source     > level 3, order 4, name '/usr/share/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
 close source    > level 3, order 4, name '/usr/share/texmf-dist/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
-structure       > sectioning > section @ level 3 : 0.0.1 -> Dan Bryan
-structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Top Technical Skills
-structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Education
-structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Certifications
-structure       > sectioning > subsection @ level 4 : 0.0.1.4 -> Experience
+structure       > sectioning > chapter @ level 2 : 0.1 -> Dan Bryan
+structure       > sectioning > section @ level 3 : 0.1.1 -> Top Technical Skills
+structure       > sectioning > section @ level 3 : 0.1.2 -> Education
+structure       > sectioning > section @ level 3 : 0.1.3 -> Certifications
+structure       > sectioning > section @ level 3 : 0.1.4 -> Experience
 backend         > xmp > using file '/usr/share/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
+pages           > flushing realpage 2, userpage 2, subpage 2
 
-Overfull \hbox (7.51535pt too wide) in paragraph at lines 249--252
+Overfull \hbox (7.51535pt too wide) in paragraph at lines 305--308
  [][][] <1: texgyreheros-regular @ 11.0pt> De-vel-oped var-i-ous GoLang micro-services fo-cused on in-te-gra-tion with AWS, Mi-crosoft, and SafeNet
 
-Overfull \hbox (8.0376pt too wide) in paragraph at lines 252--255
+Overfull \hbox (8.0376pt too wide) in paragraph at lines 308--311
  [][][] <1: texgyreheros-regular @ 11.0pt> De-ployed Server-less web-site us-ing CodeStar, Code-Com-mit, Code-Build, Code-Pipeline, S3, Lambda
-pages           > flushing realpage 2, userpage 2, subpage 2
 pages           > flushing realpage 3, userpage 3, subpage 3
 pages           > flushing realpage 4, userpage 4, subpage 4
 pages           > flushing realpage 5, userpage 5, subpage 5
-close source    > level 2, order 4, name '/home/dan/code/github.com/bryanlabs/go-bryanlabs-dev/content/resume/output/resume.tex'
+pages           > flushing realpage 6, userpage 6, subpage 6
+close source    > level 2, order 4, name '/home/socket/code/github/bryanlabs/go-bryanlabs-dev/content/resume/output/resume.tex'
 close source    > level 1, order 4, name '/usr/share/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
 
 mkiv lua stats  > used config file: selfautodir:/share/texmf-dist/web2c/texmfcnf.lua
-mkiv lua stats  > used cache path: readable+writable: '/home/dan/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d'
-mkiv lua stats  > resource resolver: loadtime 0.011 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 454 modules (0.156 sec), 96 tables (0.009 sec), 550 chunks (0.164 sec)
+mkiv lua stats  > used cache path: readable+writable: '/home/socket/.texlive/texmf-var/luatex-cache/context/0399a8df3aef8d154781d0a9c2b8e28d'
+mkiv lua stats  > resource resolver: loadtime 0.012 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 454 modules (0.160 sec), 96 tables (0.010 sec), 550 chunks (0.171 sec)
 mkiv lua stats  > traced context: maxstack: 1420, freed: 0, unreachable: 1420
-mkiv lua stats  > cleaned up reserved nodes: 66 nodes, 9 lists of 442
+mkiv lua stats  > cleaned up reserved nodes: 63 nodes, 9 lists of 442
 mkiv lua stats  > node memory usage: 14 attribute, 4 attribute_list, 1 glue, 51 glue_spec, 3 kern, 2 penalty, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 1224 calls
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 1365 calls
 mkiv lua stats  > h-node processing time: 0.018 seconds including kernel
 mkiv lua stats  > driver time: 0.012 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > jobdata time: 0.001 seconds saving, 0.000 seconds loading
-mkiv lua stats  > callbacks: internal: 2437, file: 894, direct: 2, late: 12, function 1223, total: 4568 (914 per page)
+mkiv lua stats  > callbacks: internal: 2711, file: 946, direct: 2, late: 14, function 1272, total: 4945 (824 per page)
 mkiv lua stats  > randomizer: resumed with value 0.89404493430629
 mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: en::1, load time: 0.000
-mkiv lua stats  > interactive elements: 0 references, 7 destinations
+mkiv lua stats  > interactive elements: 1 references, 8 destinations
 mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, texgyreheros-bold.otf, texgyreheros-italic.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.124 seconds 
+mkiv lua stats  > font engine: otf 3.113, afm 1.513, tfm 1.000, 11 instances, 5 shared in backend, 3 common vectors, 2 common hashes, load time 0.111 seconds 
+mkiv lua stats  > pdf annotations: 1 links (1 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
-mkiv lua stats  > used engine: luatex version: 1.13, functionality level: 7418, banner: this is luatex, version 1.13.0 (tex live 2021/arch linux)
-mkiv lua stats  > used hash slots: 46823 of 65536 + 200000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 118 MB, ctx: 118 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 0.463 seconds, 5 processed pages, 5 shipped pages, 10.799 pages/second
-system          | total runtime: 0.640 seconds
+mkiv lua stats  > used engine: luatex version: 1.15, functionality level: 7509, banner: this is luatex, version 1.15.0 (tex live 2022/arch linux)
+mkiv lua stats  > used hash slots: 46835 of 65536 + 200000
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 90 MB, ctx: 89 MB, max: unknown MB, hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.434 seconds, 6 processed pages, 6 shipped pages, 13.825 pages/second
+system          | total runtime: 0.586 seconds
 

@@ -68,30 +68,33 @@
 
 \starttext
 
-\section[title={Dan Bryan},reference={dan-bryan}]
+\startsectionlevel[title={Dan Bryan},reference={dan-bryan}]
 
 \thinrule
 
 \startblockquote
-I am a creative minded individual with 20 years of experience in
+I am a creative minded individual with 20+ years of experience in
 information technology. I'm accomplished in infrastructure, research,
-and security. I am passionate about cloud technologies and automation.
-I'm extremely experienced in solutions engineering and troubleshooting.
-I'm confident in my ability to lead and communicate with others. I have
-an exceptional understanding how technologies relate to one another and
-enjoy solving complex technical problems.
+and security. I am passionate about cloud technologies automation, and
+decentralized applications. I'm extremely experienced in solutions
+engineering and troubleshooting. I'm confident in my ability to lead and
+communicate with others. I have an exceptional understanding how
+technologies relate to one another and enjoy solving complex technical
+problems.
 \stopblockquote
 
 \thinrule
 
-\subsection[title={Top Technical
+\startsectionlevel[title={Top Technical
 Skills},reference={top-technical-skills}]
 
-Amazon Web Services, Automation, Terraform, Defi, Business
+AWS, GCP, Terraform, Kubernetes, Docker, Linux, Defi.
 
-\subsection[title={Education},reference={education}]
+\stopsectionlevel
 
-\startdescription{1998-Present (expected)}
+\startsectionlevel[title={Education},reference={education}]
+
+\startdescription{1998-2000}
   {\bf Community College}; Various courses of interest, no degree.
 
   {\em Microsoft, Networking, Cyber Security}
@@ -103,7 +106,16 @@ Amazon Web Services, Automation, Terraform, Defi, Business
   {\em Communications: Networking, Voice, Systems, Transmissions}
 \stopdescription
 
-\subsection[title={Certifications},reference={certifications}]
+\startdescription{2010-present}
+  {\bf Self Taught}; Various Mediums
+
+  Linux, Cyber security, Cloud, Devops, IaC, Devops, Dev,
+  Business\ldots{}
+\stopdescription
+
+\stopsectionlevel
+
+\startsectionlevel[title={Certifications},reference={certifications}]
 
 \startitemize[packed]
 \item
@@ -120,11 +132,54 @@ Amazon Web Services, Automation, Terraform, Defi, Business
   CompTIA A+ - COMP0010621927 (legacy)
 \stopitemize
 
-\subsection[title={Experience},reference={experience}]
+\stopsectionlevel
 
-{\bf Defi Engineer @ Bryanlabs:} October 2020 - Present
+\startsectionlevel[title={Experience},reference={experience}]
 
-During my time at Bryanlabs, I also had a focus on using Defi:
+{\bf Owner @ Bryanlabs:} October 2018 - Present
+
+{\em Founded in 2018, Bryanlabs focuses on automation and development in
+Cloud environments.}
+
+{\bf Co Managing Partner @Defiant Labs:} March 2022 - Present
+
+\startitemize[packed]
+\item
+  Business Development, created contracts, recieved multiple grants for
+  various cosmos projects from ICF/Strangelove and Osmosis Grants
+  Company. Built relationship with many key cosmos teams.
+\item
+  Responsible for the
+  \goto{cosmos-tax-cli}[url(https://github.com/DefiantLabs/cosmos-tax-cli)].
+  I did mostly testing and devrel activities with independent
+  contractors to make my vision a reality.
+\item
+  Devops, SRE, deployments, project management, and pretty much
+  everything but developing the tools has been my role. I primary used
+  Google Cloud, AWS, docker, terraform, and kubernetes.
+\item
+  Active proof of stake validator on multiple cosmos chains, performed
+  chain upgrades, monitoring, governance voting.
+\stopitemize
+
+{\bf Contractor @strangeloveventures:} June 2022 - Present
+
+\startitemize[packed]
+\item
+  Created docker images, terraform modules and kubernetes manifests for
+  Cosmos Validator and Relayer infrastructure.
+\item
+  Typical SRE duties to include monitoring resources, performing
+  upgrades, responding to outages.
+\item
+  Participated in incentivized competitions to test out cosmos
+  Technology. Won 6th place out of 95 for testing Intererchain Security.
+\stopitemize
+
+{\bf Devops Engineer @ Bryanlabs:} October 2020 - June 2022
+
+During this time at Bryanlabs my focus was on getting familiar with
+Decentralized Finance Tech:
 
 \startitemize[packed]
 \item
@@ -148,9 +203,6 @@ During my time at Bryanlabs, I also had a focus on using Defi:
 \item
   I am experienced in Defi, Dexes, AMMs, Lending, Savings, and
   synthetics, and NFTs.
-\item
-  Lately I have been very interested in terra and other blockchains with
-  plans to integrate into IBC.
 \stopitemize
 
 {\bf AWS Subject Matter Expert @ Bryanlabs:} October 2018 - Present
@@ -166,15 +218,19 @@ subject matter expert in Devops.:
   https://www.credly.com/users/dan-bryan/badges
 \stopitemize
 
-{\bf Devops Engineer @ Bryanlabs:} October 2018 - Present
-
-Founded in 2018, Bryanlabs focuses on automation and development in AWS
-environments.:
+{\bf Contractor @applied-insight:} August 2020 - December 2021
 
 \startitemize[packed]
 \item
   Lead the development of a terraform project to quickly provision a
   managed development environments in AWS.
+\item
+  Assisted client with moving a public RDS instance to a private
+  instance and reconfiguring the network, so lambda could communicate
+  with the private DB.
+\item
+  Created custom AWS health API tool, to publish all health events to a
+  clients rest API.
 \item
   Created Terraform modules for deploying an AWS networking solution
   across multiple AWS accounts.
@@ -197,9 +253,14 @@ environments.:
 \item
   Question writer/external SME for AWS DevOps Professional Certification
   Exam.
+\stopitemize
+
+**Contractor @Kion (formely cloudtamer):* October 2019 - March 2020
+
+\startitemize[packed]
 \item
-  Created complex IAM policies to align with NIST 800-53 standards like
-  HIPAA, PCI, ISO\ldots{}
+  Created IAM policies to align with NIST 800-53 standards like HIPAA,
+  PCI, ISO\ldots{}
 \item
   Created CFT remediation to ensure all non whitelisted s3 buckets and
   objects remain private.
@@ -212,13 +273,6 @@ environments.:
 \item
   Created CFT remediation to ensure users could only use the AWS API
   during office hours and from trusted locations.
-\item
-  Assisted client with moving a public RDS instance to a private
-  instance and reconfiguring the network, so lambda could communicate
-  with the private DB.
-\item
-  Created custom AWS health API tool, to publish all health events to a
-  clients rest API.
 \stopitemize
 
 {\bf Freelance DevOps Engineer @ Toptal} October 2018 - Present
@@ -235,6 +289,8 @@ companies rely on Toptal freelancers for their most important projects.:
 \item
   Technical consultant for developing a new business proposal for a key
   Toptal client.
+\item
+  Tech Lead for Toptals AWS MSP and Devops Partnerships.
 \stopitemize
 
 {\bf DevOps Engineer @ Applied Insight} October 2016 - July 2020
@@ -295,8 +351,7 @@ prototyped new services:
 {\bf Security Engineer @ Engineering Solutions, Inc} October 2011 -
 September 2016
 
-Engineered AWS environments, created automation solutions, and
-prototyped new services:
+SRE/Devops Engineer:
 
 \startitemize[packed]
 \item
@@ -345,8 +400,7 @@ prototyped new services:
 
 {\bf Technical Consultant @ Self Employed} June 2010 - September 2011
 
-Engineered AWS environments, created automation solutions, and
-prototyped new services:
+Building relationship and knowledge gathering:
 
 \startitemize[packed]
 \item
@@ -387,8 +441,7 @@ prototyped new services:
 {\bf Network Integration Specialist @ United States Air Force} June 2004
 - June 2010
 
-Engineered AWS environments, created automation solutions, and
-prototyped new services:
+SRE/System Administration:
 
 \startitemize[packed]
 \item
@@ -420,8 +473,7 @@ prototyped new services:
 
 {\bf Pharmacy Technician @ Safeway} October 2002 - May 2004
 
-Engineered AWS environments, created automation solutions, and
-prototyped new services:
+Technical Assistance:
 
 \startitemize[packed]
 \item
@@ -438,8 +490,7 @@ prototyped new services:
 {\bf System Administrator @ LibertyStone Inc} September 2001 - September
 2002
 
-Engineered AWS environments, created automation solutions, and
-prototyped new services:
+SRE/System Administration:
 
 \startitemize[packed]
 \item
@@ -462,8 +513,7 @@ prototyped new services:
 {\bf System Administrator @ James German and Associates} March 2001 -
 September 2001
 
-Engineered AWS environments, created automation solutions, and
-prototyped new services:
+SRE/System Administration:
 
 \startitemize[packed]
 \item
@@ -477,8 +527,7 @@ prototyped new services:
 {\bf System Administrator @ AM/PM Computer Services, Inc.} September
 2000 - March 2001
 
-Engineered AWS environments, created automation solutions, and
-prototyped new services:
+SRE/System Administration:
 
 \startitemize[packed]
 \item
@@ -493,8 +542,7 @@ prototyped new services:
 
 {\bf Technical Consultant @ Self Employed.} June 1998 - September 2000
 
-Engineered AWS environments, created automation solutions, and
-prototyped new services:
+SRE/System Administration:
 
 \startitemize[packed]
 \item
@@ -513,5 +561,9 @@ prototyped new services:
 \stopitemize
 
 \thinrule
+
+\stopsectionlevel
+
+\stopsectionlevel
 
 \stoptext
