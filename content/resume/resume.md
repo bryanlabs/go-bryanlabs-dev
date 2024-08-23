@@ -14,7 +14,7 @@ Dan Bryan
 
 Top Technical Skills
 ---------
-AWS, GCP, Terraform, Kubernetes, Docker, Linux, Defi.
+Bare Metal, AWS, GCP, Terraform, Kubernetes, Docker, Linux, Defi.
 
 Education
 ---------
