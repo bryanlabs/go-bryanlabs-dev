@@ -38,8 +38,8 @@ Education
 Certifications
 ----------------------------------------
 
-* AWS DevOps Professional - V64WBJVKCBR4QGCE
-* AWS Certified Developer Associate  - GB47ENDCKMBE1RCT
+* AWS DevOps Professional - V64WBJVKCBR4QGCE (expired)
+* AWS Certified Developer Associate  - GB47ENDCKMBE1RCT (expired)
 * (ISC)² CISSP - 410338
 * CCNA Security - CSCO11709829 (previously held)
 * CompTIA Network+ - COMP001008999716 (legacy)
@@ -55,25 +55,29 @@ Experience
 
 **Owner @Defiant Labs:** March 2022 - Present
 
-* Business Development, created contracts, recieved multiple grants for various cosmos projects from ICF/Strangelove and Osmosis Grants Company. Built relationship with many key cosmos teams.
-* Responsible for the [cosmos-tax-cli](https://github.com/DefiantLabs/cosmos-tax-cli). I did mostly testing and devrel activities with independent contractors to make my vision a reality.
-* Responsible for [sycamore](https://app.sycamore.tax) a front end app based on the cosmos-tax-cli allowing users to generate tax reports for cosmos activity.
-* Devops, SRE, deployments, project management, and pretty much everything but developing the tools has been my role.  I primary used Google Cloud, AWS, docker, terraform, and kubernetes.
-* Active proof of stake validator on multiple cosmos chains, performed chain upgrades, monitoring, governance voting.
-* Created and maintained 6 new IBC paths and governance proposals bringing Akash, AssetMantle, Crescent, OmniFlix, @Regen, and Sommelier to Kujira.  
+*Defiant Labs is a subsidiary of Bryanlabs, focused on blockchain infrastructure and operations.*
+
+* Business Development, created contracts, recieved multiple grants for various cosmos projects from Interchain Foundation, Osmosis Grants Company, Atom Accelerator DAO. Built relationship with many key cosmos teams.
+* Created [cosmos-indexer-sdk](https://github.com/DefiantLabs/cosmos-indexer). A generalized indexer for cosmos-sdk. Check out our Dorahacks [presentation](https://youtu.be/JdmFdfQJjYg?t=663)
+* Created [sycamore](https://app.sycamore.tax) a front end app based on the cosmos-tax-cli allowing users to generate tax reports for cosmos activity.
+* Devops, SRE, deployments, project management, various python scripts for blockchain operations running on Google Cloud, AWS, baremetal, docker, terraform, and kubernetes.
+* Active proof of stake validators on multiple cosmos chains, performed chain upgrades, monitoring, governance voting, relayer.
  
 
-**Consultant @Babylon-chain:** February 2023 - Present
+**Consultant @Babylon-chain:** February 2023 - April 2023
 
 * Babylon-chain migration from dedicated servers to EKS (Amazon Kubernetes Service)
-* Provided Subject matter expertise on cosmos infrastructure to include remote signing, slashing, DR, tendermint customization.
+* Provided Subject matter expertise on cosmos infrastructure to include remote signing with horcrux, understanding slashing, Disaster Recovery, automation for dev nets.
 
 **Contractor @strangeloveventures:** June 2022 - Present
 
+* Various roles, Infra Engineer, Technical Lead, GM of validator operations, business development.
+* Actively maintained 30+ different chains to include cosmos validators, fullnodes, testnets, relayers. 
+* Well connected to many cosmos teams and community validators.
 * Created docker images, terraform modules and kubernetes manifests for Cosmos Validator and Relayer infrastructure.
-* Typical SRE duties to include monitoring resources, performing upgrades, responding to outages.
-* Participated in incentivized competitions to test out cosmos Technology.  Won 6th place out of 95 in game of chains resulting in a generous official delegation from the cosmos hub.
-* Coordinated testnet and mainnet launch for noble block chain, bringing generic asset issuance to cosmos.
+* Typical SRE duties to include researching new chains, monitoring resources, performing upgrades, responding to incidents.
+* Participated in incentivized competitions to test out cosmos Technology.  Won 6th place out of 95 in game of chains resulting in a generous official delegation from the cosmos hub. Was also awared as the most helpful validator.
+* Coordinated testnet and mainnet launch for noble block chain, bringing USDC and generic asset issuance to cosmos.
 
 **Devops Engineer @ Bryanlabs:** October 2020 - June 2022
 
@@ -82,16 +86,13 @@ During this time at Bryanlabs my focus was on getting familiar with Decentralize
 * Participated eth2 validation on Medalla, Spadina, Zinken, and Pyrmont testnets. I also was part of the Serenity Launch and still am an active mainnet validator. https://app.poap.xyz/scan/danb.eth
 * A college and I submitted and won a grant to the ethereum foundation for the eth-docker project. http://eth-docker.net/  https://github.com/eth2-educators/eth-docker
 * Lead a crypto currency and decentralized finance meetup https://www.meetup.com/ccdefi with a focus on education of application of Defi to real world use cases.
-* I helped design a chainlink Architecture for a college of mine who won 2nd place in the chainlink olympics.
 * I frequently read white papers, research Dapps,and engage with developer communities on Discord and telegram.
 * I am experienced in Defi, Dexes, AMMs, Lending, Savings, and synthetics, and NFTs.
 
-
 **AWS Subject Matter Expert @ Bryanlabs:** October 2018 - Present
-During my time at Bryanlabs I also have been recognized by AWS as a subject matter expert in Devops.:
+Recognized by AWS as a DevOps subject matter expert, contributing to the advancement of AWS certification standards:
 
-* Attended DOP Workshops in Atlanta, Chicago, Seattle.
-* Attended various Remote DOP workshops.
+* Participated in exclusive DOP (DevOps Professional Certification Exam Writer) Workshops in Atlanta, Chicago, and Seattle. These intensive 4-day sessions involved crafting psychometric questions designed to rigorously evaluate and certify future AWS DevOps professionals.
 * https://www.credly.com/users/dan-bryan/badges
 
 **Contractor @applied-insight:** August 2020 - December 2021
