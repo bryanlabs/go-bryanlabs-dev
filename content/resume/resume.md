@@ -14,15 +14,15 @@ Dan Bryan
 
 Top Technical Skills
 ---------
-Bare Metal, AWS, GCP, Terraform, Kubernetes, Docker, Linux, Defi.
+Terraform, Kubernetes, Docker, Linux, AWS, GCP, Defi.
 
 Education
 ---------
 
 1998-2000
-:   **Community College**; Various courses of interest, no degree.
+:   **Community College**; Various courses of interest.
 
-    *Microsoft, Networking, Cyber Security*
+    *Microsoft, Cisco, Cyber Security*
 
 2005-2010
 :   **USAF Technical School and Training**; Keesler AFB, Eglin AFB
@@ -32,15 +32,15 @@ Education
 2010-present
 :   **Self Taught**; Various Mediums
 
-    Linux, Cyber security, Cloud, Devops, IaC, Devops, Dev, Business...
+    Linux, Cyber security, Cloud, Devops, IaC, Dev, Business...
 
 
 Certifications
 ----------------------------------------
 
+* (ISC)² CISSP - 410338
 * AWS DevOps Professional - V64WBJVKCBR4QGCE (expired)
 * AWS Certified Developer Associate  - GB47ENDCKMBE1RCT (expired)
-* (ISC)² CISSP - 410338
 * CCNA Security - CSCO11709829 (previously held)
 * CompTIA Network+ - COMP001008999716 (legacy)
 * CompTIA A+ - COMP0010621927 (legacy)
@@ -51,33 +51,23 @@ Experience
 
 **Owner @ Bryanlabs:** October 2018 - Present
 
-*Founded in 2018, Bryanlabs focuses on automation and development in Cloud environments.*
+*Founded in 2018, Bryanlabs focuses on infrastructure automation.*
 
-**Owner @Defiant Labs:** March 2022 - Present
-
-*Defiant Labs is a subsidiary of Bryanlabs, focused on blockchain infrastructure and operations.*
-
-* Business Development, created contracts, recieved multiple grants for various cosmos projects from Interchain Foundation, Osmosis Grants Company, Atom Accelerator DAO. Built relationship with many key cosmos teams.
-* Created [cosmos-indexer-sdk](https://github.com/DefiantLabs/cosmos-indexer). A generalized indexer for cosmos-sdk. Check out our Dorahacks [presentation](https://youtu.be/JdmFdfQJjYg?t=663)
-* Created [sycamore](https://app.sycamore.tax) a front end app based on the cosmos-tax-cli allowing users to generate tax reports for cosmos activity.
-* Devops, SRE, deployments, project management, various python scripts for blockchain operations running on Google Cloud, AWS, baremetal, docker, terraform, and kubernetes.
-* Active proof of stake validators on multiple cosmos chains, performed chain upgrades, monitoring, governance voting, relayer.
- 
-
-**Consultant @Babylon-chain:** February 2023 - April 2023
-
-* Babylon-chain migration from dedicated servers to EKS (Amazon Kubernetes Service)
-* Provided Subject matter expertise on cosmos infrastructure to include remote signing with horcrux, understanding slashing, Disaster Recovery, automation for dev nets.
-
-**Contractor @strangeloveventures:** June 2022 - Present
+**Contractor @strangeloveventures:** June 2022 - August 2024
 
 * Various roles, Infra Engineer, Technical Lead, GM of validator operations, business development.
 * Actively maintained 30+ different chains to include cosmos validators, fullnodes, testnets, relayers. 
 * Well connected to many cosmos teams and community validators.
 * Created docker images, terraform modules and kubernetes manifests for Cosmos Validator and Relayer infrastructure.
 * Typical SRE duties to include researching new chains, monitoring resources, performing upgrades, responding to incidents.
-* Participated in incentivized competitions to test out cosmos Technology.  Won 6th place out of 95 in game of chains resulting in a generous official delegation from the cosmos hub. Was also awared as the most helpful validator.
-* Coordinated testnet and mainnet launch for noble block chain, bringing USDC and generic asset issuance to cosmos.
+* Participated in incentivized competitions to test out cosmos Technology.
+* Coordinated testnet and mainnet launch for noble block chain, bringing USDC and generic asset issuance to cosmos. 
+
+**Consultant @Babylon-chain:** February 2023 - April 2023
+
+* Babylon-chain migration from dedicated servers to EKS (Amazon Kubernetes Service)
+* Provided Subject matter expertise on cosmos infrastructure to include remote signing with horcrux, understanding slashing, Disaster Recovery, automation for dev nets.
+
 
 **Devops Engineer @ Bryanlabs:** October 2020 - June 2022
 
@@ -89,7 +79,7 @@ During this time at Bryanlabs my focus was on getting familiar with Decentralize
 * I frequently read white papers, research Dapps,and engage with developer communities on Discord and telegram.
 * I am experienced in Defi, Dexes, AMMs, Lending, Savings, and synthetics, and NFTs.
 
-**AWS Subject Matter Expert @ Bryanlabs:** October 2018 - Present
+**AWS Subject Matter Expert @ Bryanlabs:** October 2018 - 2021
 Recognized by AWS as a DevOps subject matter expert, contributing to the advancement of AWS certification standards:
 
 * Participated in exclusive DOP (DevOps Professional Certification Exam Writer) Workshops in Atlanta, Chicago, and Seattle. These intensive 4-day sessions involved crafting psychometric questions designed to rigorously evaluate and certify future AWS DevOps professionals.
@@ -105,19 +95,9 @@ Recognized by AWS as a DevOps subject matter expert, contributing to the advance
 * Oversaw the development of many other terraform modules to include, AWS DNS, Governance Software, Tenable Security Center, AMI Factory, and Certificate management.
 * Created CI/CD pipeline in gitlab to validate terraform code, deploy new features to a staging environment, and run unit tests before accepting.
 * Integrated Terragrunt into terraform deployment strategy to keep modules dry, and facilitate orchestration of module deployment.
-* Blogger on AWS automation and development.
-* Question writer/external SME for AWS DevOps Professional Certification Exam.
-
-**Contractor @Kion (formely cloudtamer):* October 2019 - March 2020
-
-* Created IAM policies to align with NIST 800-53 standards like HIPAA, PCI, ISO…
-* Created CFT remediation to ensure all non whitelisted s3 buckets and objects remain private.
-* Created CFT remediation to ensure all non whitelisted RDS / Redshift clusters remain private.
-* Created CFT remediation to ensure EBS and RDS snapshots remain private.
-* Created CFT remediation to ensure users could only use the AWS API during office hours and from trusted locations.
 
 
-**Freelance DevOps Engineer @ Toptal** October 2018 - Present
+**Freelance DevOps Engineer @ Toptal** October 2018 - 2021
 
 Toptal is an exclusive network of the top freelance software developers, designers, finance experts, and project managers in the world. Top companies rely on Toptal freelancers for their most important projects.:
 
@@ -125,6 +105,14 @@ Toptal is an exclusive network of the top freelance software developers, designe
 * Provided AWS Consulting to Toptal Developers.
 * Technical consultant for developing a new business proposal for a key Toptal client.
 * Tech Lead for Toptals AWS MSP and Devops Partnerships.
+
+**Contractor @Kion (formely cloudtamer):* October 2019 - March 2020
+
+* Automated IAM policies to align with NIST 800-53 standards like HIPAA, PCI, ISO…
+* Created CFT remediation to ensure all non whitelisted s3 buckets and objects remain private.
+* Created CFT remediation to ensure all non whitelisted RDS / Redshift clusters remain private.
+* Created CFT remediation to ensure EBS and RDS snapshots remain private.
+* Created CFT remediation to ensure users could only use the AWS API during office hours and from trusted locations.
 
 **DevOps Engineer @ Applied Insight** October 2016 - July 2020
 
