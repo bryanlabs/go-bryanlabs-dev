@@ -53,6 +53,45 @@ Experience
 
 *Founded in 2018, Bryanlabs focuses on infrastructure automation.*
 
+**Contractor @Galaxy:** Sep 2024 - Present
+
+* Configured and deployed Babylon finality provider (FPD) and EOTSD components to testnet for end-to-end finality testing within Cosmos-based infrastructure.
+* Integrated EOTSD and FPD into existing deployments, resolving compatibility issues and enabling unified validator operations.
+* Performed disaster recovery testing on Babylon's database systems, surfaced FPD restore anomalies, and contributed to DR planning with the BBN team.
+* Dockerized FPD and EOTSD services, updated Compose configurations, and resolved service chaining and network issues in multi-container setups.
+* Contributed to sprint planning, demo prep, Terraform layout discussions, and internal documentation to support team coordination and delivery.
+* Reconfigured Ethereum validator nodes to use commit-boostpbs for performance optimization.
+* Authored an Ansible playbook to automate Aptos environment setup and configuration.
+* Drafted and revised monitoring designs for BCE systems, with a focus on observability improvements.
+
+**Contractor @Rujira.Network:** Sep 2024 - Present
+
+* Deployed and managed devnet, stagenet, and mainnet environments using Amazon EKS, including fullnodes and validator instances.
+* Migrated validator infrastructure from AWS to bare metal, optimizing deployment performance and cost.
+* Cloned and customized node-launcher to support isolated deployment branches and restore workflows.
+* Scoped and configured new devnet namespaces (genesis-green, genesis-blue) with snapshot exports, key migration, and Genesis updates.
+* Diagnosed validator node failures on EKS due to mismatched node IDs and key configurations.
+* Designed and implemented HAProxy frontends to handle P2P and TCP-only traffic; performed live testing and rollback for reliability.
+* Debugged and optimized HAProxy GRPC routing; resolved protocol-level errors and misconfigurations in load balancing logic.
+* Installed and tested Ansible roles for automating HAProxy and pfSense configuration management.
+* Collaborated on ACL and SSL offloading research for HAProxy to support Cosmos P2P communication patterns.
+* Upgraded thornode-mainnet-fullnode to v3.3.1 and deployed thornode 3.4.0 images to prepare for network upgrades.
+* Diagnosed and resolved critical upgrade issues (e.g., StoreBlockHeight panics and version mismatches) across THORNode deployments.
+* Built and patched Gaia releases (e.g., 22.2.0, 23.0.1) using Heighliner, resolving C++ dependency failures.
+* Migrated Prometheus scrape targets across namespaces to align with new monitoring structures.
+* Refactored and validated Grafana dashboards; verified metrics ingestion and resolved JSON import errors.
+* Built custom health checks, including block time monitoring and chain height queries, to enhance alert fidelity.
+* Developed automated scripts to check node sync and service status, reducing manual overhead.
+* Maintained internal runbooks and Wikis for endpoints, upgrade steps, and infrastructure topologies.
+* Managed multiple environments simultaneously (e.g., devnet-genesis-green, blue) to test governance (Mimir) changes and HAProxy behavior.
+* Cleaned up legacy PVCs and unused workloads to control AWS cloud costs.
+* Reviewed and adjusted RBAC policies and Docker build pipelines to meet evolving deployment requirements.
+
+**Consultant @Babylon-chain:** February 2023 - April 2023
+
+* Babylon-chain migration from dedicated servers to EKS (Amazon Kubernetes Service)
+* Provided Subject matter expertise on cosmos infrastructure to include remote signing with horcrux, understanding slashing, Disaster Recovery, automation for dev nets.
+
 **Contractor @strangeloveventures:** June 2022 - August 2024
 
 * Various roles, Infra Engineer, Technical Lead, GM of validator operations, business development.
